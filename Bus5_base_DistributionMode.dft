@@ -1,0 +1,2365 @@
+DRAFT 5.010
+TITLE: Test Circuit
+CREATED: May 10, 2016 (melanie)
+LAST-MODIFIED: Apr 11, 2021 (Admin)
+TIME-STEP: 1.5E-4
+FINISH-TIME: 0.2
+RTDS-RACK: 1
+COMPILE-MODE: AUTO
+DISTRIBUTION_MODE: 1
+RTDS REAL-TIME: Yes 
+CURRENT-SUBSYSTEM: 1
+DEFAULT-VIEWMODE: 3
+DEFAULT-ZOOM: 100
+DEFAULT-POINT: 4050,140
+DEFAULT-POINT-ABSOLUTE: 4426,367
+1 SUBSYSTEMS
+SUBSYSTEM-TAB-NAME: Distribution SS #1
+SUBSYSTEM-CANVAS-SIZE:51200,51200
+SUBSYSTEM-TITLE:
+SUBSYSTEM-COMMENT:
+SUBSYSTEM-PRINTMODE:     PRINT-LAYOUT:CUSTOM    PAPER-DIMENSIONS:8.5x11
+44 COMPONENTS
+annotation
+	3280 3280 0 1 3
+	AL1	:301
+	AL2	:
+	FSize	:10
+PAGE_BREAK
+	16 4432 0 0 6
+	x1	:0
+	y1	:0
+	x2	:-1
+	y2	:-1
+	COL	:RED
+	LW	:1.0
+PAGE_BREAK
+	16 4432 0 0 6
+	x1	:0
+	y1	:0
+	x2	:-1
+	y2	:-1
+	COL	:RED
+	LW	:1.0
+BUS
+	2704 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:192
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:192
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:192
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	2688 496 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+BUS
+	2688 592 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	1840 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:224
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:224
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:224
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	1856 592 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	1856 432 0 0 25
+	BName	:Bus802a
+	NA	:Bus802Aa
+	NB	:Bus802Ba
+	NC	:Bus802Ca
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0475
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050090
+	Ad	:-0.001060
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:7
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	1856 496 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	2688 464 0 0 25
+	BName	:BUS806
+	NA	:Bus806A
+	NB	:Bus806B
+	NC	:Bus806C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0457
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050130
+	Ad	:-0.001510
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:3
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	304 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-96
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-96
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	288 496 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+BUS
+	1008 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:192
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:192
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:192
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	288 432 0 0 25
+	BName	:BUS800
+	NA	:Bus800A
+	NB	:Bus800B
+	NC	:Bus800C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.05
+	Ai	:0.0
+	Type	:SLACK
+	Vd	:1.050000
+	Ad	:0.000000
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:1
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+rtds_risc_MATPI4
+	2960 528 0 0 84
+	Name	:806to808
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0216047
+	L12	:0.0093572
+	L13	:0.0081202
+	L14	:0.0
+	L22	:0.0219707
+	L23	:0.0074337
+	L24	:0.0
+	L33	:0.0218120
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:8.1600500
+	R12	:1.2824854
+	R13	:1.3001875
+	R14	:0.0
+	R22	:8.0806958
+	R23	:1.2611208
+	R24	:0.0
+	R33	:8.1148792
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.022744628
+	C1gR	:0.0
+	C12	:0.012397255
+	C12R	:0.0
+	C13	:0.008049756
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.023845671
+	C2gR	:0.0
+	C23	:0.005029175
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.026493841
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:Yes
+	mon2	:Yes
+	mon3	:Yes
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:I806A
+	nam2	:I806B
+	nam3	:I806C
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	3088 400 0 0 3
+	AL1	:Bus806 to Bus808
+	AL2	:(300)
+	FSize	:12
+annotation
+	656 400 0 0 3
+	AL1	:Bus 800 to Bus 802
+	AL2	:(300)
+	FSize	:12
+rtds_risc_MATPI4
+	432 528 0 0 84
+	Name	:800to802
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0017295
+	L12	:0.0007490
+	L13	:0.0006500
+	L14	:0.0
+	L22	:0.0017587
+	L23	:0.0005951
+	L24	:0.0
+	L33	:0.0017460
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:0.6532091
+	R12	:0.1026625
+	R13	:0.1040795
+	R14	:0.0
+	R22	:0.6468568
+	R23	:0.1009523
+	R24	:0.0
+	R33	:0.6495932
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.001820699
+	C1gR	:0.0
+	C12	:0.000992396
+	C12R	:0.0
+	C13	:0.00064438
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.001908837
+	C2gR	:0.0
+	C23	:0.000402584
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.002120823
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:Yes
+	mon2	:Yes
+	mon3	:Yes
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:ISA
+	nam2	:ISB
+	nam3	:ISC
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+rtds_risc_MATPI4
+	1264 528 0 0 84
+	Name	:802to806a
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0002899
+	L12	:0.0001256
+	L13	:0.0001090
+	L14	:0.0
+	L22	:0.0002948
+	L23	:0.0000998
+	L24	:0.0
+	L33	:0.0002927
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:0.1095011
+	R12	:0.0172099
+	R13	:0.0174474
+	R14	:0.0
+	R22	:0.1084363
+	R23	:0.0169232
+	R24	:0.0
+	R33	:0.1088950
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.000305214
+	C1gR	:0.0
+	C12	:0.000166361
+	C12R	:0.0
+	C13	:0.000108021
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.000319989
+	C2gR	:0.0
+	C23	:6.74874E-05
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.000355525
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:CRTSE1
+	nam2	:CRTSE2
+	nam3	:CRTSE3
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	1424 400 0 0 3
+	AL1	:25% of Tline length 802 to 806
+	AL2	:(300)
+	FSize	:12
+rtds_risc_MATPI4
+	2128 528 0 0 84
+	Name	:802to806b
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0008698
+	L12	:0.0003767
+	L13	:0.0003269
+	L14	:0.0
+	L22	:0.0008845
+	L23	:0.0002993
+	L24	:0.0
+	L33	:0.0008781
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:0.3285034
+	R12	:0.0516297
+	R13	:0.0523423
+	R14	:0.0
+	R22	:0.3253088
+	R23	:0.0507696
+	R24	:0.0
+	R33	:0.3266849
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.000915642
+	C1gR	:0.0
+	C12	:0.000499083
+	C12R	:0.0
+	C13	:0.000324063
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.000959968
+	C2gR	:0.0
+	C23	:0.000202462
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.001066576
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:CRTSE1
+	nam2	:CRTSE2
+	nam3	:CRTSE3
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	2288 400 0 0 3
+	AL1	:75% of Tline length 802 to 806
+	AL2	:(300)
+	FSize	:12
+GROUP
+	144 528 0 0 0
+	1
+GROUP
+	144 528 0 0 0
+	2
+GROUP
+	144 528 0 0 0
+	1
+GROUP
+	144 528 0 0 0
+	1
+ground
+	144 528 2 0 0
+lf_rtds_sharc_sld_SRC
+	176 528 0 0 108
+	Name	:src
+	Type	:R
+	Tc	:0.05
+	ZSeq	:No
+	Imp	:RRL Values
+	DynmImp	:Static
+	srcBrk	:No
+	WvType	:AC
+	Sctrl	:RunTime
+	Spec	:Behind Impedance
+	R1s	:1.0e-3
+	R1p	:1.0
+	L1p	:0.1
+	R0p	:1.0
+	L0p	:0.1
+	ImpCtlSrc	:RunTime
+	R2signalCC	:R1s
+	R1signalCC	:R1p
+	L1signalCC	:L1p
+	R0signalCC	:R0
+	L0signalCC	:L0
+	Tcc	:1
+	AorM	:Automatic
+	Aprc	:Either
+	CARD	:1
+	Rprc	:A
+	AM	:NO
+	CORE	:1
+	ZType	:R//L
+	SMod	:Internal
+	Es	:26.144975
+	F0	:60.0
+	Ph	:0.0
+	AFmod	:Frequency
+	Esm	:0.1
+	F0m	:1.0
+	Phm	:0.0
+	IMod	:Fmod
+	AMmod	:Amod
+	NHarm	:1
+	HN1	:2
+	Mag1	:0.05
+	Ph1	:0.0
+	HN2	:2
+	Mag2	:0.05
+	Ph2	:0.0
+	HN3	:2
+	Mag3	:0.05
+	Ph3	:0.0
+	HN4	:2
+	Mag4	:0.05
+	Ph4	:0.0
+	vBase	:230.0
+	mvaBase	:100.0
+	Et	:1.0
+	Pht	:0.0
+	NOTE1	:
+	NOTE2	:
+	P	:-0.000657
+	Q	:-0.038771
+	Pt	:12.0
+	Qt	:0.0
+	Esd	:100.0
+	F	:60.0
+	Z1	:1.0
+	Phi1	:80.0
+	RN	:2.0
+	Z0	:1.0
+	Phi0	:80.0
+	ieee2	:ieee
+	Pmon	:Yes
+	Qmon	:Yes
+	MLoc	:Terminal
+	Tcp	:0.1
+	Imon	:No
+	Vmon	:No
+	IMPmon	:No
+	Pnam	:P
+	Qnam	:Q
+	IAnam	:IA
+	IBnam	:IB
+	ICnam	:IC
+	VAnam	:VA
+	VBnam	:VB
+	VCnam	:VC
+	L0nam	:L0mon
+	R0nam	:R0mon
+	R1Snam	:R1Smon
+	R1Pnam	:R1Pmon
+	L1Pnam	:L1Pmon
+	CNVGnam	:Converged
+	Tf	:0.10
+	Rf	:0.50
+	A1PosY	:-32
+	C1PosY	:32
+	LFIdent	:1
+	P_L1	:0.0
+	Q_L1	:0.0
+	HidePQ	:1
+	TrigSigCC	:ImpTrig
+	brkOpnRes	:1.0e6
+	brkClsRes	:1.0e-4
+	stat	:Closed
+	swdnm	:SBKWORD
+	Abit	:1
+	Bbit	:1
+	Cbit	:1
+	Loadflow_RST	:SOURCE:  $LFIdent, Es, Ph, P, Q
+BUS
+	1008 592 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	1008 496 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	1008 432 0 0 25
+	BName	:BUS802
+	NA	:Bus802A
+	NB	:Bus802B
+	NC	:Bus802C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0475
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050080
+	Ad	:-0.000910
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:2
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+HIERARCHY
+	2704 720 0 1 29
+	Name	:
+	FCOL	:BLACK
+	BCOL	:VIOLET
+	LW	:1.5
+	DESC1	:Spot Load
+	DESC2	:D - PQ
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:5
+	x1	:-64
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:68
+	canvasY	:66
+	canvasWidth	:796
+	canvasHeight	:401
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+BUS
+	560 144 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-416
+	y1L1	:-32
+	x2L1	:448
+	y2L1	:-32
+	x1L2	:-448
+	y1L2	:0
+	x2L2	:448
+	y2L2	:0
+	x1L3	:-480
+	y1L3	:32
+	x2L3	:448
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	112 112 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:0
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	592 208 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:1
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_udc_DYLOAD
+	592 272 0 1 79
+	Name	:Load806
+	type	:RL
+	bal	:YES
+	btype	:R//X
+	YD	:Y
+	cc	:Slider
+	gnd	:No
+	Vmeas	:Internal
+	Vbus	:14.38
+	Vmin	:0.8
+	freq	:60
+	FreqDevMax	:2.0
+	constF	:Yes
+	FreqSrc	:External
+	T	:0.1
+	Tm	:0.003
+	Pinit	:5
+	Pmin	:0.001
+	Pmax	:1000
+	Qinit	:4
+	Qmin	:0.001
+	Qmax	:1000
+	Pinit1	:100
+	Pinit2	:100
+	Pinit3	:100
+	Qinit1	:100
+	Qinit2	:100
+	Qinit3	:100
+	SorC	:Runtime
+	Fract	:Constant
+	Po	:100
+	Qo	:100
+	TS	:10.0
+	Tf	:0.01
+	Pordcc	:Pordcc
+	Qordcc	:Qordcc
+	ZPcc	:ZPcc
+	IPcc	:IPcc
+	PPcc	:PPcc
+	ZQcc	:ZQcc
+	IQcc	:IQcc
+	PQcc	:PQcc
+	ZP	:20
+	IP	:40
+	PP	:40
+	ZQ	:20
+	IQ	:40
+	PQ	:40
+	Ainit	:0.0
+	PIPG	:50.0
+	PIIT	:0.01
+	Ft	:0.0015
+	WMON	:Hz
+	nFreq	:FreqLoad
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	AM	:NO
+	CORE	:1
+	pPmon	:No
+	pQmon	:No
+	pIAmon	:No
+	pIBmon	:No
+	pICmon	:No
+	nPmon	:Pmon
+	nQmon	:Qmon
+	nIAmon	:IA
+	nIBmon	:IB
+	nICmon	:IC
+	A1PosX	:-32
+	C1PosX	:32
+	loc	:group
+	P_L0	:0.0
+	Q_L0	:0.0
+	LFIdent	:0
+	HidePQ	:1
+	Cts	:0.1
+	EnLoadShed	:No
+	NmLoadShed	:ShedPar
+rtds_sharc_sld_BUSLABEL
+	112 48 0 0 25
+	BName	:BUS806
+	NA	:Bus806A
+	NB	:Bus806B
+	NC	:Bus806C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0457
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050130
+	Ad	:-0.001510
+	Dis1	:No
+	A1PosX	:32
+	C1PosX	:-32
+	Num	:4
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+GROUP
+	304 720 0 0 0
+	6
+GROUP
+	304 784 0 0 0
+	22
+wirelabel
+	368 848 0 0 3
+	Name	:Q800C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	368 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	368 816 0 0 3
+	Name	:P800C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	368 816 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	368 784 0 0 3
+	Name	:Q800B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	368 784 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	368 752 0 0 3
+	Name	:P800B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	368 752 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	240 848 0 0 3
+	Name	:ISC
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	272 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	240 816 0 0 3
+	Name	:Bus800C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	272 816 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	240 784 0 0 3
+	Name	:ISB
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	272 784 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	240 752 0 0 3
+	Name	:Bus800B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	272 752 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+_rtds_1PHPQMET.def
+	304 816 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:12
+_rtds_1PHPQMET.def
+	304 752 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:11
+WIRE
+	368 720 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	368 720 0 0 3
+	Name	:Q800A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	272 720 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	240 720 0 0 3
+	Name	:ISA
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	368 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	368 688 0 0 3
+	Name	:P800A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	240 688 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	240 688 0 0 3
+	Name	:Bus800A
+	COL	:BLUE
+	Monitor	:Yes
+_rtds_1PHPQMET.def
+	304 688 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:10
+BUS
+	3856 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-128
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:96
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:96
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	3536 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:192
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:192
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:192
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	3824 400 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:160
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:160
+	y2L2	:0
+	x1L3	:-160
+	y1L3	:32
+	x2L3	:160
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_risc_MATPI4
+	4016 528 0 0 84
+	Name	:808to812
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0251374
+	L12	:0.0108873
+	L13	:0.0094479
+	L14	:0.0
+	L22	:0.0255631
+	L23	:0.0086492
+	L24	:0.0
+	L33	:0.0253785
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:9.4943182
+	R12	:1.4921875
+	R13	:1.5127841
+	R14	:0.0
+	R22	:9.4019886
+	R23	:1.4673295
+	R24	:0.0
+	R33	:9.4417614
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.026463654
+	C1gR	:0.0
+	C12	:0.014424359
+	C12R	:0.0
+	C13	:0.00936599
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.027744731
+	C2gR	:0.0
+	C23	:0.005851506
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.030825909
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:CRTSE1
+	nam2	:CRTSE2
+	nam3	:CRTSE3
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	4176 400 0 0 3
+	AL1	:Bus 808 to Bus 812
+	AL2	:(300)
+	FSize	:12
+BUS
+	4560 560 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:0
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	4560 432 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-96
+	y1L2	:0
+	x2L2	:96
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:96
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+BUS
+	4432 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	4624 528 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-128
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:96
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:96
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	4560 336 0 0 25
+	BName	:BUS812
+	NA	:Bus812A
+	NB	:Bus812B
+	NC	:Bus812C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:0.9763
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.051450
+	Ad	:-0.017280
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:5
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+HIERARCHY
+	4560 656 0 1 29
+	Name	:
+	FCOL	:BLACK
+	BCOL	:VIOLET
+	LW	:1.5
+	DESC1	:Spot Load
+	DESC2	:D - PQ
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:5
+	x1	:-64
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:68
+	canvasY	:66
+	canvasWidth	:796
+	canvasHeight	:401
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+BUS
+	560 144 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-416
+	y1L1	:-32
+	x2L1	:448
+	y2L1	:-32
+	x1L2	:-448
+	y1L2	:0
+	x2L2	:448
+	y2L2	:0
+	x1L3	:-480
+	y1L3	:32
+	x2L3	:448
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	112 112 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:0
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	592 208 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:1
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_udc_DYLOAD
+	592 272 0 1 79
+	Name	:Load814
+	type	:RL
+	bal	:YES
+	btype	:R//X
+	YD	:Y
+	cc	:Slider
+	gnd	:No
+	Vmeas	:Internal
+	Vbus	:14.38
+	Vmin	:0.8
+	freq	:60
+	FreqDevMax	:2.0
+	constF	:Yes
+	FreqSrc	:External
+	T	:0.1
+	Tm	:0.003
+	Pinit	:2.7
+	Pmin	:0.001
+	Pmax	:1000
+	Qinit	:2.1
+	Qmin	:0.001
+	Qmax	:1000
+	Pinit1	:100
+	Pinit2	:100
+	Pinit3	:100
+	Qinit1	:100
+	Qinit2	:100
+	Qinit3	:100
+	SorC	:Runtime
+	Fract	:Constant
+	Po	:100
+	Qo	:100
+	TS	:10.0
+	Tf	:0.01
+	Pordcc	:Pordcc
+	Qordcc	:Qordcc
+	ZPcc	:ZPcc
+	IPcc	:IPcc
+	PPcc	:PPcc
+	ZQcc	:ZQcc
+	IQcc	:IQcc
+	PQcc	:PQcc
+	ZP	:20
+	IP	:40
+	PP	:40
+	ZQ	:20
+	IQ	:40
+	PQ	:40
+	Ainit	:0.0
+	PIPG	:50.0
+	PIIT	:0.01
+	Ft	:0.0015
+	WMON	:Hz
+	nFreq	:FreqLoad
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	AM	:NO
+	CORE	:1
+	pPmon	:No
+	pQmon	:No
+	pIAmon	:No
+	pIBmon	:No
+	pICmon	:No
+	nPmon	:Pmon
+	nQmon	:Qmon
+	nIAmon	:IA
+	nIBmon	:IB
+	nICmon	:IC
+	A1PosX	:-32
+	C1PosX	:32
+	loc	:group
+	P_L0	:0.0
+	Q_L0	:0.0
+	LFIdent	:0
+	HidePQ	:1
+	Cts	:0.1
+	EnLoadShed	:No
+	NmLoadShed	:ShedPar
+rtds_sharc_sld_BUSLABEL
+	112 48 0 0 25
+	BName	:BUS812
+	NA	:Bus812A
+	NB	:Bus812B
+	NC	:Bus812C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:0.9763
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.051450
+	Ad	:-0.017280
+	Dis1	:No
+	A1PosX	:32
+	C1PosX	:-32
+	Num	:6
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+rtds_sharc_sld_BUSLABEL
+	3824 240 0 0 25
+	BName	:BUS808
+	NA	:Bus808A
+	NB	:Bus808B
+	NC	:Bus808C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0136
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050920
+	Ad	:-0.010920
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:4
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	3824 592 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	3952 304 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-160
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:96
+	y2L2	:0
+	x1L3	:-96
+	y1L3	:32
+	x2L3	:96
+	y2L3	:32
+	L1ArcAtEnd1	:1
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+GROUP
+	3824 720 0 0 0
+	2
+HIERARCHY
+	3824 784 0 0 29
+	Name	:
+	FCOL	:BLACK
+	BCOL	:WHITE
+	LW	:1.0
+	DESC1	:Fault
+	DESC2	:Control
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:59
+	x1	:-32
+	y1	:-32
+	x2	:32
+	y2	:32
+	canvasX	:64
+	canvasY	:45
+	canvasWidth	:914
+	canvasHeight	:546
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+DASHED_LINE
+	688 784 0 0 2
+	-352 -4 352 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	688 48 0 0 2
+	-352 -4 352 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	336 400 1 0 2
+	-4 -352 4 384
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1040 400 1 0 2
+	-4 -352 4 384
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_LOGIC
+	720 432 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:9
+WIRE
+	656 464 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 432 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 464 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 432 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 432 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	816 432 0 0 7
+	PN	:Falling
+	TM	:Fixed
+	LOT	:0.05
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:15
+WIRE
+	848 432 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	880 432 0 0 3
+	Name	:LGFLTB
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_MONO
+	592 496 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.02
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:8
+WIRE
+	656 496 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ZCDET
+	592 400 0 0 5
+	Mode	:-ve -> +ve
+	Frac	:No
+	OVal	:1
+	Proc	:1
+	Pri	:7
+WIRE
+	656 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 400 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 400 0 0 3
+	Name	:Bus808B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	432 496 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+annotation
+	816 368 0 0 3
+	AL1	:FAULT
+	AL2	:DURATION
+	FSize	:10
+rtds_sharc_ctl_LOGIC
+	720 592 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:6
+WIRE
+	656 624 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 624 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 592 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	816 592 0 0 7
+	PN	:Falling
+	TM	:Fixed
+	LOT	:0.05
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:14
+WIRE
+	848 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	880 592 0 0 3
+	Name	:LGFLTC
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_MONO
+	592 656 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.02
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:5
+WIRE
+	656 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ZCDET
+	592 560 0 0 5
+	Mode	:-ve -> +ve
+	Frac	:No
+	OVal	:1
+	Proc	:1
+	Pri	:4
+WIRE
+	656 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 560 0 0 3
+	Name	:Bus808C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	528 656 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+annotation
+	816 528 0 0 3
+	AL1	:FAULT
+	AL2	:DURATION
+	FSize	:10
+rtds_sharc_ctl_PB
+	400 496 0 0 4
+	Name	:FLT
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+rtds_sharc_ctl_MONO
+	592 336 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.02
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:3
+annotation
+	816 208 0 0 3
+	AL1	:FAULT
+	AL2	:DURATION
+	FSize	:10
+rtds_sharc_ctl_LOGIC
+	720 272 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:13
+WIRE
+	656 304 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 272 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 272 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 272 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	816 272 0 0 7
+	PN	:Falling
+	TM	:Fixed
+	LOT	:0.05
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:16
+WIRE
+	848 272 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	880 272 0 0 3
+	Name	:LGFLTA
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_ZCDET
+	592 240 0 0 5
+	Mode	:-ve -> +ve
+	Frac	:No
+	OVal	:1
+	Proc	:1
+	Pri	:2
+WIRE
+	656 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 240 0 0 3
+	Name	:Bus808A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	496 336 0 0 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 304 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	464 400 1 0 2
+	-4 -64 4 96
+	COL	:RED
+	LW	:1.0
+WIRE
+	464 560 1 0 2
+	-4 -64 4 96
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 496 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_sld_FAULT
+	3824 688 3 1 51
+	Type	:Line-Ground
+	Ag	:Yes
+	Bg	:Yes
+	Cg	:Yes
+	Agnam	:AG
+	AgRon	:0.1
+	Agholdi	:0.0
+	Asig	:LGFLTA
+	Abit	:1
+	Amon	:Yes
+	IAgnam	:Iag
+	Bgnam	:BG
+	BgRon	:0.1
+	Bgholdi	:0.0
+	Bsig	:LGFLTB
+	Bbit	:1
+	Bmon	:Yes
+	IBgnam	:Ibg
+	Cgnam	:CG
+	CgRon	:0.1
+	Cgholdi	:0.0
+	Csig	:LGFLTC
+	Cbit	:1
+	Cmon	:Yes
+	ICgnam	:Icg
+	AB	:Yes
+	BC	:Yes
+	CA	:Yes
+	ABnam	:AB
+	ABRon	:0.1
+	ABholdi	:0.0
+	ABsig	:FLT
+	ABbit	:1
+	ABmon	:No
+	IABnam	:Iag
+	BCnam	:BC
+	BCRon	:0.1
+	BCholdi	:0.0
+	BCsig	:FLT
+	BCbit	:1
+	BCmon	:No
+	IBCnam	:Iag
+	CAnam	:CA
+	CARon	:0.1
+	CAholdi	:0.0
+	CAsig	:FLT
+	CAbit	:1
+	CAmon	:No
+	ICAnam	:Iag
+	A1PosY	:-32
+	C1PosY	:32

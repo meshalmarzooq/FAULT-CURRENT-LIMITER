@@ -1,0 +1,14478 @@
+DRAFT 5.010
+TITLE: Test Circuit
+CREATED: May 10, 2016 (melanie)
+LAST-MODIFIED: Apr 11, 2021 (Admin)
+TIME-STEP: 1.5E-4
+FINISH-TIME: 0.2
+RTDS-RACK: 3
+COMPILE-MODE: AUTO
+DISTRIBUTION_MODE: 1
+RTDS REAL-TIME: Yes 
+CURRENT-SUBSYSTEM: 1
+DEFAULT-VIEWMODE: 1
+DEFAULT-ZOOM: 50
+DEFAULT-POINT: 1606,403
+DEFAULT-POINT-ABSOLUTE: 3964,1260
+1 SUBSYSTEMS
+SUBSYSTEM-TAB-NAME: Distribution SS #1
+SUBSYSTEM-CANVAS-SIZE:51200,51200
+SUBSYSTEM-TITLE:
+SUBSYSTEM-COMMENT:
+SUBSYSTEM-PRINTMODE:     PRINT-LAYOUT:CUSTOM    PAPER-DIMENSIONS:8.5x11
+49 COMPONENTS
+BUS
+	2960 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:192
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:192
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:192
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	2944 1232 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+BUS
+	2944 1328 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	2096 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:224
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:224
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:224
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	2112 1328 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	2112 1168 0 0 25
+	BName	:Bus802a
+	NA	:Bus802Aa
+	NB	:Bus802Ba
+	NC	:Bus802Ca
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0475
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050090
+	Ad	:-0.001060
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:7
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	2112 1232 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	2944 1200 0 0 25
+	BName	:BUS806
+	NA	:Bus806A
+	NB	:Bus806B
+	NC	:Bus806C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0457
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050130
+	Ad	:-0.001510
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:3
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	560 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-96
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-96
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	544 1232 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+BUS
+	1264 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:192
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:192
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:192
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	544 1168 0 0 25
+	BName	:BUS800
+	NA	:Bus800A
+	NB	:Bus800B
+	NC	:Bus800C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.05
+	Ai	:0.0
+	Type	:SLACK
+	Vd	:1.050000
+	Ad	:0.000000
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:1
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+rtds_risc_MATPI4
+	3216 1264 0 0 84
+	Name	:806to808
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0216047
+	L12	:0.0093572
+	L13	:0.0081202
+	L14	:0.0
+	L22	:0.0219707
+	L23	:0.0074337
+	L24	:0.0
+	L33	:0.0218120
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:8.1600500
+	R12	:1.2824854
+	R13	:1.3001875
+	R14	:0.0
+	R22	:8.0806958
+	R23	:1.2611208
+	R24	:0.0
+	R33	:8.1148792
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.022744628
+	C1gR	:0.0
+	C12	:0.012397255
+	C12R	:0.0
+	C13	:0.008049756
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.023845671
+	C2gR	:0.0
+	C23	:0.005029175
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.026493841
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:Yes
+	mon2	:Yes
+	mon3	:Yes
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:I806A
+	nam2	:I806B
+	nam3	:I806C
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	3344 1136 0 0 3
+	AL1	:Bus806 to Bus808
+	AL2	:(300)
+	FSize	:12
+annotation
+	912 1136 0 0 3
+	AL1	:Bus 800 to Bus 802
+	AL2	:(300)
+	FSize	:12
+rtds_risc_MATPI4
+	688 1264 0 0 84
+	Name	:800to802
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0017295
+	L12	:0.0007490
+	L13	:0.0006500
+	L14	:0.0
+	L22	:0.0017587
+	L23	:0.0005951
+	L24	:0.0
+	L33	:0.0017460
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:0.6532091
+	R12	:0.1026625
+	R13	:0.1040795
+	R14	:0.0
+	R22	:0.6468568
+	R23	:0.1009523
+	R24	:0.0
+	R33	:0.6495932
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.001820699
+	C1gR	:0.0
+	C12	:0.000992396
+	C12R	:0.0
+	C13	:0.00064438
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.001908837
+	C2gR	:0.0
+	C23	:0.000402584
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.002120823
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:Yes
+	mon2	:Yes
+	mon3	:Yes
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:ISA
+	nam2	:ISB
+	nam3	:ISC
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+rtds_risc_MATPI4
+	1520 1264 0 0 84
+	Name	:802to806a
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0002899
+	L12	:0.0001256
+	L13	:0.0001090
+	L14	:0.0
+	L22	:0.0002948
+	L23	:0.0000998
+	L24	:0.0
+	L33	:0.0002927
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:0.1095011
+	R12	:0.0172099
+	R13	:0.0174474
+	R14	:0.0
+	R22	:0.1084363
+	R23	:0.0169232
+	R24	:0.0
+	R33	:0.1088950
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.000305214
+	C1gR	:0.0
+	C12	:0.000166361
+	C12R	:0.0
+	C13	:0.000108021
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.000319989
+	C2gR	:0.0
+	C23	:6.74874E-05
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.000355525
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:CRTSE1
+	nam2	:CRTSE2
+	nam3	:CRTSE3
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	1680 1136 0 0 3
+	AL1	:25% of Tline length 802 to 806
+	AL2	:(300)
+	FSize	:12
+rtds_risc_MATPI4
+	2384 1264 0 0 84
+	Name	:802to806b
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0008698
+	L12	:0.0003767
+	L13	:0.0003269
+	L14	:0.0
+	L22	:0.0008845
+	L23	:0.0002993
+	L24	:0.0
+	L33	:0.0008781
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:0.3285034
+	R12	:0.0516297
+	R13	:0.0523423
+	R14	:0.0
+	R22	:0.3253088
+	R23	:0.0507696
+	R24	:0.0
+	R33	:0.3266849
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.000915642
+	C1gR	:0.0
+	C12	:0.000499083
+	C12R	:0.0
+	C13	:0.000324063
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.000959968
+	C2gR	:0.0
+	C23	:0.000202462
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.001066576
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:CRTSE1
+	nam2	:CRTSE2
+	nam3	:CRTSE3
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	2544 1136 0 0 3
+	AL1	:75% of Tline length 802 to 806
+	AL2	:(300)
+	FSize	:12
+annotation
+	3280 3280 0 1 3
+	AL1	:301
+	AL2	:
+	FSize	:10
+GROUP
+	400 1264 0 0 0
+	1
+GROUP
+	400 1264 0 0 0
+	2
+GROUP
+	400 1264 0 0 0
+	1
+GROUP
+	400 1264 0 0 0
+	1
+ground
+	400 1264 2 0 0
+lf_rtds_sharc_sld_SRC
+	432 1264 0 0 108
+	Name	:src
+	Type	:R
+	Tc	:0.05
+	ZSeq	:No
+	Imp	:RRL Values
+	DynmImp	:Static
+	srcBrk	:No
+	WvType	:AC
+	Sctrl	:RunTime
+	Spec	:Behind Impedance
+	R1s	:1.0e-3
+	R1p	:1.0
+	L1p	:0.1
+	R0p	:1.0
+	L0p	:0.1
+	ImpCtlSrc	:RunTime
+	R2signalCC	:R1s
+	R1signalCC	:R1p
+	L1signalCC	:L1p
+	R0signalCC	:R0
+	L0signalCC	:L0
+	Tcc	:1
+	AorM	:Automatic
+	Aprc	:Either
+	CARD	:1
+	Rprc	:A
+	AM	:NO
+	CORE	:1
+	ZType	:R//L
+	SMod	:Internal
+	Es	:26.144975
+	F0	:60.0
+	Ph	:0.0
+	AFmod	:Frequency
+	Esm	:0.1
+	F0m	:1.0
+	Phm	:0.0
+	IMod	:Fmod
+	AMmod	:Amod
+	NHarm	:1
+	HN1	:2
+	Mag1	:0.05
+	Ph1	:0.0
+	HN2	:2
+	Mag2	:0.05
+	Ph2	:0.0
+	HN3	:2
+	Mag3	:0.05
+	Ph3	:0.0
+	HN4	:2
+	Mag4	:0.05
+	Ph4	:0.0
+	vBase	:230.0
+	mvaBase	:100.0
+	Et	:1.0
+	Pht	:0.0
+	NOTE1	:
+	NOTE2	:
+	P	:-0.000657
+	Q	:-0.038771
+	Pt	:12.0
+	Qt	:0.0
+	Esd	:100.0
+	F	:60.0
+	Z1	:1.0
+	Phi1	:80.0
+	RN	:2.0
+	Z0	:1.0
+	Phi0	:80.0
+	ieee2	:ieee
+	Pmon	:Yes
+	Qmon	:Yes
+	MLoc	:Terminal
+	Tcp	:0.1
+	Imon	:No
+	Vmon	:No
+	IMPmon	:No
+	Pnam	:P
+	Qnam	:Q
+	IAnam	:IA
+	IBnam	:IB
+	ICnam	:IC
+	VAnam	:VA
+	VBnam	:VB
+	VCnam	:VC
+	L0nam	:L0mon
+	R0nam	:R0mon
+	R1Snam	:R1Smon
+	R1Pnam	:R1Pmon
+	L1Pnam	:L1Pmon
+	CNVGnam	:Converged
+	Tf	:0.10
+	Rf	:0.50
+	A1PosY	:-32
+	C1PosY	:32
+	LFIdent	:1
+	P_L1	:0.0
+	Q_L1	:0.0
+	HidePQ	:1
+	TrigSigCC	:ImpTrig
+	brkOpnRes	:1.0e6
+	brkClsRes	:1.0e-4
+	stat	:Closed
+	swdnm	:SBKWORD
+	Abit	:1
+	Bbit	:1
+	Cbit	:1
+	Loadflow_RST	:SOURCE:  $LFIdent, Es, Ph, P, Q
+PAGE_BREAK
+	16 4432 0 0 6
+	x1	:0
+	y1	:0
+	x2	:-1
+	y2	:-1
+	COL	:RED
+	LW	:1.0
+PAGE_BREAK
+	16 4432 0 0 6
+	x1	:0
+	y1	:0
+	x2	:-1
+	y2	:-1
+	COL	:RED
+	LW	:1.0
+BUS
+	1264 1328 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	1264 1232 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	1264 1168 0 0 25
+	BName	:BUS802
+	NA	:Bus802A
+	NB	:Bus802B
+	NC	:Bus802C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0475
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050080
+	Ad	:-0.000910
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:2
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+HIERARCHY
+	2960 1456 0 1 29
+	Name	:
+	FCOL	:BLACK
+	BCOL	:VIOLET
+	LW	:1.5
+	DESC1	:Spot Load
+	DESC2	:D - PQ
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:5
+	x1	:-64
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:68
+	canvasY	:66
+	canvasWidth	:796
+	canvasHeight	:401
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+BUS
+	560 144 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-416
+	y1L1	:-32
+	x2L1	:448
+	y2L1	:-32
+	x1L2	:-448
+	y1L2	:0
+	x2L2	:448
+	y2L2	:0
+	x1L3	:-480
+	y1L3	:32
+	x2L3	:448
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	112 112 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:0
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	592 208 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:1
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_udc_DYLOAD
+	592 272 0 1 79
+	Name	:Load806
+	type	:RL
+	bal	:YES
+	btype	:R//X
+	YD	:Y
+	cc	:Slider
+	gnd	:No
+	Vmeas	:Internal
+	Vbus	:14.38
+	Vmin	:0.8
+	freq	:60
+	FreqDevMax	:2.0
+	constF	:Yes
+	FreqSrc	:External
+	T	:0.1
+	Tm	:0.003
+	Pinit	:5
+	Pmin	:0.001
+	Pmax	:1000
+	Qinit	:4
+	Qmin	:0.001
+	Qmax	:1000
+	Pinit1	:100
+	Pinit2	:100
+	Pinit3	:100
+	Qinit1	:100
+	Qinit2	:100
+	Qinit3	:100
+	SorC	:Runtime
+	Fract	:Constant
+	Po	:100
+	Qo	:100
+	TS	:10.0
+	Tf	:0.01
+	Pordcc	:Pordcc
+	Qordcc	:Qordcc
+	ZPcc	:ZPcc
+	IPcc	:IPcc
+	PPcc	:PPcc
+	ZQcc	:ZQcc
+	IQcc	:IQcc
+	PQcc	:PQcc
+	ZP	:20
+	IP	:40
+	PP	:40
+	ZQ	:20
+	IQ	:40
+	PQ	:40
+	Ainit	:0.0
+	PIPG	:50.0
+	PIIT	:0.01
+	Ft	:0.0015
+	WMON	:Hz
+	nFreq	:FreqLoad
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	AM	:NO
+	CORE	:1
+	pPmon	:No
+	pQmon	:No
+	pIAmon	:No
+	pIBmon	:No
+	pICmon	:No
+	nPmon	:Pmon
+	nQmon	:Qmon
+	nIAmon	:IA
+	nIBmon	:IB
+	nICmon	:IC
+	A1PosX	:-32
+	C1PosX	:32
+	loc	:group
+	P_L0	:0.0
+	Q_L0	:0.0
+	LFIdent	:0
+	HidePQ	:1
+	Cts	:0.1
+	EnLoadShed	:No
+	NmLoadShed	:ShedPar
+rtds_sharc_sld_BUSLABEL
+	112 48 0 0 25
+	BName	:BUS806
+	NA	:Bus806A
+	NB	:Bus806B
+	NC	:Bus806C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0457
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050130
+	Ad	:-0.001510
+	Dis1	:No
+	A1PosX	:32
+	C1PosX	:-32
+	Num	:4
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+GROUP
+	560 1456 0 0 0
+	6
+GROUP
+	560 1520 0 0 0
+	22
+wirelabel
+	624 1584 0 0 3
+	Name	:Q800C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	624 1584 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	624 1552 0 0 3
+	Name	:P800C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	624 1552 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	624 1520 0 0 3
+	Name	:Q800B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	624 1520 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	624 1488 0 0 3
+	Name	:P800B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	624 1488 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	496 1584 0 0 3
+	Name	:ISC
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	528 1584 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	496 1552 0 0 3
+	Name	:Bus800C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	528 1552 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	496 1520 0 0 3
+	Name	:ISB
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	528 1520 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	496 1488 0 0 3
+	Name	:Bus800B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	528 1488 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+_rtds_1PHPQMET.def
+	560 1552 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:73
+_rtds_1PHPQMET.def
+	560 1488 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:72
+WIRE
+	624 1456 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	624 1456 0 0 3
+	Name	:Q800A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	528 1456 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	496 1456 0 0 3
+	Name	:ISA
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	624 1424 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	624 1424 0 0 3
+	Name	:P800A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	496 1424 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	496 1424 0 0 3
+	Name	:Bus800A
+	COL	:BLUE
+	Monitor	:Yes
+_rtds_1PHPQMET.def
+	560 1424 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:71
+BUS
+	4112 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-128
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:96
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:96
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	3728 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-160
+	y1L1	:-32
+	x2L1	:160
+	y2L1	:-32
+	x1L2	:-160
+	y1L2	:0
+	x2L2	:160
+	y2L2	:0
+	x1L3	:-160
+	y1L3	:32
+	x2L3	:160
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	4080 1136 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:160
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:160
+	y2L2	:0
+	x1L3	:-160
+	y1L3	:32
+	x2L3	:160
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_risc_MATPI4
+	4272 1264 0 0 84
+	Name	:808to812
+	simple	:SIMPLIFIED
+	numc	:3
+	NUMPI	:1
+	matfil	:TLINE
+	exclu	:No
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	Aprc	:Either
+	AM	:NO
+	CORE	:1
+	L11	:0.0251374
+	L12	:0.0108873
+	L13	:0.0094479
+	L14	:0.0
+	L22	:0.0255631
+	L23	:0.0086492
+	L24	:0.0
+	L33	:0.0253785
+	L34	:0.0
+	L44	:2.65258e-3
+	R11	:9.4943182
+	R12	:1.4921875
+	R13	:1.5127841
+	R14	:0.0
+	R22	:9.4019886
+	R23	:1.4673295
+	R24	:0.0
+	R33	:9.4417614
+	R34	:0.0
+	R44	:0.0
+	C1g	:0.026463654
+	C1gR	:0.0
+	C12	:0.014424359
+	C12R	:0.0
+	C13	:0.00936599
+	C13R	:0.0
+	C14	:1.0
+	C14R	:0.0
+	C2g	:0.027744731
+	C2gR	:0.0
+	C23	:0.005851506
+	C23R	:0.0
+	C24	:1.0
+	C24R	:0.0
+	C3g	:0.030825909
+	C3gR	:0.0
+	C34	:1.0
+	C34R	:0.0
+	C4g	:1.0
+	C4gR	:0.0
+	shntR1g	:1.0e10
+	shntR12	:1.0e10
+	shntR13	:1.0e10
+	shntR14	:1.0e10
+	shntR2g	:1.0e10
+	shntR23	:1.0e10
+	shntR24	:1.0e10
+	shntR3g	:1.0e10
+	shntR34	:1.0e10
+	shntR4g	:1.0e10
+	dirseo	:In
+	dirreo	:In
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	nam1	:CRTSE1
+	nam2	:CRTSE2
+	nam3	:CRTSE3
+	nam4	:CRTSE4
+	nam5	:CRTRE1
+	nam6	:CRTRE2
+	nam7	:CRTRE3
+	nam8	:CRTRE4
+	A1PosXY	:-32
+	C1PosXY	:32
+	A2PosXY	:-32
+	C2PosXY	:32
+annotation
+	4432 1136 0 0 3
+	AL1	:Bus 808 to Bus 812
+	AL2	:(300)
+	FSize	:12
+BUS
+	4816 1296 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:0
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	4816 1168 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-96
+	y1L2	:0
+	x2L2	:96
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:96
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+BUS
+	4688 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	4880 1264 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-128
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:96
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:96
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	4816 1072 0 0 25
+	BName	:BUS812
+	NA	:Bus812A
+	NB	:Bus812B
+	NC	:Bus812C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:0.9763
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.051450
+	Ad	:-0.017280
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:5
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+rtds_sharc_sld_FAULT
+	4080 1424 3 1 51
+	Type	:Line-Ground
+	Ag	:Yes
+	Bg	:Yes
+	Cg	:Yes
+	Agnam	:AG
+	AgRon	:0.1
+	Agholdi	:0.0
+	Asig	:LGFLTA
+	Abit	:1
+	Amon	:Yes
+	IAgnam	:Iag
+	Bgnam	:BG
+	BgRon	:0.1
+	Bgholdi	:0.0
+	Bsig	:LGFLTB
+	Bbit	:1
+	Bmon	:Yes
+	IBgnam	:Ibg
+	Cgnam	:CG
+	CgRon	:0.1
+	Cgholdi	:0.0
+	Csig	:LGFLTC
+	Cbit	:1
+	Cmon	:Yes
+	ICgnam	:Icg
+	AB	:Yes
+	BC	:Yes
+	CA	:Yes
+	ABnam	:AB
+	ABRon	:0.1
+	ABholdi	:0.0
+	ABsig	:FLT
+	ABbit	:1
+	ABmon	:No
+	IABnam	:Iag
+	BCnam	:BC
+	BCRon	:0.1
+	BCholdi	:0.0
+	BCsig	:FLT
+	BCbit	:1
+	BCmon	:No
+	IBCnam	:Iag
+	CAnam	:CA
+	CARon	:0.1
+	CAholdi	:0.0
+	CAsig	:FLT
+	CAbit	:1
+	CAmon	:No
+	ICAnam	:Iag
+	A1PosY	:-32
+	C1PosY	:32
+HIERARCHY
+	4080 1520 0 0 29
+	Name	:
+	FCOL	:BLACK
+	BCOL	:WHITE
+	LW	:1.0
+	DESC1	:Fault
+	DESC2	:Control
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:59
+	x1	:-32
+	y1	:-32
+	x2	:32
+	y2	:32
+	canvasX	:64
+	canvasY	:45
+	canvasWidth	:914
+	canvasHeight	:546
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+DASHED_LINE
+	688 784 0 0 2
+	-352 -4 352 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	688 48 0 0 2
+	-352 -4 352 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	336 400 1 0 2
+	-4 -352 4 384
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1040 400 1 0 2
+	-4 -352 4 384
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_LOGIC
+	720 432 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:64
+WIRE
+	656 464 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 432 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 464 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 432 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 432 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	816 432 0 0 7
+	PN	:Falling
+	TM	:Fixed
+	LOT	:0.05
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:109
+WIRE
+	848 432 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	880 432 0 0 3
+	Name	:LGFLTB
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_MONO
+	592 496 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.02
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:63
+WIRE
+	656 496 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ZCDET
+	592 400 0 0 5
+	Mode	:-ve -> +ve
+	Frac	:No
+	OVal	:1
+	Proc	:1
+	Pri	:62
+WIRE
+	656 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 400 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 400 0 0 3
+	Name	:Bus808B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	432 496 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+annotation
+	816 368 0 0 3
+	AL1	:FAULT
+	AL2	:DURATION
+	FSize	:10
+rtds_sharc_ctl_LOGIC
+	720 592 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:61
+WIRE
+	656 624 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 624 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 592 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	816 592 0 0 7
+	PN	:Falling
+	TM	:Fixed
+	LOT	:0.05
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:108
+WIRE
+	848 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	880 592 0 0 3
+	Name	:LGFLTC
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_MONO
+	592 656 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.02
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:60
+WIRE
+	656 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ZCDET
+	592 560 0 0 5
+	Mode	:-ve -> +ve
+	Frac	:No
+	OVal	:1
+	Proc	:1
+	Pri	:59
+WIRE
+	656 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 560 0 0 3
+	Name	:Bus808C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	528 656 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+annotation
+	816 528 0 0 3
+	AL1	:FAULT
+	AL2	:DURATION
+	FSize	:10
+rtds_sharc_ctl_PB
+	400 496 0 0 4
+	Name	:FLT
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+rtds_sharc_ctl_MONO
+	592 336 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.02
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:58
+annotation
+	816 208 0 0 3
+	AL1	:FAULT
+	AL2	:DURATION
+	FSize	:10
+rtds_sharc_ctl_LOGIC
+	720 272 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:107
+WIRE
+	656 304 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 272 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 272 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 272 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	816 272 0 0 7
+	PN	:Falling
+	TM	:Fixed
+	LOT	:0.05
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:124
+WIRE
+	848 272 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	880 272 0 0 3
+	Name	:LGFLTA
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_ZCDET
+	592 240 0 0 5
+	Mode	:-ve -> +ve
+	Frac	:No
+	OVal	:1
+	Proc	:1
+	Pri	:57
+WIRE
+	656 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 240 0 0 3
+	Name	:Bus808A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	496 336 0 0 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 304 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	464 400 1 0 2
+	-4 -64 4 96
+	COL	:RED
+	LW	:1.0
+WIRE
+	464 560 1 0 2
+	-4 -64 4 96
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 496 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+HIERARCHY
+	4816 1392 0 1 29
+	Name	:
+	FCOL	:BLACK
+	BCOL	:VIOLET
+	LW	:1.5
+	DESC1	:Spot Load
+	DESC2	:D - PQ
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:5
+	x1	:-64
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:68
+	canvasY	:66
+	canvasWidth	:796
+	canvasHeight	:401
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+BUS
+	560 144 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-416
+	y1L1	:-32
+	x2L1	:448
+	y2L1	:-32
+	x1L2	:-448
+	y1L2	:0
+	x2L2	:448
+	y2L2	:0
+	x1L3	:-480
+	y1L3	:32
+	x2L3	:448
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	112 112 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:0
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	592 208 1 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:1
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_udc_DYLOAD
+	592 272 0 1 79
+	Name	:Load814
+	type	:RL
+	bal	:YES
+	btype	:R//X
+	YD	:Y
+	cc	:Slider
+	gnd	:No
+	Vmeas	:Internal
+	Vbus	:14.38
+	Vmin	:0.8
+	freq	:60
+	FreqDevMax	:2.0
+	constF	:Yes
+	FreqSrc	:External
+	T	:0.1
+	Tm	:0.003
+	Pinit	:2.7
+	Pmin	:0.001
+	Pmax	:1000
+	Qinit	:2.1
+	Qmin	:0.001
+	Qmax	:1000
+	Pinit1	:100
+	Pinit2	:100
+	Pinit3	:100
+	Qinit1	:100
+	Qinit2	:100
+	Qinit3	:100
+	SorC	:Runtime
+	Fract	:Constant
+	Po	:100
+	Qo	:100
+	TS	:10.0
+	Tf	:0.01
+	Pordcc	:Pordcc
+	Qordcc	:Qordcc
+	ZPcc	:ZPcc
+	IPcc	:IPcc
+	PPcc	:PPcc
+	ZQcc	:ZQcc
+	IQcc	:IQcc
+	PQcc	:PQcc
+	ZP	:20
+	IP	:40
+	PP	:40
+	ZQ	:20
+	IQ	:40
+	PQ	:40
+	Ainit	:0.0
+	PIPG	:50.0
+	PIIT	:0.01
+	Ft	:0.0015
+	WMON	:Hz
+	nFreq	:FreqLoad
+	AorM	:Automatic
+	CARD	:1
+	Rprc	:A
+	AM	:NO
+	CORE	:1
+	pPmon	:No
+	pQmon	:No
+	pIAmon	:No
+	pIBmon	:No
+	pICmon	:No
+	nPmon	:Pmon
+	nQmon	:Qmon
+	nIAmon	:IA
+	nIBmon	:IB
+	nICmon	:IC
+	A1PosX	:-32
+	C1PosX	:32
+	loc	:group
+	P_L0	:0.0
+	Q_L0	:0.0
+	LFIdent	:0
+	HidePQ	:1
+	Cts	:0.1
+	EnLoadShed	:No
+	NmLoadShed	:ShedPar
+rtds_sharc_sld_BUSLABEL
+	112 48 0 0 25
+	BName	:BUS812
+	NA	:Bus812A
+	NB	:Bus812B
+	NC	:Bus812C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:0.9763
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.051450
+	Ad	:-0.017280
+	Dis1	:No
+	A1PosX	:32
+	C1PosX	:-32
+	Num	:6
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+rtds_sharc_sld_BUSLABEL
+	4080 976 0 0 25
+	BName	:BUS808
+	NA	:Bus808A
+	NB	:Bus808B
+	NC	:Bus808C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0136
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050920
+	Ad	:-0.010920
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:4
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	4144 1040 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:1
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	4080 1328 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+HIERARCHY
+	4240 1040 0 0 29
+	Name	:WindGenerator
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:
+	DESC2	:
+	IMAGE	:pwind.jpg
+	IMAGE_RESIZE	:YES
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:7
+	x1	:-64
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:36
+	canvasY	:53
+	canvasWidth	:861
+	canvasHeight	:592
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+BUS
+	176 144 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+HIERARCHY
+	496 112 0 0 29
+	Name	:
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:GRID VSC
+	DESC2	:CONTROLS
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:248
+	x1	:-96
+	y1	:-64
+	x2	:64
+	y2	:32
+	canvasX	:33
+	canvasY	:50
+	canvasWidth	:1277
+	canvasHeight	:659
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+WIRE
+	656 912 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_PLLT2
+	464 976 0 0 10
+	RefSC	:Sine
+	Frat	:60.0
+	Ainit	:0.0
+	PIPG	:500.0
+	PIIT	:0.01
+	Ft	:0.0015
+	WMON	:rad/sec
+	EMON	:No
+	Proc	:1
+	Pri	:56
+WIRE
+	592 944 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 976 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 976 2 0 3
+	Name	:G1W
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	656 944 0 0 3
+	Name	:G1PHI
+	COL	:BLUE
+	Monitor	:Yes
+annotation
+	880 1008 0 0 3
+	AL1	:STATOR Q AXIS
+	AL2	:PU CRT ORDER
+	FSize	:10
+WIRE
+	432 944 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 976 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 1008 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SLIDER
+	848 976 0 0 5
+	Name	:G1STIQO
+	Init	:0.0
+	Max	:1.5
+	Min	:-1.5
+	Units	:PU
+GROUP
+	400 976 0 0 0
+	3
+wirelabel
+	400 1008 2 0 3
+	Name	:G1VN3
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	400 976 2 0 3
+	Name	:G1VN2
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	400 944 2 0 3
+	Name	:G1VN1
+	COL	:BLUE
+	Monitor	:Yes
+annotation
+	464 880 0 0 3
+	AL1	:SCALING
+	AL2	:1 / ( Ibase * rt 2 )
+	FSize	:10
+WIRE
+	624 752 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	592 784 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 816 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	592 848 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	592 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	592 752 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 784 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 720 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 752 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 816 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_REALPL
+	464 720 0 0 12
+	T	:0.002
+	G	:0.384
+	RST	:No
+	LIM	:None
+	TGD	:No
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:55
+rtds_sharc_ctl_ABC2DQ0
+	656 784 0 0 5
+	Ld	:Vq lags Vd
+	Pk	:Peak
+	Zs	:Yes
+	Proc	:1
+	Pri	:106
+WIRE
+	752 784 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	848 784 0 0 3
+	K	:0.754
+	Proc	:1
+	Pri	:123
+jumper
+	784 784 1 0 2
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	816 816 0 0 3
+	K	:0.754
+	Proc	:1
+	Pri	:122
+WIRE
+	816 848 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 720 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 784 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_REALPL
+	464 784 0 0 12
+	T	:0.002
+	G	:0.384
+	RST	:No
+	LIM	:None
+	TGD	:No
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:54
+rtds_sharc_ctl_REALPL
+	464 848 0 0 12
+	T	:0.002
+	G	:0.384
+	RST	:No
+	LIM	:None
+	TGD	:No
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:53
+rtds_sharc_ctl_GAIN
+	368 720 0 0 3
+	K	:-1.0
+	Proc	:1
+	Pri	:52
+WIRE
+	336 720 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_IMPEXP
+	272 720 2 1 2
+	Name	:G1IW3A
+	Type	:FLOAT
+rtds_sharc_ctl_GAIN
+	368 784 0 0 3
+	K	:-1.0
+	Proc	:1
+	Pri	:51
+WIRE
+	336 784 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_IMPEXP
+	272 784 2 1 2
+	Name	:G1IW3B
+	Type	:FLOAT
+rtds_sharc_ctl_GAIN
+	368 848 0 0 3
+	K	:-1.0
+	Proc	:1
+	Pri	:50
+rtds_sharc_ctl_IMPEXP
+	272 848 2 1 2
+	Name	:G1IW3C
+	Type	:FLOAT
+WIRE
+	336 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1104 976 0 0 3
+	K	:0.3
+	Proc	:1
+	Pri	:144
+WIRE
+	1232 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1168 656 2 1 7
+	Num	:THREE
+	IorF	:REAL
+	IN1	:-
+	IN2	:-
+	IN3	:+
+	Proc	:1
+	Pri	:165
+WIRE
+	1168 752 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1040 880 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 944 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	1040 848 0 0 1
+	Val	:0.0
+WIRE
+	1200 944 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1264 880 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 880 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1200 880 0 0 7
+	Num	:THREE
+	IorF	:REAL
+	IN1	:-
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:164
+WIRE
+	1040 912 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	944 944 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_NOT
+	1040 912 0 0 3
+	Op	:LSB
+	Proc	:1
+	Pri	:143
+rtds_sharc_ctl_INTGL
+	1104 880 0 0 9
+	T	:0.1
+	RST	:Yes
+	LIM	:None
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1
+	Proc	:1
+	Pri	:163
+WIRE
+	1136 784 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1232 656 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:172
+WIRE
+	1232 592 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1072 752 0 0 3
+	K	:0.2
+	Proc	:1
+	Pri	:142
+WIRE
+	1136 752 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 816 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+jumper
+	1168 752 0 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	1040 976 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1168 976 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1232 528 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1168 528 0 0 3
+	K	:0.8165
+	Proc	:1
+	Pri	:105
+WIRE
+	1136 528 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 656 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_INTGL
+	1072 656 0 0 9
+	T	:0.1
+	RST	:Yes
+	LIM	:None
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1
+	Proc	:1
+	Pri	:162
+WIRE
+	1168 592 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1168 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1104 560 0 0 3
+	K	:0.3
+	Proc	:1
+	Pri	:161
+WIRE
+	1168 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 560 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1072 784 0 0 3
+	K	:0.2
+	Proc	:1
+	Pri	:141
+rtds_sharc_ctl_NOT
+	1008 688 0 0 3
+	Op	:LSB
+	Proc	:1
+	Pri	:140
+rtds_sharc_ctl_CONSTANT
+	1008 624 0 0 1
+	Val	:0.0
+rtds_sharc_ctl_SUM3
+	912 656 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:-
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:160
+WIRE
+	944 624 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 976 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_RMS
+	944 432 0 0 7
+	Mode	:Three Phase
+	pu	:Yes
+	Sc	:22.0
+	LL	:Line-Line
+	unit	:pu
+	Proc	:1
+	Pri	:49
+WIRE
+	976 432 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_REALPL
+	1040 432 0 0 12
+	T	:0.004
+	G	:1.0
+	RST	:No
+	LIM	:None
+	TGD	:No
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:104
+WIRE
+	1104 496 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1104 432 2 0 3
+	Name	:G1VRMS
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1040 944 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1296 656 2 0 3
+	Name	:G1VDGPUO
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1296 880 2 0 3
+	Name	:G1VQGPUO
+	COL	:BLUE
+	Monitor	:Yes
+GROUP
+	880 432 0 0 0
+	3
+wirelabel
+	880 464 2 0 3
+	Name	:G1VN3
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	880 432 2 0 3
+	Name	:G1VN2
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	880 400 2 0 3
+	Name	:G1VN1
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	976 912 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	976 880 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:139
+WIRE
+	944 880 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 720 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	976 688 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	976 688 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	976 784 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	976 752 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 848 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	880 752 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:-
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:138
+WIRE
+	880 752 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	848 848 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:137
+WIRE
+	912 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	976 752 2 0 3
+	Name	:G1IDGRPU
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 784 0 0 3
+	Name	:G1IQGRPU
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	592 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	528 656 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:48
+rtds_sharc_ctl_SUM3
+	752 656 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:136
+WIRE
+	624 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_INTGL
+	656 656 0 0 9
+	T	:0.1
+	RST	:Yes
+	LIM	:Internal
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1
+	Proc	:1
+	Pri	:135
+WIRE
+	752 592 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	464 656 0 0 3
+	K	:1.073
+	Proc	:1
+	Pri	:47
+rtds_sharc_ctl_NOT
+	592 688 0 0 3
+	Op	:LSB
+	Proc	:1
+	Pri	:134
+WIRE
+	592 560 1 0 2
+	-4 -128 4 96
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 528 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	688 528 0 0 3
+	K	:1
+	Proc	:1
+	Pri	:103
+rtds_sharc_ctl_CONSTANT
+	624 592 1 0 1
+	Val	:0.0
+annotation
+	848 560 0 0 3
+	AL1	:ID IQ CURRENT
+	AL2	:REGULATOR
+	FSize	:10
+rtds_sharc_ctl_GAIN
+	464 560 0 0 3
+	K	:0.9318
+	Proc	:1
+	Pri	:46
+WIRE
+	400 560 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 560 0 0 3
+	Name	:G1VSET
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	464 624 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 592 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+wirelabel
+	400 656 0 0 3
+	Name	:G1VCAP
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	432 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SLIDER
+	336 560 0 0 5
+	Name	:G1VCAPO
+	Init	:1.6
+	Max	:2.0
+	Min	:0.0
+	Units	:PU
+rtds_sharc_ctl_CONSTANT
+	720 592 1 0 1
+	Val	:2.0
+rtds_sharc_ctl_LIMITS
+	848 656 0 1 5
+	IorF	:REAL
+	ULim	:2
+	LLim	:-2
+	Proc	:1
+	Pri	:159
+rtds_sharc_ctl_WASHOUT
+	656 432 0 0 12
+	T	:0.1
+	G	:10
+	RST	:No
+	LIM	:None
+	TGD	:No
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:102
+WIRE
+	624 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	720 528 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:121
+WIRE
+	720 464 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 688 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	560 688 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_CONSTANT
+	720 688 2 0 1
+	Val	:-2.0
+WIRE
+	880 656 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	880 656 2 0 3
+	Name	:G1IDGPUO
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	912 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 464 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1840 560 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1840 592 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_DQ02ABC
+	1904 592 0 0 4
+	Ld	:Vq lags Vd
+	Pk	:Peak
+	Proc	:1
+	Pri	:185
+rtds_sharc_ctl_CONSTANT
+	1840 624 0 0 1
+	Val	:0.0
+WIRE
+	1904 688 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	1968 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1904 688 0 0 3
+	Name	:G1PHI
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1968 624 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2000 592 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2000 528 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1968 560 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2000 656 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1968 624 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2032 496 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2032 688 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+annotation
+	1936 720 0 0 3
+	AL1	:MODULATION
+	AL2	:SIGNALS
+	FSize	:10
+wirelabel
+	2096 592 2 0 3
+	Name	:G8VB
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2096 496 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	2096 720 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	2128 592 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	2096 464 2 0 3
+	Name	:G8VA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2096 720 0 0 3
+	Name	:G8VC
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2160 464 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2160 720 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SIGSW
+	2224 464 0 0 5
+	A	:0
+	DPath	:REAL
+	Pos	:A
+	Proc	:1
+	Pri	:188
+WIRE
+	2288 464 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SIGSW
+	2224 592 0 0 5
+	A	:0
+	DPath	:REAL
+	Pos	:A
+	Proc	:1
+	Pri	:187
+WIRE
+	2288 592 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SIGSW
+	2224 720 0 0 5
+	A	:0
+	DPath	:REAL
+	Pos	:A
+	Proc	:1
+	Pri	:186
+WIRE
+	2288 720 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	2160 432 0 0 1
+	Val	:0.0
+rtds_sharc_ctl_CONSTANT
+	2160 560 0 0 1
+	Val	:0.0
+rtds_sharc_ctl_CONSTANT
+	2160 688 0 0 1
+	Val	:0.0
+wirelabel
+	2288 464 2 0 3
+	Name	:G1VAM1
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2288 592 2 0 3
+	Name	:G1VBM1
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2288 720 2 0 3
+	Name	:G1VCM1
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2224 752 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2224 624 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2224 496 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2096 496 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2096 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	1744 592 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:184
+WIRE
+	1744 592 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	1680 592 0 0 4
+	FT	:sin
+	Mode	:rad
+	Proc	:1
+	Pri	:180
+rtds_sharc_ctl_MUL
+	1744 560 2 1 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:183
+WIRE
+	1744 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	1680 560 0 0 4
+	FT	:cos
+	Mode	:rad
+	Proc	:1
+	Pri	:179
+jumper2
+	1712 560 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	1744 624 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1744 528 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 592 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 560 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1616 592 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1616 560 2 0 3
+	Name	:G1DELTA
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1712 688 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SQRT
+	1584 688 0 0 3
+	Neg	:Set Output = 0
+	Proc	:1
+	Pri	:178
+WIRE
+	1552 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1488 688 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:+
+	Proc	:1
+	Pri	:177
+WIRE
+	1488 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_XPOWN
+	1424 656 0 0 3
+	N	:2
+	Proc	:1
+	Pri	:176
+rtds_sharc_ctl_XPOWN
+	1424 688 0 0 3
+	N	:2
+	Proc	:1
+	Pri	:171
+WIRE
+	1392 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1392 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1744 656 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1424 592 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1456 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1392 560 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ATAN2
+	1488 560 0 0 3
+	Osig	:Radians
+	Proc	:1
+	Pri	:175
+WIRE
+	1488 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1744 688 0 0 3
+	Name	:G1M
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_LIMITS
+	1680 688 0 1 5
+	IorF	:REAL
+	ULim	:1.0
+	LLim	:0.0
+	Proc	:1
+	Pri	:182
+wirelabel
+	1360 560 2 0 3
+	Name	:G1VDGPUO
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1360 656 2 0 3
+	Name	:G1VDGPUO
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1360 688 2 0 3
+	Name	:G1VQGPUO
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1360 592 2 0 3
+	Name	:G1VQGPUO
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_DYNLIMS
+	432 1168 0 1 3
+	IorF	:REAL
+	Proc	:1
+	Pri	:45
+WIRE
+	400 1104 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 1104 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	368 1168 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SLIDER
+	336 1168 0 0 5
+	Name	:G1TWFRQ
+	Init	:2000.0
+	Max	:6500.0
+	Min	:500.0
+	Units	:HZ
+WIRE
+	400 1200 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	368 1232 0 0 1
+	Val	:500.0
+WIRE
+	464 1168 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_RAMPG
+	560 1168 0 0 7
+	T	:1.0
+	Xic	:0.0
+	Yic	:0.0
+	Rmphi	:1.0
+	Rmplo	:0.0
+	Proc	:1
+	Pri	:101
+WIRE
+	464 1200 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_FIXVAL
+	432 1264 0 0 1
+	SEL	:2*PI
+rtds_sharc_ctl_MUL
+	464 1264 2 1 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:100
+WIRE
+	496 1264 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 1264 2 0 3
+	Name	:G1TWOMO
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_MUL
+	624 1168 2 1 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:120
+WIRE
+	624 1136 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ANGLEFIX
+	720 1200 0 0 2
+	Proc	:1
+	Pri	:133
+WIRE
+	816 1200 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	816 1200 2 0 3
+	Name	:G1TWANG
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_FIXVAL
+	592 1104 0 0 1
+	SEL	:2*PI
+rtds_sharc_ctl_CONSTANT
+	368 1104 0 0 1
+	Val	:4000
+wirelabel
+	1232 528 2 0 3
+	Name	:G1VSD
+	COL	:BLUE
+	Monitor	:Yes
+HIERARCHY
+	656 112 0 0 29
+	Name	:
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:ROTOR DQ AXIS
+	DESC2	:CONTROLS
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:308
+	x1	:-96
+	y1	:-64
+	x2	:64
+	y2	:32
+	canvasX	:33
+	canvasY	:49
+	canvasWidth	:1285
+	canvasHeight	:660
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+DASHED_LINE
+	1360 656 1 0 2
+	-4 -224 4 224
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	816 880 0 0 2
+	-576 -4 544 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	240 464 1 0 2
+	-4 -416 4 416
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1392 48 0 0 2
+	-1152 -4 1120 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1936 432 0 0 2
+	-576 -4 576 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1712 240 1 0 2
+	-4 -192 4 192
+	LW	:1.0
+	COL	:RED
+GROUP
+	528 432 0 0 0
+	2
+annotation
+	528 432 0 0 3
+	AL1	:SLIPANG IS THE ANGLE THAT
+	AL2	:STATOR FLUX LEADS ROTOR
+	FSize	:10
+annotation
+	528 464 0 0 3
+	AL1	:( THAT D-AXIS LEADS ROTOR )
+	AL2	:
+	FSize	:10
+DASHED_LINE
+	816 496 0 0 2
+	-576 -4 544 4
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_MUL
+	2160 240 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:244
+WIRE
+	2160 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	2096 240 0 0 4
+	FT	:sin
+	Mode	:rad
+	Proc	:1
+	Pri	:241
+rtds_sharc_ctl_MUL
+	2160 208 2 1 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:243
+WIRE
+	2160 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	2096 208 0 0 4
+	FT	:cos
+	Mode	:rad
+	Proc	:1
+	Pri	:240
+jumper2
+	2128 208 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	2160 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2160 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2064 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2000 208 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2032 240 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	2064 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SQRT
+	2000 336 0 0 3
+	Neg	:Set Output = 0
+	Proc	:1
+	Pri	:239
+WIRE
+	1968 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1904 336 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:+
+	Proc	:1
+	Pri	:238
+WIRE
+	1904 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_XPOWN
+	1840 304 0 0 3
+	N	:2
+	Proc	:1
+	Pri	:230
+rtds_sharc_ctl_XPOWN
+	1840 336 0 0 3
+	N	:2
+	Proc	:1
+	Pri	:237
+WIRE
+	1808 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1808 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2160 304 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1840 240 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1872 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1808 208 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ATAN2
+	1904 208 0 0 3
+	Osig	:Radians
+	Proc	:1
+	Pri	:236
+WIRE
+	1904 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	2160 336 0 0 3
+	Name	:G1MR
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_LIMITS
+	2096 336 0 1 5
+	IorF	:REAL
+	ULim	:1.0
+	LLim	:0.0
+	Proc	:1
+	Pri	:242
+wirelabel
+	1776 208 2 0 3
+	Name	:G1VRTDO
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1776 304 2 0 3
+	Name	:G1VRTDO
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1776 240 2 0 3
+	Name	:G1VRTQO
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1776 336 2 0 3
+	Name	:G1VRTQO
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2128 336 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+DASHED_LINE
+	1776 784 0 0 2
+	-416 -4 384 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	2160 624 1 0 2
+	-4 -192 4 160
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_XDIVY
+	1840 528 0 0 4
+	DBZ	:Set Output
+	Val	:0.0
+	Proc	:1
+	Pri	:44
+WIRE
+	1840 592 1 0 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1776 528 0 0 3
+	K	:0.9091
+	Proc	:1
+	Pri	:43
+WIRE
+	1840 528 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1744 528 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	1680 528 0 0 4
+	Num	:THREE
+	IorF	:REAL
+	Proc	:1
+	Pri	:42
+WIRE
+	1680 496 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1680 528 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1680 560 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 528 1 0 2
+	-4 32 4 -32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 528 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1584 528 0 0 3
+	K	:0.8333
+	Proc	:1
+	Pri	:41
+WIRE
+	1520 528 0 0 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_LIMITS
+	1488 528 0 1 5
+	IorF	:REAL
+	ULim	:100.0
+	LLim	:0.01
+	Proc	:1
+	Pri	:40
+WIRE
+	1456 528 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1680 592 0 0 2
+	160 -4 -160 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1520 560 1 0 2
+	-4 32 4 -32
+	COL	:RED
+	LW	:1.0
+rtds_BLUETEXT1
+	1648 464 0 0 1
+	AL1	:TSPDPU
+rtds_BLUETEXT1
+	1744 464 0 0 1
+	AL1	:TPWRPU
+rtds_BLUETEXT1
+	1808 464 0 0 1
+	AL1	:GPWRPU
+rtds_BLUETEXT1
+	1520 464 0 0 1
+	AL1	:GSPDPU
+annotation
+	1584 560 0 0 3
+	AL1	:1 / WR
+	AL2	:1 / 1.2
+	FSize	:10
+annotation
+	1776 560 0 0 3
+	AL1	:TR / GR
+	AL2	:2.0 / 2.2
+	FSize	:10
+wirelabel
+	1424 528 2 0 3
+	Name	:G1SPD
+	COL	:BLUE
+	Monitor	:Yes
+GROUP
+	112 208 0 0 0
+	5
+DASHED_LINE
+	112 272 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+annotation
+	112 208 0 0 3
+	AL1	:ROTOR DQ AXIS CURRENTS
+	AL2	:AND GENERATED VOLTAGES
+	FSize	:10
+DASHED_LINE
+	112 176 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	16 240 1 0 2
+	-4 -64 4 32
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	208 240 1 0 2
+	-4 -64 4 32
+	LW	:1.0
+	COL	:RED
+GROUP
+	1904 80 0 0 0
+	3
+annotation
+	1904 112 0 0 3
+	AL1	:NEGATE THESE Q-AXIS QUANTITIES TO
+	AL2	:COMPARE WITH RTDS Q-AXIS QUANTITIES
+	FSize	:10
+annotation
+	1904 80 0 0 3
+	AL1	:HOWEVER, THE Q-AXIS LEADS THE
+	AL2	:D-AXIS IN THESE EQUATIONS.
+	FSize	:10
+annotation
+	1904 48 0 0 3
+	AL1	:ACCORDING TO RTDS AND EMTDC CONVENTION
+	AL2	:Q-AXIS LAGS D-AXIS RATHER THAN LEADS
+	FSize	:10
+annotation
+	1520 624 0 0 3
+	AL1	:OPTIMAL POWER TRACKING
+	AL2	:CALCULATOR
+	FSize	:10
+WIRE
+	2000 624 1 0 2
+	-4 64 4 -64
+	COL	:RED
+	LW	:1.0
+WIRE
+	1904 528 0 0 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1904 528 0 0 3
+	Name	:G1TRQO
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_GAIN
+	1968 528 0 0 3
+	K	:2.0
+	Proc	:1
+	Pri	:99
+WIRE
+	2032 528 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2096 528 0 0 2
+	0 -4 -32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	2096 528 0 0 3
+	Name	:G1RTIQO
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_XDIVY
+	2032 528 0 0 4
+	DBZ	:Set Output
+	Val	:0.0
+	Proc	:1
+	Pri	:170
+WIRE
+	2032 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+annotation
+	1776 752 0 0 3
+	AL1	:PREVENT DIVIDE BY ZERO
+	AL2	:
+	FSize	:10
+wirelabel
+	272 336 2 0 3
+	Name	:G1ANGFX
+	COL	:BLUE
+	Monitor	:Yes
+annotation
+	368 560 0 0 3
+	AL1	:Vrat = VBASE * SQRT(3) / SQRT(2)
+	AL2	:
+	FSize	:10
+annotation
+	368 528 0 0 3
+	AL1	:TO CONVERT INPUT CURRENTS (kA)
+	AL2	:TO PER UNIT SET PARAMETER
+	FSize	:10
+GROUP
+	112 752 0 0 0
+	2
+GROUP
+	112 752 0 0 0
+	4
+DASHED_LINE
+	112 816 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	112 720 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	16 784 1 0 2
+	-4 -64 4 32
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	208 784 1 0 2
+	-4 -64 4 32
+	LW	:1.0
+	COL	:RED
+annotation
+	112 752 0 0 3
+	AL1	:STATOR FLUX
+	AL2	:MAGNITUDE AND PHASE
+	FSize	:10
+rtds_TEXT9
+	112 368 0 0 19
+	NL	:9
+	COL1	:BLUE
+	COL2	:BLUE
+	COL3	:BLUE
+	COL4	:BLUE
+	COL5	:BLUE
+	COL6	:BLUE
+	COL7	:BLUE
+	COL8	:BLUE
+	COL9	:BLUE
+	AL1	:From DFIG Menu
+	AL2	:xa = 0.102 pu
+	AL3	:xfd = 0.111 pu
+	AL4	:xmdo = 4.348 pu
+	AL5	:
+	AL6	:Therefore
+	AL7	:Lo =4.348 pu
+	AL8	:Ls = 4.450
+	AL9	:Lr = 4.459
+DASHED_LINE
+	208 400 1 0 2
+	-4 -96 4 96
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	16 400 1 0 2
+	-4 -96 4 96
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	112 304 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+GROUP
+	112 624 0 0 0
+	4
+DASHED_LINE
+	112 688 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	112 592 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	16 656 1 0 2
+	-4 -64 4 32
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	208 656 1 0 2
+	-4 -64 4 32
+	LW	:1.0
+	COL	:RED
+annotation
+	112 432 0 0 3
+	AL1	:Lm = Lo**2 / Ls
+	AL2	:sigma = 1 -  Lm / Lr
+	FSize	:10
+DASHED_LINE
+	112 496 0 0 2
+	-96 -4 96 4
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_REALPL
+	1904 688 0 0 12
+	T	:0.024
+	G	:1.0
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:169
+WIRE
+	2000 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	1712 688 0 0 0
+	9
+rtds_sharc_ctl_CONSTANT
+	1776 720 0 0 1
+	Val	:0.5
+WIRE
+	1776 688 0 0 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1712 688 0 0 3
+	K	:-0.5
+	Proc	:1
+	Pri	:158
+rtds_sharc_ctl_LIMITS
+	1808 656 0 1 5
+	IorF	:REAL
+	ULim	:100.0
+	LLim	:0.0
+	Proc	:1
+	Pri	:157
+rtds_sharc_ctl_SUM3
+	1808 688 2 1 7
+	Num	:THREE
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:+
+	Proc	:1
+	Pri	:168
+wirelabel
+	1616 656 0 0 3
+	Name	:G1LMIMS
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1712 656 0 0 2
+	64 -4 -96 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 688 1 0 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_LIMITS
+	1680 688 0 1 5
+	IorF	:REAL
+	ULim	:1.0
+	LLim	:0.0
+	Proc	:1
+	Pri	:156
+WIRE
+	1872 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+annotation
+	112 592 0 0 3
+	AL1	:VBASE STATOR = 0.3984
+	AL2	:MVA BASE = 2.2
+	FSize	:10
+annotation
+	112 624 0 0 3
+	AL1	:IBASE STATOR = 1.841
+	AL2	:IBASE ROTOR = 0.698
+	FSize	:10
+rtds_sharc_ctl_3PH2AB
+	368 784 0 0 5
+	Vrat	:2.2548
+	Shift	:In Phase
+	LdLg	:b lags a
+	Proc	:1
+	Pri	:39
+rtds_sharc_ctl_IMPEXP
+	304 752 2 1 2
+	Name	:G1ISTA
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	304 784 2 1 2
+	Name	:G1ISTB
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	304 816 2 1 2
+	Name	:G1ISTC
+	Type	:FLOAT
+WIRE
+	464 816 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	464 752 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_3PH2AB
+	368 656 0 0 5
+	Vrat	:0.48794
+	Shift	:In Phase
+	LdLg	:b lags a
+	Proc	:1
+	Pri	:38
+rtds_sharc_ctl_IMPEXP
+	304 624 2 1 2
+	Name	:G1VSTA
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	304 656 2 1 2
+	Name	:G1VSTB
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	304 688 2 1 2
+	Name	:G1VSTC
+	Type	:FLOAT
+WIRE
+	464 624 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 688 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	432 752 0 0 3
+	Name	:G1IALPH
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	432 816 0 0 3
+	Name	:G1IBETA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	432 688 0 0 3
+	Name	:G1VBETA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	432 624 0 0 3
+	Name	:G1VALPH
+	COL	:BLUE
+	Monitor	:Yes
+rtds_BLUETEXT1
+	400 848 0 0 1
+	AL1	:PU STATOR RESISTANCE
+rtds_sharc_ctl_CONSTANT
+	432 848 0 0 1
+	Val	:0.00462
+WIRE
+	528 752 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+jumper
+	528 688 1 0 2
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	528 624 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:-
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:98
+WIRE
+	560 816 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	560 688 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:-
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:97
+WIRE
+	560 784 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 624 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	496 816 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:96
+WIRE
+	496 720 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	496 752 2 1 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:95
+jumper
+	464 752 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	464 816 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1328 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1328 720 1 0 2
+	-4 -64 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1040 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	720 624 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 688 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 720 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 624 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 656 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	976 784 0 0 2
+	-320 -4 352 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 752 0 0 2
+	-320 -4 288 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 656 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_RAMPG
+	1104 656 0 0 7
+	T	:1.0
+	Xic	:0.0
+	Yic	:0.0
+	Rmphi	:6.2831853
+	Rmplo	:0.0
+	Proc	:1
+	Pri	:193
+rtds_sharc_ctl_MUL
+	656 688 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:196
+rtds_sharc_ctl_SUM3
+	912 656 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:191
+rtds_sharc_ctl_GAIN
+	848 688 0 0 3
+	K	:5.0
+	Proc	:1
+	Pri	:190
+WIRE
+	816 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	880 688 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	720 656 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:-
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:208
+rtds_sharc_ctl_SINCOS
+	1264 656 0 0 2
+	Proc	:1
+	Pri	:195
+rtds_sharc_ctl_LIMITS
+	1008 656 0 1 5
+	IorF	:REAL
+	ULim	:385.0
+	LLim	:375.0
+	Proc	:1
+	Pri	:192
+WIRE
+	976 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	688 624 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:207
+jumper
+	688 688 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 752 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 720 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_INTGL
+	848 592 0 0 9
+	T	:0.01
+	RST	:No
+	LIM	:Internal
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1
+	Proc	:1
+	Pri	:189
+WIRE
+	816 592 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 624 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	848 624 0 0 1
+	Val	:365
+rtds_sharc_ctl_CONSTANT
+	880 560 0 0 1
+	Val	:385
+wirelabel
+	1200 560 2 0 3
+	Name	:G1ANGFX
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	656 816 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 816 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	752 848 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:119
+WIRE
+	752 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SQRT
+	848 848 0 0 3
+	Neg	:Set Output = 0
+	Proc	:1
+	Pri	:132
+rtds_sharc_ctl_XPOWN
+	688 816 0 0 3
+	N	:2
+	Proc	:1
+	Pri	:118
+rtds_sharc_ctl_XPOWN
+	688 848 0 0 3
+	N	:2
+	Proc	:1
+	Pri	:117
+WIRE
+	656 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 848 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 688 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	624 688 0 0 3
+	Name	:G1VFLXB
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	624 624 0 0 3
+	Name	:G1VFLXA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	624 816 2 0 3
+	Name	:G1VFLXA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	624 848 0 0 3
+	Name	:G1VFLXB
+	COL	:BLUE
+	Monitor	:Yes
+HIERARCHY
+	624 176 0 0 29
+	Name	:
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:ABC TO DQ
+	DESC2	:TRANSFORMATION
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:66
+	x1	:-64
+	y1	:-96
+	x2	:64
+	y2	:64
+	canvasX	:71
+	canvasY	:51
+	canvasWidth	:681
+	canvasHeight	:470
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+WIRE
+	464 144 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 240 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+jumper
+	464 208 0 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	464 272 0 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 272 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	720 304 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:206
+WIRE
+	720 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 336 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	784 304 2 0 3
+	Name	:G1RTRIQ
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	560 208 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	624 208 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:205
+rtds_sharc_ctl_SINE
+	592 240 0 0 4
+	FT	:sin
+	Mode	:rad
+	Proc	:1
+	Pri	:204
+WIRE
+	528 240 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	720 176 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:219
+WIRE
+	688 144 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	720 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 208 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	784 176 2 0 3
+	Name	:G1RTRID
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	688 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 336 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	624 336 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:203
+WIRE
+	496 368 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	592 368 0 0 4
+	FT	:sin
+	Mode	:rad
+	Proc	:1
+	Pri	:202
+WIRE
+	560 272 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	624 272 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:201
+WIRE
+	528 304 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 272 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	592 304 0 0 4
+	FT	:cos
+	Mode	:rad
+	Proc	:1
+	Pri	:200
+WIRE
+	560 144 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	624 144 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:199
+rtds_sharc_ctl_SINE
+	592 176 0 0 4
+	FT	:cos
+	Mode	:rad
+	Proc	:1
+	Pri	:198
+WIRE
+	528 176 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	464 240 1 0 2
+	-4 -96 4 96
+	COL	:RED
+	LW	:1.0
+jumper
+	496 208 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	496 272 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	496 336 1 0 2
+	COL	:RED
+	LW	:1.0
+wirelabel
+	400 368 0 0 3
+	Name	:G1SLANG
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_SUM3
+	304 112 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:37
+WIRE
+	240 80 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	272 112 0 0 3
+	K	:-0.5
+	Proc	:1
+	Pri	:36
+rtds_sharc_ctl_SUM3
+	368 144 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:94
+WIRE
+	368 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	272 144 0 0 3
+	K	:-0.5
+	Proc	:1
+	Pri	:35
+WIRE
+	336 144 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 144 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	272 208 0 0 3
+	K	:0.866025
+	Proc	:1
+	Pri	:34
+rtds_sharc_ctl_SUM3
+	336 240 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:93
+WIRE
+	336 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	336 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 240 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	208 112 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	208 144 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+jumper
+	208 144 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	208 208 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	240 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	176 208 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	208 240 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	144 80 2 0 3
+	Name	:RTRIA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	144 112 2 0 3
+	Name	:RTRIB
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	144 144 2 0 3
+	Name	:RTRIC
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_GAIN
+	272 240 0 0 3
+	K	:0.866025
+	Proc	:1
+	Pri	:33
+wirelabel
+	464 144 2 0 3
+	Name	:G1RTRIAT
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	432 272 0 0 3
+	Name	:G1RTRIBT
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	496 112 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 112 2 0 3
+	Name	:RTRIA
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	496 144 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 176 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	528 144 2 0 3
+	Name	:RTRIB
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	528 176 2 0 3
+	Name	:RTRIC
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	560 400 0 0 3
+	Name	:G1SLANG
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	560 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 304 1 0 2
+	-4 -96 4 96
+	COL	:RED
+	LW	:1.0
+annotation
+	400 208 0 0 3
+	AL1	:TO CONVERT ROTOR CURRENTS (kA)
+	AL2	:TO PER UNIT SET
+	FSize	:10
+annotation
+	400 240 0 0 3
+	AL1	:SCALING FACTOR  = 2 / ( 3 * IB )
+	AL2	:
+	FSize	:10
+WIRE
+	304 336 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_IMPEXP
+	304 368 2 1 2
+	Name	:G1RANG
+	Type	:FLOAT
+rtds_sharc_ctl_SUM3
+	336 368 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:194
+rtds_sharc_ctl_ANGLEFIX
+	432 400 0 0 2
+	Proc	:1
+	Pri	:197
+rtds_sharc_ctl_AOUT
+	464 112 0 0 8
+	DA	:1
+	SC	:1.0
+	DisplayNC	:No
+	Desc	:""
+	Units	:""
+	Icon	:Small
+	Proc	:1
+	Pri	:32
+rtds_sharc_ctl_AOUT
+	464 144 0 0 8
+	DA	:2
+	SC	:1.0
+	DisplayNC	:No
+	Desc	:""
+	Units	:""
+	Icon	:Small
+	Proc	:1
+	Pri	:31
+rtds_sharc_ctl_AOUT
+	464 176 0 0 8
+	DA	:3
+	SC	:1.0
+	DisplayNC	:No
+	Desc	:""
+	Units	:""
+	Icon	:Small
+	Proc	:1
+	Pri	:30
+WIRE
+	976 112 0 0 2
+	-288 -4 256 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1584 112 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:-
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:229
+WIRE
+	1584 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1520 112 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:228
+WIRE
+	1392 80 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1520 80 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1392 144 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	1392 112 0 0 1
+	Val	:0.0
+WIRE
+	1424 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1456 80 0 0 3
+	K	:1.387
+	Proc	:1
+	Pri	:227
+WIRE
+	1488 80 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_INTGL
+	1456 144 0 0 9
+	T	:0.02808
+	RST	:Yes
+	LIM	:None
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1
+	Proc	:1
+	Pri	:226
+WIRE
+	1328 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1648 112 2 0 3
+	Name	:G1VRTDO
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_NOT
+	1360 176 0 0 3
+	Op	:LSB
+	Proc	:1
+	Pri	:131
+WIRE
+	1360 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1328 176 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_SUM3
+	1264 112 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:225
+rtds_sharc_ctl_SLIDER
+	1232 80 0 0 5
+	Name	:G1RTIDO
+	Init	:0.0
+	Max	:1.5
+	Min	:-1.5
+	Units	:PU
+WIRE
+	1264 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+annotation
+	1648 48 0 0 3
+	AL1	:VD AND VQ PU
+	AL2	:VOLTAGE ORDERS
+	FSize	:10
+WIRE
+	1584 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1520 336 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:218
+WIRE
+	1392 304 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1520 304 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1328 336 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1392 368 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	1392 336 0 0 1
+	Val	:0.0
+WIRE
+	1424 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1488 304 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1328 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_INTGL
+	1456 368 0 0 9
+	T	:0.02808
+	RST	:Yes
+	LIM	:None
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1
+	Proc	:1
+	Pri	:217
+WIRE
+	1648 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1648 336 2 0 3
+	Name	:G1VRTQO
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_GAIN
+	1456 304 0 0 3
+	K	:1.387
+	Proc	:1
+	Pri	:216
+rtds_sharc_ctl_NOT
+	1360 400 0 0 3
+	Op	:LSB
+	Proc	:1
+	Pri	:130
+WIRE
+	1360 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1328 400 0 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_SUM3
+	1264 336 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:215
+WIRE
+	1008 336 0 0 2
+	-288 -4 256 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	720 208 2 0 3
+	Name	:G1RTRIQ
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	720 112 2 0 3
+	Name	:G1RTRID
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1392 240 0 0 2
+	-192 -4 192 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1424 208 0 0 2
+	-192 -4 160 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 176 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1584 336 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:235
+WIRE
+	1584 272 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1328 112 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	944 176 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	976 272 0 0 2
+	-128 -4 128 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1008 176 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:224
+WIRE
+	1072 176 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1040 272 0 0 3
+	Name	:G1RTRFQ
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_MUL
+	1104 272 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:223
+jumper
+	1072 272 3 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	1072 240 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 272 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1168 176 0 0 3
+	Name	:G1VGENQ
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1168 176 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	1104 176 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:234
+WIRE
+	1104 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1168 272 0 0 3
+	Name	:G1VGEND
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1104 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+jumper
+	1072 336 3 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 208 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+jumper
+	1232 240 3 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 144 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 304 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	816 176 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:222
+rtds_sharc_ctl_MUL
+	816 272 2 1 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:214
+WIRE
+	816 240 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_BLUETEXT1
+	784 208 0 0 1
+	AL1	:SIGMALR PU
+rtds_sharc_ctl_CONSTANT
+	784 208 0 0 1
+	Val	:0.21066
+WIRE
+	1072 400 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 432 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ANGLESPD
+	688 432 0 0 4
+	Finit	:314.159
+	FHold	:1
+	Proc	:1
+	Pri	:213
+annotation
+	752 48 0 0 3
+	AL1	:PU D AND Q AXIS
+	AL2	:ROTOR CURRENTS
+	FSize	:10
+wirelabel
+	1072 432 0 0 3
+	Name	:G1SLFPU
+	COL	:BLUE
+	Monitor	:Yes
+annotation
+	1072 464 2 0 3
+	AL1	:SLIPFRQPU
+	AL2	:
+	FSize	:10
+WIRE
+	1008 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	912 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	944 240 0 0 3
+	K	:0.9771
+	Proc	:1
+	Pri	:155
+WIRE
+	1008 240 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1008 240 0 0 3
+	Name	:G1LMIMS
+	COL	:BLUE
+	Monitor	:Yes
+rtds_TEXT9
+	944 240 0 0 19
+	NL	:3
+	COL1	:BLUE
+	COL2	:BLUE
+	COL3	:BLUE
+	COL4	:BLUE
+	COL5	:BLUE
+	COL6	:YELLOW
+	COL7	:GOLD
+	COL8	:BROWN
+	COL9	:VIOLET
+	AL1	:
+	AL2	:RATIO
+	AL3	:Lm / Lo
+	AL4	:
+	AL5	:
+	AL6	:Line6
+	AL7	:Line7
+	AL8	:Line8
+	AL9	:Line9
+annotation
+	944 304 2 0 3
+	AL1	:PU Q AXIS
+	AL2	:ROTOR FLUX
+	FSize	:10
+rtds_sharc_ctl_REALPL
+	848 432 0 0 12
+	T	:0.02
+	G	:2.6526e-3
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:221
+WIRE
+	784 432 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+annotation
+	848 400 2 0 3
+	AL1	:1 / 376.991
+	AL2	:
+	FSize	:10
+annotation
+	1072 176 2 0 3
+	AL1	:PU D AXIS
+	AL2	:ROTOR FLUX
+	FSize	:10
+wirelabel
+	1072 176 0 0 3
+	Name	:G1RTRFD
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	880 240 2 0 3
+	Name	:G1FLXDSM
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	720 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	720 272 1 0 2
+	-4 -64 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 400 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	304 144 0 0 0
+	3
+rtds_sharc_ctl_IMPEXP
+	304 176 2 1 2
+	Name	:G1IRTC
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	304 144 2 1 2
+	Name	:G1IRTB
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	304 112 2 1 2
+	Name	:G1IRTA
+	Type	:FLOAT
+rtds_sharc_ctl_GAIN
+	400 112 0 0 3
+	K	:0.9551
+	Proc	:1
+	Pri	:29
+WIRE
+	368 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	368 144 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	368 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	2288 208 0 0 0
+	5
+wirelabel
+	2224 240 2 0 3
+	Name	:G1VRTQ
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2224 240 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	2224 208 2 0 3
+	Name	:G1VRTD
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2224 208 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	2384 208 0 0 0
+	13
+wirelabel
+	2448 112 2 0 3
+	Name	:G1VAM2
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2448 208 2 0 3
+	Name	:G1VBM2
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	2448 304 0 0 3
+	Name	:G1VCM2
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2384 240 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2384 176 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2448 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2448 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 272 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 144 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 208 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	2320 336 0 0 3
+	Name	:G1SLANG
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	2320 304 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+HIERARCHY
+	2320 240 0 0 29
+	Name	:
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:DQ TO ABC
+	DESC2	:TRANSFORMATION
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:59
+	x1	:-64
+	y1	:-96
+	x2	:64
+	y2	:64
+	canvasX	:53
+	canvasY	:55
+	canvasWidth	:885
+	canvasHeight	:455
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+rtds_sharc_ctl_SUM3
+	528 208 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:249
+WIRE
+	528 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 240 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	592 208 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	368 112 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	432 112 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:248
+rtds_sharc_ctl_SINE
+	400 144 0 0 4
+	FT	:sin
+	Mode	:rad
+	Proc	:1
+	Pri	:212
+WIRE
+	336 144 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	528 80 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:252
+WIRE
+	496 48 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 80 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 112 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 80 0 0 2
+	-128 -4 96 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	336 240 0 0 2
+	-96 -4 96 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	432 240 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:247
+WIRE
+	272 272 0 0 2
+	-96 -4 96 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	400 272 0 0 4
+	FT	:sin
+	Mode	:rad
+	Proc	:1
+	Pri	:211
+WIRE
+	368 176 0 0 2
+	-96 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	432 176 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:246
+WIRE
+	336 208 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	496 176 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SINE
+	400 208 0 0 4
+	FT	:cos
+	Mode	:rad
+	Proc	:1
+	Pri	:210
+WIRE
+	304 48 0 0 2
+	-128 -4 128 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	432 48 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:245
+rtds_sharc_ctl_SINE
+	400 80 0 0 4
+	FT	:cos
+	Mode	:rad
+	Proc	:1
+	Pri	:209
+WIRE
+	336 80 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	240 144 1 0 2
+	-4 -96 4 96
+	COL	:RED
+	LW	:1.0
+wirelabel
+	176 48 2 0 3
+	Name	:G1VRTD
+	COL	:BLUE
+	Monitor	:Yes
+jumper
+	240 112 0 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	208 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	176 112 2 0 3
+	Name	:G1VRTQ
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	272 144 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+jumper
+	304 112 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	304 176 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	304 240 1 0 2
+	COL	:RED
+	LW	:1.0
+wirelabel
+	176 272 0 0 3
+	Name	:G1SLANG
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	592 144 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	656 176 0 0 3
+	K	:-0.5
+	Proc	:1
+	Pri	:254
+WIRE
+	624 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	656 208 0 0 3
+	K	:0.866025
+	Proc	:1
+	Pri	:251
+WIRE
+	720 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	720 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	784 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+jumper
+	592 208 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	656 240 0 0 3
+	K	:-0.5
+	Proc	:1
+	Pri	:253
+rtds_sharc_ctl_GAIN
+	656 272 0 0 3
+	K	:-0.866025
+	Proc	:1
+	Pri	:250
+WIRE
+	592 272 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	720 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	720 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	720 208 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:256
+rtds_sharc_ctl_SUM3
+	720 272 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:255
+WIRE
+	784 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 240 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+wirelabel
+	784 80 2 0 3
+	Name	:G1VAM2
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 208 2 0 3
+	Name	:G1VBM2
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 272 0 0 3
+	Name	:G1VCM2
+	COL	:BLUE
+	Monitor	:Yes
+DASHED_LINE
+	2512 240 1 0 2
+	-4 -192 4 192
+	LW	:1.0
+	COL	:RED
+annotation
+	1200 816 0 0 3
+	AL1	:PLL WITH 90 DEG PHASE LAG
+	AL2	:FOR POSITION OF STATOR FLUX
+	FSize	:10
+WIRE
+	1264 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1232 304 0 0 3
+	Name	:G1RTIQO
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_GAIN
+	400 144 0 0 3
+	K	:0.9551
+	Proc	:1
+	Pri	:28
+rtds_sharc_ctl_GAIN
+	400 176 0 0 3
+	K	:0.9551
+	Proc	:1
+	Pri	:27
+rtds_sharc_ctl_REALPL
+	944 848 0 0 12
+	T	:0.02
+	G	:1.0
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:154
+wirelabel
+	1008 848 2 0 3
+	Name	:G1FLXDSM
+	COL	:BLUE
+	Monitor	:Yes
+HIERARCHY
+	496 176 0 0 29
+	Name	:
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:WIND TURBINE
+	DESC2	:AND MULTIMASS
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:162
+	x1	:-96
+	y1	:-32
+	x2	:64
+	y2	:64
+	canvasX	:30
+	canvasY	:41
+	canvasWidth	:962
+	canvasHeight	:660
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+DASHED_LINE
+	912 432 1 0 2
+	-4 -352 4 320
+	LW	:1.0
+	COL	:RED
+WIRE
+	816 336 1 0 2
+	-4 -64 4 64
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_WINDT
+	528 432 0 0 25
+	Name	:WT1
+	Proc	:1
+	Pri	:153
+	GR	:2
+	TR	:2.2
+	WR	:1.2
+	WSR	:12.0
+	WSCI	:6.0
+	PCT	:TWO
+	PlotPC	:NO
+	PlotPO	:NO
+	c1	:0.5176
+	c2	:116
+	c3	:0.4
+	c4	:5
+	c5	:21
+	c6	:0.0068
+	n1	:0.47
+	n2	:0.0167
+	n3	:7.5
+	n4	:0.15
+	n5	:0.00184
+	n6	:0.01
+	Tmp	:0.0
+	Alt	:0.0
+annotation
+	400 496 0 0 3
+	AL1	:2.0 MW TURBINE DRIVING
+	AL2	:2.2 MVAR GENERATOR
+	FSize	:10
+WIRE
+	528 336 0 0 2
+	-128 -4 128 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SLIDER
+	304 432 0 0 5
+	Name	:G1WIND
+	Init	:12.0
+	Max	:50.0
+	Min	:0.0
+	Units	:m/sec
+rtds_sharc_ctl_REALPL
+	368 432 0 0 12
+	T	:1.2
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:26
+DASHED_LINE
+	1232 16 0 0 2
+	-288 -4 288 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1232 464 0 0 2
+	-288 -4 288 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1520 240 1 0 2
+	-4 -224 4 224
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	944 240 1 0 2
+	-4 -224 4 224
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_PQMET
+	1328 304 0 0 5
+	pu	:No
+	MVA	:100.0
+	adv	:None
+	Proc	:1
+	Pri	:25
+WIRE
+	1392 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1264 240 2 0 3
+	Name	:G1VRTA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 272 2 0 3
+	Name	:G1VRTB
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 304 2 0 3
+	Name	:G1VRTC
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 336 2 0 3
+	Name	:G1IRTA
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 368 2 0 3
+	Name	:G1IRTB
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 400 2 0 3
+	Name	:G1IRTC
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1392 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 368 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_REALPL
+	1424 304 0 0 12
+	T	:0.005
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:92
+wirelabel
+	1488 304 2 0 3
+	Name	:G1ROTPI
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_REALPL
+	1424 368 0 0 12
+	T	:0.005
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:91
+wirelabel
+	1488 368 2 0 3
+	Name	:G1ROTQI
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1392 368 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_PQMET
+	1328 112 0 0 5
+	pu	:No
+	MVA	:2.2
+	adv	:None
+	Proc	:1
+	Pri	:24
+WIRE
+	1296 48 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1264 48 0 0 3
+	Name	:G1VSTA
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1296 80 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 144 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1264 144 0 0 3
+	Name	:G1ISTA
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1392 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1392 144 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1264 176 0 0 3
+	Name	:G1ISTB
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 208 0 0 3
+	Name	:G1ISTC
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 80 0 0 3
+	Name	:G1VSTB
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1264 112 0 0 3
+	Name	:G1VSTC
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1488 112 0 0 3
+	Name	:G1STPI
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_REALPL
+	1424 112 0 0 12
+	T	:0.005
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:90
+wirelabel
+	1488 176 0 0 3
+	Name	:G1STQI
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_REALPL
+	1424 176 0 0 12
+	T	:0.005
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:89
+WIRE
+	1392 176 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_PQMET
+	1040 304 0 0 5
+	pu	:No
+	MVA	:100.0
+	adv	:None
+	Proc	:1
+	Pri	:23
+WIRE
+	1104 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	976 240 2 0 3
+	Name	:G1VW3A
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 272 2 0 3
+	Name	:G1VW3B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 304 2 0 3
+	Name	:G1VW3C
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 336 2 0 3
+	Name	:G1IW3A
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 368 2 0 3
+	Name	:G1IW3B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 400 2 0 3
+	Name	:G1IW3C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1104 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 368 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1200 304 2 0 3
+	Name	:G1PW3
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_REALPL
+	1136 304 0 0 12
+	T	:0.005
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:88
+wirelabel
+	1200 368 2 0 3
+	Name	:G1QW3
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_REALPL
+	1136 368 0 0 12
+	T	:0.005
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:87
+WIRE
+	1104 368 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_PQMET
+	1040 112 0 0 5
+	pu	:No
+	MVA	:100.0
+	adv	:None
+	Proc	:1
+	Pri	:22
+wirelabel
+	976 48 2 0 3
+	Name	:G1VN1
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 80 2 0 3
+	Name	:G1VN2
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 112 2 0 3
+	Name	:G1VN3
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 144 2 0 3
+	Name	:G1IW1A
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 176 2 0 3
+	Name	:G1IW1B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	976 208 2 0 3
+	Name	:G1IW1C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1008 48 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 80 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 144 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1008 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1200 112 2 0 3
+	Name	:G1POUT
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1104 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_REALPL
+	1136 112 0 0 12
+	T	:0.005
+	G	:-1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:86
+WIRE
+	1104 144 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1200 176 2 0 3
+	Name	:G1QOUT
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_REALPL
+	1136 176 0 0 12
+	T	:0.005
+	G	:-1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:85
+WIRE
+	1104 176 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+GROUP
+	1488 624 0 0 0
+	46
+DASHED_LINE
+	1648 752 0 0 2
+	-128 -4 128 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1776 624 1 0 2
+	-4 -128 4 128
+	LW	:1.0
+	COL	:RED
+wirelabel
+	1744 560 2 0 3
+	Name	:G1TEGEN
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1744 560 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1712 624 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	1680 656 0 0 1
+	Val	:0.5
+rtds_sharc_ctl_MUL
+	1712 592 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:233
+WIRE
+	1680 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 592 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1648 592 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:232
+wirelabel
+	1584 656 0 0 3
+	Name	:G1RTRID
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1584 624 0 0 3
+	Name	:G1RTRFQ
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1584 592 0 0 3
+	Name	:G1RTRIQ
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	1584 560 0 0 3
+	Name	:G1RTRFD
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1584 656 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 624 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 560 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	1616 624 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:220
+rtds_sharc_ctl_MUL
+	1616 560 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:231
+annotation
+	1648 688 0 0 3
+	AL1	:TEGEN IS PU TORQUE
+	AL2	:( POSITIVE FOR GENERATION )
+	FSize	:10
+rtds_BLACKTEXT1
+	1584 496 0 0 3
+	AL1	:CONTROLS PROCESSOR 1
+	COL	:BLUE
+	LOC	:MIDDLE
+DASHED_LINE
+	1520 624 1 0 2
+	-4 -128 4 128
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1648 496 0 0 2
+	-128 -4 128 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1360 496 0 0 2
+	-160 -4 128 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1488 624 1 0 2
+	-4 -128 4 96
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1360 720 0 0 2
+	-160 -4 128 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1200 624 1 0 2
+	-4 -128 4 96
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_GAIN
+	1360 624 0 0 3
+	K	:-0.031364
+	Proc	:1
+	Pri	:21
+rtds_sharc_ctl_GAIN
+	1360 560 0 0 3
+	K	:-0.031364
+	Proc	:1
+	Pri	:20
+rtds_sharc_ctl_GAIN
+	1360 688 0 0 3
+	K	:-0.031364
+	Proc	:1
+	Pri	:19
+wirelabel
+	1424 688 0 0 3
+	Name	:G1IW1C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1424 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1424 624 0 0 3
+	Name	:G1IW1B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1424 624 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1424 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1424 560 0 0 3
+	Name	:G1IW1A
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_IMPEXP
+	1264 688 2 1 2
+	Name	:G1IW3C
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	1264 656 2 1 2
+	Name	:G1IW2C
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	1264 624 2 1 2
+	Name	:G1IW3B
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	1264 592 2 1 2
+	Name	:G1IW2B
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	1264 560 2 1 2
+	Name	:G1IW3A
+	Type	:FLOAT
+rtds_sharc_ctl_IMPEXP
+	1264 528 2 1 2
+	Name	:G1IW2A
+	Type	:FLOAT
+rtds_sharc_ctl_SUM3
+	1296 688 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:18
+rtds_sharc_ctl_SUM3
+	1296 624 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:17
+rtds_sharc_ctl_SUM3
+	1296 560 2 1 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:16
+WIRE
+	688 432 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 368 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 464 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	720 464 0 0 3
+	Name	:G1TMECH
+	COL	:BLUE
+	Monitor	:Yes
+jumper
+	656 400 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	720 400 0 0 2
+	-96 -4 96 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	720 432 0 0 4
+	Num	:TWO
+	IorF	:REAL
+	Proc	:1
+	Pri	:167
+WIRE
+	784 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_REALPL
+	816 432 0 0 12
+	T	:0.06
+	G	:2.2
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:174
+wirelabel
+	880 432 0 0 3
+	Name	:G1PTRBMW
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	624 528 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+jumper
+	656 464 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 528 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	1136 848 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	1200 848 0 0 3
+	K	:57.3
+	Proc	:1
+	Pri	:15
+WIRE
+	1136 944 1 0 2
+	-4 -96 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 912 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1232 912 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:-
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:14
+rtds_sharc_ctl_CONSTANT
+	1200 944 0 0 1
+	Val	:2.0943
+WIRE
+	1296 912 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 1008 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SUM3
+	1232 1008 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:13
+rtds_sharc_ctl_CONSTANT
+	1200 1040 0 0 1
+	Val	:2.0943
+WIRE
+	1296 1008 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ANGLEFIX
+	1360 944 0 0 2
+	Proc	:1
+	Pri	:84
+rtds_sharc_ctl_ANGLEFIX
+	1360 1040 0 0 2
+	Proc	:1
+	Pri	:83
+WIRE
+	1392 848 0 0 2
+	-160 -4 160 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1456 944 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1456 1040 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1552 944 0 0 3
+	Name	:PHASEB
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1552 944 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1552 1040 0 0 3
+	Name	:PHASEC
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1552 1040 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1552 848 0 0 3
+	Name	:PHASEA
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_GAIN
+	1488 944 0 0 3
+	K	:57.3
+	Proc	:1
+	Pri	:116
+rtds_sharc_ctl_GAIN
+	1488 1040 0 0 3
+	K	:57.3
+	Proc	:1
+	Pri	:115
+wirelabel
+	656 336 2 0 3
+	Name	:HPWPU
+	COL	:BLUE
+	Monitor	:Yes
+GROUP
+	1072 1104 0 0 0
+	5
+WIRE
+	1168 1104 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1168 1104 0 0 3
+	Name	:MAG
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_GAIN
+	1104 1104 0 0 3
+	K	:1.0
+	Proc	:1
+	Pri	:12
+WIRE
+	1072 1104 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	1008 1104 0 0 1
+	Val	:1.0
+rtds_sharc_ctl_RAMPG
+	1040 848 0 0 7
+	T	:1.0
+	Xic	:0.0
+	Yic	:0.0
+	Rmphi	:6.2831853
+	Rmplo	:0.0
+	Proc	:1
+	Pri	:11
+rtds_sharc_ctl_CONSTANT
+	944 848 0 0 1
+	Val	:1.0
+wirelabel
+	816 272 2 0 3
+	Name	:G1PITCH
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	816 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_REALPL
+	720 272 0 0 12
+	T	:0.6
+	G	:1
+	RST	:No
+	LIM	:None
+	TGD	:Yes
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1.0
+	Gic	:1.0
+	Proc	:1
+	Pri	:152
+GROUP
+	624 272 0 0 0
+	3
+rtds_sharc_ctl_RATELIMIT
+	656 272 0 1 6
+	ULim	:5.0
+	LLIm	:-5.0
+	Xic	:0.0
+	Yic	:0.0
+	Proc	:1
+	Pri	:151
+WIRE
+	624 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_LIMITS
+	592 272 0 1 5
+	IorF	:REAL
+	ULim	:36
+	LLim	:0.0
+	Proc	:1
+	Pri	:150
+GROUP
+	400 240 0 0 0
+	20
+rtds_sharc_ctl_GAIN
+	496 272 0 0 3
+	K	:200
+	Proc	:1
+	Pri	:149
+WIRE
+	464 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_BLUETEXT1
+	304 144 2 0 1
+	AL1	:TURBINE SPEED LIMIT WHEN BLOCKED
+WIRE
+	368 176 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	240 144 0 0 1
+	Val	:10.0
+rtds_sharc_ctl_CONSTANT
+	240 176 0 0 1
+	Val	:1.0
+wirelabel
+	304 208 0 0 3
+	Name	:G1USPDLM
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_SIGSW
+	304 176 0 0 5
+	A	:0
+	DPath	:REAL
+	Pos	:A
+	Proc	:1
+	Pri	:129
+rtds_sharc_ctl_SUM3
+	400 272 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:-
+	IN3	:-
+	Proc	:1
+	Pri	:148
+rtds_sharc_ctl_CONSTANT
+	304 336 0 0 1
+	Val	:0.0
+WIRE
+	336 336 1 1 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	368 240 1 1 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_DYNLIMS
+	368 272 0 1 3
+	IorF	:REAL
+	Proc	:1
+	Pri	:147
+WIRE
+	336 272 0 1 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SLIDER
+	272 272 0 0 5
+	Name	:G1MXSPD
+	Init	:1.2
+	Max	:4
+	Min	:0.0
+	Units	:GEN PU
+WIRE
+	368 208 1 1 2
+	-4 32 4 0
+	COL	:RED
+	LW	:1.0
+wirelabel
+	368 176 2 0 3
+	Name	:G1SPDLM
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	400 272 0 1 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	560 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 336 1 1 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+DASHED_LINE
+	144 432 1 0 2
+	-4 -352 4 320
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	528 80 0 0 2
+	-384 -4 384 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	528 752 0 0 2
+	-384 -4 384 4
+	LW	:1.0
+	COL	:RED
+_rtds_multimass_v1
+	656 656 0 0 118
+	Name	:G1MM
+	freq	:60.0
+	rpsinit	:Yes
+	rps	:0
+	dampwrt	:delta-omega
+	nturb	:1
+	EXCen	:No
+	lfm	:CC
+	smm	:CC
+	specInit	:No
+	initSigName	:startInit
+	debug	:Off
+	Proc	:1
+	Pri	:166
+	HPSD	:0.0
+	IPASD	:0.0
+	IPBSD	:0.0
+	IPCSD	:0.0
+	LPASD	:0.0
+	LPBSD	:0.0
+	LPCSD	:0.0
+	LPDSD	:0.0
+	GENSD	:0.0
+	EXC1SD	:0.0
+	EXC2SD	:0.0
+	HPIPAMD	:0.0
+	IPAIPBMD	:0.0
+	IPBIPCMD	:0.0
+	IPCLPAMD	:0.0
+	LPALPBMD	:0.0
+	LPBLPCMD	:0.0
+	LPCLPDMD	:0.0
+	LPDGENMD	:0.0
+	GENEXC1MD	:0.0
+	EXC1EXC2MD	:0.0
+	HPIPAK	:0.0
+	IPAIPBK	:0.0
+	IPBIPCK	:0.0
+	IPCLPAK	:0.0
+	LPALPBK	:0.0
+	LPBLPCK	:0.0
+	LPCLPDK	:0.0
+	LPDGENK	:10000
+	GENEXC1K	:0.0
+	EXC1EXC2K	:0.0
+	HPH	:1.0
+	IPAH	:0.0
+	IPBH	:0.0
+	IPCH	:0.0
+	LPAH	:0.0
+	LPBH	:0.0
+	LPCH	:0.0
+	LPDH	:0.0
+	GENH	:0.5
+	EXC1H	:0.0
+	EXC2H	:0.0
+	HPWNAM	:HPW
+	IPAWNAM	:IPAW
+	IPBWNAM	:IPBW
+	IPCWNAM	:IPCW
+	LPAWNAM	:LPAW
+	LPBWNAM	:LPBW
+	LPCWNAM	:LPCW
+	LPDWNAM	:LPDW
+	GENWNAM	:GENW
+	EXC1WNAM	:EXC1W
+	EXC2WNAM	:EXC2W
+	HPWen	:Yes
+	IPAWen	:No
+	IPBWen	:No
+	IPCWen	:No
+	LPAWen	:No
+	LPBWen	:No
+	LPCWen	:No
+	LPDWen	:No
+	GENWen	:Yes
+	EXC1Wen	:No
+	EXC2Wen	:No
+	HPANAM	:HPANG
+	IPAANAM	:IPAA
+	IPBANAM	:IPBA
+	IPCANAM	:IPCA
+	LPAANAM	:LPAA
+	LPBANAM	:LPAA
+	LPCANAM	:LPCA
+	LPDANAM	:LPDA
+	EXC1ANAM	:EXC1A
+	EXC2ANAM	:EXC2A
+	HPAen	:Yes
+	IPAAen	:No
+	IPBAen	:No
+	IPCAen	:No
+	LPAAen	:No
+	LPBAen	:No
+	LPCAen	:No
+	LPDAen	:No
+	EXC1Aen	:No
+	EXC2Aen	:No
+	HPIPATen	:No
+	IPAIPBTen	:No
+	IPBIPCTen	:No
+	IPCLPATen	:No
+	LPALPBTen	:No
+	LPBLPCTen	:No
+	LPCLPDTen	:No
+	LSTGENTen	:Yes
+	GENEXC1Ten	:No
+	EXC1EXC2Ten	:No
+	HPIPATNAM	:HPIPAT
+	IPAIPBTNAM	:IPAIPBT
+	IPBIPCTNAM	:IPBIPCT
+	IPCLPATNAM	:IPCLPAT
+	LPALPBTNAM	:LPALPBT
+	LPBLPCTNAM	:LPBLPCT
+	LPCLPDTNAM	:LPCLPDT
+	LSTGENTNAM	:LSTGENTRQ
+	GENEXC1TNAM	:GENEXC1T
+	EXC1EXC2TNAM	:EXC1EXC2T
+rtds_sharc_ctl_SUM3
+	656 592 0 0 7
+	Num	:TWO
+	IorF	:REAL
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:173
+rtds_sharc_ctl_CONSTANT
+	624 592 0 0 1
+	Val	:376.991
+WIRE
+	688 592 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 592 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	336 624 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SWITCH
+	240 624 0 0 7
+	Name	:G1LCKFR
+	Init	:Off
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+	Ton	:LOCK
+	Toff	:FREE
+WIRE
+	336 688 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SWITCH
+	240 688 0 0 7
+	Name	:G1SGLMLT
+	Init	:On
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+	Ton	:MULTI
+	Toff	:SNGL
+wirelabel
+	848 592 2 0 3
+	Name	:G1XSPDO
+	COL	:BLUE
+	Monitor	:Yes
+GROUP
+	784 624 0 0 0
+	5
+rtds_sharc_ctl_ICONST
+	752 624 0 0 1
+	Val	:0
+WIRE
+	848 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	848 656 2 0 3
+	Name	:G1XLCKFR
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_SUM3
+	784 656 2 1 7
+	Num	:TWO
+	IorF	:INTEGER
+	IN1	:+
+	IN2	:+
+	IN3	:-
+	Proc	:1
+	Pri	:10
+rtds_sharc_ctl_ICONST
+	752 656 0 0 1
+	Val	:0
+WIRE
+	752 688 0 0 2
+	-96 -4 96 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	848 688 0 0 3
+	Name	:G1TEPU
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	400 592 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 560 0 0 2
+	-128 -4 96 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	400 560 2 0 3
+	Name	:G1TMECH
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	656 528 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_GAIN
+	720 528 0 1 3
+	K	:2.6526e-3
+	Proc	:1
+	Pri	:9
+WIRE
+	752 528 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	784 528 2 0 3
+	Name	:HPW
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_GAIN
+	752 592 0 0 3
+	K	:2.6526e-3
+	Proc	:1
+	Pri	:181
+HIERARCHY
+	624 208 0 0 29
+	Name	:
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:START UP TIMER &
+	DESC2	:CROWBAR CONTROL
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:131
+	x1	:-64
+	y1	:-64
+	x2	:96
+	y2	:32
+	canvasX	:32
+	canvasY	:47
+	canvasWidth	:1248
+	canvasHeight	:659
+	isOpen	:NO
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+DASHED_LINE
+	240 208 1 0 2
+	-4 -160 4 160
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	464 208 0 0 2
+	-224 -4 192 4
+	LW	:1.0
+	COL	:RED
+WIRE
+	560 208 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+DASHED_LINE
+	656 208 1 0 2
+	-4 -160 4 160
+	LW	:1.0
+	COL	:RED
+wirelabel
+	624 272 0 0 3
+	Name	:G1CNTL
+	COL	:BLUE
+	Monitor	:Yes
+rtds_BLUETEXT1
+	336 208 0 0 1
+	AL1	:FAULTS
+DASHED_LINE
+	464 368 0 0 2
+	-224 -4 192 4
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_SUM3
+	560 272 2 1 7
+	Num	:THREE
+	IorF	:INTEGER
+	IN1	:+
+	IN2	:+
+	IN3	:+
+	Proc	:1
+	Pri	:82
+WIRE
+	624 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 272 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	432 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	400 336 2 0 3
+	Name	:FLT1SX
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	560 336 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+wirelabel
+	400 272 2 0 3
+	Name	:FLT1TX
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	432 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	528 336 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_BSHIFT
+	464 272 0 0 5
+	SD	:Left
+	NB	:3
+	MASK	:FFFFFFFF
+	Proc	:1
+	Pri	:81
+rtds_sharc_ctl_BSHIFT
+	464 336 0 0 5
+	SD	:Left
+	NB	:6
+	MASK	:FFFFFFFF
+	Proc	:1
+	Pri	:80
+DASHED_LINE
+	464 48 0 0 2
+	-224 -4 192 4
+	LW	:1.0
+	COL	:RED
+WIRE
+	560 112 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_BLUETEXT1
+	464 48 0 0 1
+	AL1	:CREATE SMALL DT CONTROL WORD
+WIRE
+	496 112 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	400 112 0 0 4
+	Num	:TWO
+	IorF	:INTEGER
+	Proc	:1
+	Pri	:8
+WIRE
+	400 112 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ICONST
+	368 144 0 0 1
+	Val	:7
+wirelabel
+	368 112 2 0 3
+	Name	:G1XDBLK1
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	368 528 2 0 3
+	Name	:TIMXXX2
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_SLIDER
+	304 528 0 0 5
+	Name	:FLTTMS2
+	Init	:0.08
+	Max	:0.20
+	Min	:0.01
+	Units	:SECONDS
+rtds_sharc_ctl_MONO
+	496 496 0 0 7
+	PN	:Rising
+	TM	:Variable
+	LOT	:0.001
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:7
+rtds_sharc_ctl_PB
+	400 496 0 0 4
+	Name	:FLT1T
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+WIRE
+	464 496 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 528 0 0 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_DIAL
+	432 464 0 0 34
+	Name	:VALUF1T
+	Type	:INTEGER
+	Pos	:7
+	Init	:7
+	IP1	:1
+	IP2	:2
+	IP3	:3
+	IP4	:4
+	IP5	:5
+	IP6	:6
+	IP7	:7
+	IP8	:8
+	IP9	:9
+	IP10	:10
+	FP1	:1.0
+	FP2	:2.0
+	FP3	:3.0
+	FP4	:4.0
+	FP5	:5.0
+	FP6	:6.0
+	FP7	:7.0
+	FP8	:8.0
+	FP9	:9.0
+	FP10	:10.0
+	HEX1	:01
+	HEX2	:02
+	HEX3	:03
+	HEX4	:04
+	HEX5	:05
+	HEX6	:06
+	HEX7	:07
+	HEX8	:08
+	HEX9	:09
+	HEX10	:0A
+WIRE
+	496 464 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	528 464 0 0 4
+	Num	:TWO
+	IorF	:INTEGER
+	Proc	:1
+	Pri	:79
+WIRE
+	592 464 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	592 464 2 0 3
+	Name	:FLT1TX
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_MONO
+	496 624 0 0 7
+	PN	:Rising
+	TM	:Variable
+	LOT	:0.001
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:6
+WIRE
+	496 592 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	528 592 0 0 4
+	Num	:TWO
+	IorF	:INTEGER
+	Proc	:1
+	Pri	:78
+WIRE
+	592 592 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	592 592 2 0 3
+	Name	:FLT1SX
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_DIAL
+	432 592 0 0 34
+	Name	:VALUF1S
+	Type	:INTEGER
+	Pos	:7
+	Init	:7
+	IP1	:1
+	IP2	:2
+	IP3	:3
+	IP4	:4
+	IP5	:5
+	IP6	:6
+	IP7	:7
+	IP8	:8
+	IP9	:9
+	IP10	:10
+	FP1	:1.0
+	FP2	:2.0
+	FP3	:3.0
+	FP4	:4.0
+	FP5	:5.0
+	FP6	:6.0
+	FP7	:7.0
+	FP8	:8.0
+	FP9	:9.0
+	FP10	:10.0
+	HEX1	:01
+	HEX2	:02
+	HEX3	:03
+	HEX4	:04
+	HEX5	:05
+	HEX6	:06
+	HEX7	:07
+	HEX8	:08
+	HEX9	:09
+	HEX10	:0A
+WIRE
+	464 624 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_PB
+	400 624 0 0 4
+	Name	:FLT1S
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+WIRE
+	432 656 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	368 592 1 0 2
+	-4 -64 4 64
+	COL	:RED
+	LW	:1.0
+DASHED_LINE
+	464 400 0 0 2
+	-192 -4 192 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	464 688 0 0 2
+	-192 -4 192 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	656 560 1 0 2
+	-4 -160 4 128
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	272 560 1 0 2
+	-4 -160 4 128
+	LW	:1.0
+	COL	:RED
+annotation
+	368 400 0 0 3
+	AL1	:WTG1 FAULTS
+	AL2	:
+	FSize	:10
+DASHED_LINE
+	720 528 1 0 2
+	-4 -160 4 128
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1072 368 0 0 2
+	-352 -4 352 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1424 528 1 0 2
+	-4 -160 4 128
+	LW	:1.0
+	COL	:RED
+rtds_BLUETEXT1
+	1168 144 0 0 1
+	AL1	:FIRING DELAY ON DEBLK OF MAIN BRKR
+DASHED_LINE
+	944 112 0 0 2
+	-224 -4 224 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1136 336 0 0 2
+	-416 -4 416 4
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_INTGL
+	848 208 0 0 9
+	T	:1.0
+	RST	:Yes
+	LIM	:Internal
+	Xic	:0.0
+	Yic	:0.0
+	PItype	:Fixed
+	Tic	:1
+	Proc	:1
+	Pri	:5
+rtds_sharc_ctl_NOT
+	784 240 0 0 3
+	Op	:LSB
+	Proc	:1
+	Pri	:4
+WIRE
+	784 240 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	880 272 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	784 176 0 0 1
+	Val	:0.0
+WIRE
+	912 176 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	880 144 0 0 1
+	Val	:60.0
+rtds_sharc_ctl_CONSTANT
+	784 208 0 0 1
+	Val	:1.0
+WIRE
+	944 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	816 272 0 0 1
+	Val	:0.0
+WIRE
+	880 272 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1136 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1040 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_COMPARE
+	976 208 0 0 9
+	LOG	:A > B
+	INPT	:REAL
+	OUTT	:INTEGER
+	Proc	:1
+	Pri	:77
+	IOAB	:1
+	IOBA	:0
+	FOAB	:1.25
+	FOBA	:-1.333
+rtds_sharc_ctl_LOGIC
+	1072 208 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:114
+WIRE
+	1040 272 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1040 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SWITCH
+	976 304 0 0 7
+	Name	:G1DB
+	Init	:Off
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+	Ton	:DBLK
+	Toff	:BLK
+WIRE
+	944 272 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SLIDER
+	880 304 0 0 5
+	Name	:G1DELAY4
+	Init	:1.0
+	Max	:100.0
+	Min	:0.0
+	Units	:SEC
+WIRE
+	944 304 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+DASHED_LINE
+	944 336 0 0 2
+	-224 -4 224 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	720 240 1 0 2
+	-4 -128 4 96
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1360 112 0 0 2
+	-192 -4 192 4
+	LW	:1.0
+	COL	:RED
+DASHED_LINE
+	1552 240 1 0 2
+	-4 -128 4 96
+	LW	:1.0
+	COL	:RED
+wirelabel
+	752 240 2 0 3
+	Name	:G1XDBLK1
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1232 208 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	1264 208 0 0 4
+	Num	:TWO
+	IorF	:INTEGER
+	Proc	:1
+	Pri	:128
+rtds_sharc_ctl_ICONST
+	1232 240 0 0 1
+	Val	:1
+WIRE
+	1328 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1328 208 2 0 3
+	Name	:G1DBLKS
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1360 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1168 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MUL
+	1360 208 0 0 4
+	Num	:TWO
+	IorF	:INTEGER
+	Proc	:1
+	Pri	:146
+wirelabel
+	1424 208 2 0 3
+	Name	:G1DB1
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	1424 208 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ICONST
+	1328 240 0 0 1
+	Val	:63
+WIRE
+	1168 272 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 304 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_NOT
+	1232 304 0 0 3
+	Op	:LSB
+	Proc	:1
+	Pri	:127
+WIRE
+	1296 304 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1328 304 2 0 3
+	Name	:G1USPDLM
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_COMPARE
+	880 432 0 0 9
+	LOG	:A >= B
+	INPT	:REAL
+	OUTT	:INTEGER
+	Proc	:1
+	Pri	:3
+	IOAB	:1
+	IOBA	:0
+	FOAB	:1.25
+	FOBA	:-1.333
+rtds_sharc_ctl_COMPARE
+	880 528 0 0 9
+	LOG	:A >= B
+	INPT	:REAL
+	OUTT	:INTEGER
+	Proc	:1
+	Pri	:2
+	IOAB	:1
+	IOBA	:0
+	FOAB	:1.25
+	FOBA	:-1.333
+rtds_sharc_ctl_CONSTANT
+	816 464 0 0 1
+	Val	:2.0
+WIRE
+	944 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	816 432 0 0 3
+	Name	:G1VCAP
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	848 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	848 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	816 560 0 0 3
+	Name	:G1VCAP
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_CONSTANT
+	816 528 0 0 1
+	Val	:1.7
+WIRE
+	944 528 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1232 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_INT2IEEE
+	1264 432 0 0 2
+	Proc	:1
+	Pri	:113
+rtds_sharc_ctl_GAIN
+	1328 432 0 0 3
+	K	:1.0
+	Proc	:1
+	Pri	:126
+WIRE
+	1392 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1392 432 0 0 3
+	Name	:GCB1
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_ctl_SRFF
+	1072 464 0 0 4
+	ISTA	:Q = 0
+	INV	:High
+	Proc	:1
+	Pri	:76
+WIRE
+	1136 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_LOGIC
+	1168 432 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:112
+WIRE
+	1136 528 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	976 432 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.00
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:75
+WIRE
+	1040 432 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_MONO
+	976 528 0 0 7
+	PN	:Rising
+	TM	:Fixed
+	LOT	:0.00
+	OT	:1
+	OR	:0
+	Proc	:1
+	Pri	:74
+WIRE
+	1008 528 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	1040 496 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1136 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_SWITCH
+	1072 560 0 0 7
+	Name	:G1CROWB
+	Init	:Off
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+	Ton	:ON
+	Toff	:OFF
+rtds_BLUETEXT1
+	1072 624 0 0 1
+	AL1	:CROWBAR CONTROLLER
+wirelabel
+	1136 432 2 0 3
+	Name	:GCB1DT
+	COL	:BLUE
+	Monitor	:Yes
+DASHED_LINE
+	1072 656 0 0 2
+	-352 -4 352 4
+	LW	:1.0
+	COL	:RED
+rtds_sharc_ctl_SWITCH
+	272 112 0 0 7
+	Name	:G1MNBKR
+	Init	:Off
+	Type	:INTEGER
+	VOn	:1
+	VOff	:0
+	Ton	:ON
+	Toff	:OFF
+WIRE
+	336 112 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_BRIDGE_BOX
+	304 144 0 0 102
+	Name	:WTG1
+	Desc	:POWER CIRCUIT
+	dt_size	:2500
+	rqnmp	:Two
+	supprs	:NO
+	AorM	:Automatic
+	CARD	:2
+	Rprc	:A
+	Am	:NO
+	CORE	:1
+	enabdi	:NO
+	enbdi2	:NO
+	gtdip	:One
+	gtdin	:One
+	namdi1	:No
+	namd11	:GTDI1W1
+	namd12	:GTDI1W2
+	gtdip3	:1
+	gtdip2	:One
+	gtdin2	:One
+	namdi2	:No
+	namd21	:GTDI2W1
+	namd22	:GTDI2W2
+	gtdip4	:1
+	enaop1	:NO
+	enaop3	:NO
+	enaop2	:NO
+	enaop4	:NO
+	gtaop5	:1
+	gtaon5	:One
+	gtaop6	:1
+	gtaon6	:One
+	gtaop7	:1
+	gtaon7	:One
+	gtaop8	:1
+	gtaon8	:One
+	gtaop1	:One
+	gtaon1	:One
+	gtaop3	:One
+	gtaon3	:Two
+	gtaop2	:One
+	gtaon2	:One
+	gtaop4	:One
+	gtaon4	:Two
+	pm1tog	:CLOCKS
+	pm1num	:1
+	nam1	:CLKSPR1
+	nam2	:CLKSPR2
+	pm2tog	:CLOCKS
+	pm2num	:1
+	nampm3	:PMC2PR1
+	nampm4	:PMC2PR2
+	pm3tog	:CLOCKS
+	pm3num	:1
+	nampm5	:PMC3PR1
+	nampm6	:PMC3PR2
+	pm4tog	:CLOCKS
+	pm4num	:1
+	nampm7	:PMC4PR1
+	nampm8	:PMC4PR2
+	pm5tog	:CLOCKS
+	pm5num	:1
+	nampm9	:PMC5PR1
+	namp10	:PMC5PR2
+	pm6tog	:CLOCKS
+	pm6num	:1
+	namp11	:PMC6PR1
+	namp12	:PMC6PR2
+	stpnm1	:NO
+	nam3	:STEPPR1
+	stpnm2	:NO
+	nam4	:STEPPR2
+	FCOL	:BLUE
+	BCOL	:WHITE
+	LW	:1.0
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	ComponentCount	:67
+	x1	:-64
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:40
+	canvasY	:48
+	canvasWidth	:960
+	canvasHeight	:664
+	BRIDGE_NUM	:2
+	VSC_NODE_COUNT	:21
+	isOpen	:NO
+	vscmrg	:360
+	mindlt	:1400
+	clkmon	:NO
+	montyp	:SML_DT
+	pmonu1	:BY_TOGGLE
+	pmonu2	:OFF
+	pmonu3	:OFF
+	pmonu4	:OFF
+	pmonu5	:OFF
+	pmonu6	:OFF
+	AVERAGE_TS	:0
+	MAIN_INST_COUNT	:0
+	TS_MARGIN	:150
+rtds_vsc_INDM
+	1904 304 0 1 203
+	Name	:G1IM
+	prc12	:1
+	tysat	:Linear
+	nmrt	:One
+	rf2in	:No
+	radd1	:0.0
+	rv2in	:No
+	rf2cn	:Active
+	zvsrc	:No
+	spcsp	:Slip
+	zroc	:No
+	calrp	:No
+	rptc	:0.0
+	vmag	:1.0
+	fpu	:1.0
+	vang	:0.0
+	theta	:0.0
+	radd2	:0.0
+	slip	:0.0
+	pinpu	:0.0
+	qinpu	:0.1
+	modnm	:G1XLCKFR
+	spdnm	:G1XSPDO
+	trqnm	:G1TMECH
+	rf2nm	:INDR1
+	vnam1	:VSRCA
+	vnam2	:VSRCB
+	vnam3	:VSRCC
+	vbsll	:0.69
+	trato	:2.6377
+	pbase	:2.2
+	hrtz	:60.0
+	ra	:0.00462
+	xa	:0.102
+	xmd0	:4.348
+	rfd	:0.0060
+	xfd	:0.08596
+	rkd	:0.2
+	xkd	:0.07
+	xkf	:0.0
+	H	:1.5
+	C1	:0.0
+	V1	:0.0
+	C2	:0.5
+	V2	:0.5
+	C3	:0.8
+	V3	:0.79
+	C4	:1.0
+	V4	:0.947
+	C5	:1.2
+	V5	:1.076
+	C6	:1.5
+	V6	:1.2
+	C7	:1.8
+	V7	:1.3
+	C8	:2.2
+	V8	:1.39
+	C9	:3.2
+	V9	:1.58
+	C10	:4.2
+	V10	:1.74
+	SE10	:0.0609
+	SE12	:0.1292
+	mon1	:Yes
+	mon2	:Yes
+	mon3	:Yes
+	mon4	:Yes
+	mon5	:Yes
+	mon6	:Yes
+	mon7	:Yes
+	mon8	:Yes
+	mon9	:Yes
+	mon10	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	ao7	:No
+	ao8	:No
+	ao9	:No
+	ao10	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	gao7	:No
+	gao8	:No
+	gao9	:No
+	gao10	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:1.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:2.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:2.0
+	inv6	:No
+	off6	:0.0
+	chn10	:1
+	scl10	:200.0
+	inv10	:No
+	off10	:0.0
+	chn7	:1
+	scl7	:6.28318
+	inv7	:No
+	off7	:0.0
+	chn8	:1
+	scl8	:1.0
+	inv8	:No
+	off8	:0.0
+	chn9	:1
+	scl9	:1.0
+	inv9	:No
+	off9	:0.0
+	gcrd1	:One
+	gchn1	:4
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:2.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:2
+	gscl5	:2.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:3
+	gscl6	:2.0
+	ginv6	:No
+	goff6	:0.0
+	gcrd10	:One
+	gchn10	:1
+	gscl10	:200.0
+	ginv10	:No
+	goff10	:0.0
+	gcrd7	:One
+	gchn7	:1
+	gscl7	:6.28318
+	ginv7	:No
+	goff7	:0.0
+	gcrd8	:One
+	gchn8	:1
+	gscl8	:1.0
+	ginv8	:No
+	goff8	:0.0
+	gcrd9	:One
+	gchn9	:1
+	gscl9	:1.0
+	ginv9	:No
+	goff9	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	Ngcrd10	:One
+	Ngcrd7	:One
+	Ngcrd8	:One
+	Ngcrd9	:One
+	nam1	:G1ISTA
+	nam2	:G1ISTB
+	nam3	:G1ISTC
+	nam4	:G1IRTA
+	nam5	:G1IRTB
+	nam6	:G1IRTC
+	nam7	:G1RANG
+	nam8	:G1TEPU
+	nam9	:G1SPD
+	nam10	:G1ROTPI
+WIRE
+	1232 400 0 1 2
+	-64 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1264 464 1 1 2
+	-4 32 4 -32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1232 432 0 1 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1200 464 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_RES1
+	1168 496 1 0 2
+	Name	:BREST3
+	R	:1.0e4
+rtds_vsc_RES1
+	1232 368 2 0 2
+	Name	:BREST2
+	R	:1.0e4
+rtds_vsc_T3PH3W
+	1072 368 0 0 334
+	Name	:G1TRF
+	prc12	:1
+	YD1	:Y
+	YD2	:Y
+	YD3	:Y
+	tapch	:No
+	vsrw2	:No
+	vsrw3	:No
+	enpdm	:None
+	calpw1	:No
+	calpw2	:No
+	calpw3	:No
+	rptc	:0.0
+	TMVA	:2.5
+	freqb	:60.0
+	W1VLL	:22.0
+	W2VLL	:0.69
+	W3VLL	:0.69
+	W1lag	:Lag30
+	W2lag	:Lag30
+	W3lag	:Lag30
+	Xl12	:0.1
+	Xl13	:0.1
+	Xl23	:0.1
+	W1R	:0.0
+	W2R	:0.0
+	W3R	:0.001
+	namtp	:TAP1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	pdmpx	:1000.0
+	pdmpt	:3.0e-6
+	vnam1	:VSRCW2A
+	vnam2	:VSRCW2B
+	vnam3	:VSRCW2C
+	vnam4	:VSRCW3A
+	vnam5	:VSRCW3B
+	vnam6	:VSRCW3C
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:Yes
+	mon5	:Yes
+	mon6	:Yes
+	mon7	:Yes
+	mon8	:Yes
+	mon9	:Yes
+	mon10	:No
+	mon11	:No
+	mon12	:No
+	mon13	:No
+	mon14	:No
+	mon15	:No
+	mon16	:No
+	mon17	:No
+	mon18	:No
+	mon19	:No
+	mon20	:No
+	mon21	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	ao7	:No
+	ao8	:No
+	ao9	:No
+	ao10	:No
+	ao11	:No
+	ao12	:No
+	ao13	:No
+	ao14	:No
+	ao15	:No
+	ao16	:No
+	ao17	:No
+	ao18	:No
+	ao19	:No
+	ao20	:No
+	ao21	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	gao7	:No
+	gao8	:No
+	gao9	:No
+	gao10	:No
+	gao11	:No
+	gao12	:No
+	gao13	:No
+	gao14	:No
+	gao15	:No
+	gao16	:No
+	gao17	:No
+	gao18	:No
+	gao19	:No
+	gao20	:No
+	gao21	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:2.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:2.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:2.0
+	inv6	:No
+	off6	:0.0
+	chn7	:1
+	scl7	:2.0
+	inv7	:No
+	off7	:0.0
+	chn8	:1
+	scl8	:2.0
+	inv8	:No
+	off8	:0.0
+	chn9	:1
+	scl9	:2.0
+	inv9	:No
+	off9	:0.0
+	chn10	:1
+	scl10	:2.0
+	inv10	:No
+	off10	:0.0
+	chn11	:1
+	scl11	:2.0
+	inv11	:No
+	off11	:0.0
+	chn12	:1
+	scl12	:2.0
+	inv12	:No
+	off12	:0.0
+	chn13	:1
+	scl13	:2.0
+	inv13	:No
+	off13	:0.0
+	chn14	:1
+	scl14	:2.0
+	inv14	:No
+	off14	:0.0
+	chn15	:1
+	scl15	:2.0
+	inv15	:No
+	off15	:0.0
+	chn16	:1
+	scl16	:2.0
+	inv16	:No
+	off16	:0.0
+	chn17	:1
+	scl17	:2.0
+	inv17	:No
+	off17	:0.0
+	chn18	:1
+	scl18	:2.0
+	inv18	:No
+	off18	:0.0
+	chn19	:1
+	scl19	:200.0
+	inv19	:No
+	off19	:0.0
+	chn20	:1
+	scl20	:200.0
+	inv20	:No
+	off20	:0.0
+	chn21	:1
+	scl21	:200.0
+	inv21	:No
+	off21	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:2.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:1
+	gscl5	:2.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:1
+	gscl6	:2.0
+	ginv6	:No
+	goff6	:0.0
+	gcrd7	:One
+	gchn7	:1
+	gscl7	:2.0
+	ginv7	:No
+	goff7	:0.0
+	gcrd8	:One
+	gchn8	:1
+	gscl8	:2.0
+	ginv8	:No
+	goff8	:0.0
+	gcrd9	:One
+	gchn9	:1
+	gscl9	:2.0
+	ginv9	:No
+	goff9	:0.0
+	gcrd10	:One
+	gchn10	:1
+	gscl10	:2.0
+	ginv10	:No
+	goff10	:0.0
+	gcrd11	:One
+	gchn11	:1
+	gscl11	:2.0
+	ginv11	:No
+	goff11	:0.0
+	gcrd12	:One
+	gchn12	:1
+	gscl12	:2.0
+	ginv12	:No
+	goff12	:0.0
+	gcrd13	:One
+	gchn13	:1
+	gscl13	:2.0
+	ginv13	:No
+	goff13	:0.0
+	gcrd14	:One
+	gchn14	:1
+	gscl14	:2.0
+	ginv14	:No
+	goff14	:0.0
+	gcrd15	:One
+	gchn15	:1
+	gscl15	:2.0
+	ginv15	:No
+	goff15	:0.0
+	gcrd16	:One
+	gchn16	:1
+	gscl16	:2.0
+	ginv16	:No
+	goff16	:0.0
+	gcrd17	:One
+	gchn17	:1
+	gscl17	:2.0
+	ginv17	:No
+	goff17	:0.0
+	gcrd18	:One
+	gchn18	:1
+	gscl18	:2.0
+	ginv18	:No
+	goff18	:0.0
+	gcrd19	:One
+	gchn19	:1
+	gscl19	:2.0
+	ginv19	:No
+	goff19	:0.0
+	gcrd20	:One
+	gchn20	:1
+	gscl20	:2.0
+	ginv20	:No
+	goff20	:0.0
+	gcrd21	:One
+	gchn21	:1
+	gscl21	:2.0
+	ginv21	:No
+	goff21	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	Ngcrd7	:One
+	Ngcrd8	:One
+	Ngcrd9	:One
+	Ngcrd10	:One
+	Ngcrd11	:One
+	Ngcrd12	:One
+	Ngcrd13	:One
+	Ngcrd14	:One
+	Ngcrd15	:One
+	Ngcrd16	:One
+	Ngcrd17	:One
+	Ngcrd18	:One
+	Ngcrd19	:One
+	Ngcrd20	:One
+	Ngcrd21	:One
+	nam1	:G1IW1A
+	nam2	:G1IW1B
+	nam3	:G1IW1C
+	nam4	:G1IW2A
+	nam5	:G1IW2B
+	nam6	:G1IW2C
+	nam7	:G1IW3A
+	nam8	:G1IW3B
+	nam9	:G1IW3C
+	nam10	:ITW1BA
+	nam11	:ITW1CB
+	nam12	:ITW1AC
+	nam13	:ITW2BA
+	nam14	:ITW2CB
+	nam15	:ITW2AC
+	nam16	:ITW3BA
+	nam17	:ITW3CB
+	nam18	:ITW3AC
+	nam19	:WND1P
+	nam20	:WND2P
+	nam21	:WND3P
+rtds_vsc_RES1
+	944 432 1 0 2
+	Name	:BREST1
+	R	:1.0e5
+ground
+	944 496 1 0 0
+ground
+	1232 368 0 0 0
+WIRE
+	1232 496 1 1 2
+	-4 32 4 0
+	COL	:RED
+	LW	:1.0
+rtds_vsc_NOD1
+	1200 464 0 0 16
+	Name	:G1VW3C
+	prc12	:2
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	1200 432 0 0 16
+	Name	:G1VW3B
+	prc12	:2
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	1200 400 0 0 16
+	Name	:G1VW3A
+	prc12	:2
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	1200 304 2 1 16
+	Name	:G1VSTB
+	prc12	:1
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:2
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	1200 336 2 1 16
+	Name	:G1VSTC
+	prc12	:1
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:3
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	1200 272 2 1 16
+	Name	:G1VSTA
+	prc12	:1
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+WIRE
+	1296 464 1 1 2
+	-4 64 4 -32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1328 624 0 1 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1424 624 0 1 2
+	-64 -4 96 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1424 656 0 1 2
+	-64 -4 96 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1424 688 0 1 2
+	-64 -4 96 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_BKRN3
+	1296 304 0 0 95
+	Name	:G1BKR3
+	prc12	:2
+	srcfp	:CC_WORD
+	fpnam	:G1CNTL
+	bitnm	:0
+	vswit	:0.56
+	iswit	:0.1
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:100.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:100.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:100.0
+	inv6	:No
+	off6	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:100.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:1
+	gscl5	:100.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:1
+	gscl6	:100.0
+	ginv6	:No
+	goff6	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	nam1	:IBKRA1
+	nam2	:IBKRB1
+	nam3	:IBKRC1
+	nam4	:VBKRA1
+	nam5	:VBKRB1
+	nam6	:VBKRC1
+WIRE
+	1232 272 0 1 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1232 304 0 1 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1232 336 0 1 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 336 0 0 2
+	-224 -4 224 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 304 0 0 2
+	-224 -4 224 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 272 0 0 2
+	-224 -4 224 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2256 272 0 0 2
+	-224 -4 192 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2256 304 0 0 2
+	-224 -4 224 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2288 336 0 0 2
+	-256 -4 224 4
+	COL	:RED
+	LW	:1.0
+rtds_TEXT9
+	2128 240 0 0 19
+	NL	:4
+	COL1	:BLUE
+	COL2	:BLUE
+	COL3	:BLUE
+	COL4	:BLUE
+	COL5	:BLUE
+	COL6	:YELLOW
+	COL7	:GOLD
+	COL8	:BROWN
+	COL9	:VIOLET
+	AL1	:REDUCED XFD FROM
+	AL2	:0.111 PU TO 0.08596 PU
+	AL3	:TO MAKE 120 microH AVAILABLE FOR
+	AL4	:THE BRIDGE INTERFACE INDUCTANCE.
+	AL5	:
+	AL6	:Line6
+	AL7	:Line7
+	AL8	:Line8
+	AL9	:Line9
+rtds_vsc_NOD1
+	2096 336 2 0 16
+	Name	:G1VRTC
+	prc12	:2
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	2096 304 2 0 16
+	Name	:G1VRTB
+	prc12	:2
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	2096 272 2 0 16
+	Name	:G1VRTA
+	prc12	:2
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+WIRE
+	816 336 0 0 2
+	-128 -4 128 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 400 0 0 2
+	-128 -4 128 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 368 0 0 2
+	-128 -4 128 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 368 0 0 2
+	32 -4 -64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	336 336 0 0 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	336 400 0 0 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_LEV2BB
+	1712 688 0 0 758
+	Name	:G1BRDG
+	prc12	:2
+	pogrd	:No
+	negrd	:No
+	addg	:Yes
+	nmlg1	:3
+	firty1	:Pulses
+	ractr1	:0.0015
+	racth1	:100.0e-6
+	rvlon1	:0.001
+	rvlof1	:5000
+	snbc1	:0.2
+	snbr1	:30.0
+	ackv1	:0.5
+	acka1	:1.0
+	acfq1	:60.0
+	nmlg2	:3
+	firty2	:Pulses
+	ractr2	:0.0015
+	racth2	:100.0e-6
+	rvlon2	:0.001
+	rvlof2	:5000
+	snbc2	:0.2
+	snbr2	:30.0
+	ackv2	:0.5
+	acka2	:1.0
+	acfq2	:60.0
+	pocon	:No
+	necon	:No
+	capln	:0.003
+	resln	:0.0
+	drawdc	:Bottom
+	ecppn	:Yes
+	cappn	:110e3
+	respn	:0.001
+	ecppg	:No
+	cappg	:0.100
+	respg	:0.100
+	ecpng	:No
+	capng	:0.100
+	resng	:0.100
+	cacpi1	:Yes
+	acptc1	:0.05
+	cdcpi	:No
+	dcptc	:0.0
+	cacpi2	:Yes
+	acptc2	:0.05
+	gdcnam	:GCB1
+	srcfp1	:CC_WORD
+	fpnam1	:G1FP1
+	rshft1	:0
+	srcfp2	:CC_WORD
+	fpnam2	:G1FP1
+	rshft2	:2
+	srcfp3	:CC_WORD
+	fpnam3	:G1FP1
+	rshft3	:4
+	ctnam1	:CRTOA1
+	ctnam2	:CRTOB1
+	ctnam3	:CRTOC1
+	cband1	:0.01
+	dbsrc1	:DI_1-32
+	dbnam1	:ENABW1
+	dbrsh1	:0
+	dbrsh2	:0
+	dbrsh3	:0
+	srcfp4	:CC_WORD
+	fpnam4	:G1FP2
+	rshft4	:0
+	srcfp5	:CC_WORD
+	fpnam5	:G1FP2
+	rshft5	:2
+	srcfp6	:CC_WORD
+	fpnam6	:G1FP2
+	rshft6	:4
+	ctnam4	:CRTOA1
+	ctnam5	:CRTOB1
+	ctnam6	:CRTOC1
+	cband2	:0.01
+	dbsrc2	:DI_1-32
+	dbnam2	:ENABW2
+	dbrsh4	:0
+	dbrsh5	:0
+	dbrsh6	:0
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	mon8	:No
+	mon9	:No
+	mon10	:No
+	mon11	:No
+	mon12	:No
+	mon13	:No
+	mon14	:No
+	mon15	:No
+	mon16	:No
+	mon17	:No
+	mon18	:No
+	mon19	:Yes
+	mon20	:No
+	mon21	:No
+	mon22	:No
+	mon23	:No
+	mon24	:No
+	mon25	:No
+	mon26	:No
+	mon27	:No
+	mon28	:No
+	mon29	:No
+	mon30	:No
+	mon31	:No
+	mon32	:No
+	mon33	:No
+	mon34	:No
+	mon35	:No
+	mon36	:No
+	mon37	:No
+	mon38	:No
+	mon39	:No
+	mon40	:No
+	mon41	:No
+	mon42	:Yes
+	mon43	:No
+	mon44	:No
+	mon45	:No
+	mon46	:No
+	mon47	:No
+	mon48	:No
+	mon49	:Yes
+	mon50	:No
+	mon51	:No
+	mon52	:No
+	mon53	:No
+	mon54	:No
+	mon55	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	ao7	:No
+	ao8	:No
+	ao9	:No
+	ao10	:No
+	ao11	:No
+	ao12	:No
+	ao13	:No
+	ao14	:No
+	ao15	:No
+	ao16	:No
+	ao17	:No
+	ao18	:No
+	ao19	:No
+	ao24	:No
+	ao25	:No
+	ao26	:No
+	ao27	:No
+	ao28	:No
+	ao29	:No
+	ao30	:No
+	ao31	:No
+	ao32	:No
+	ao33	:No
+	ao34	:No
+	ao35	:No
+	ao36	:No
+	ao37	:No
+	ao38	:No
+	ao39	:No
+	ao40	:No
+	ao41	:No
+	ao42	:No
+	ao47	:No
+	ao48	:No
+	ao49	:No
+	ao50	:No
+	ao51	:No
+	ao52	:No
+	ao53	:No
+	ao54	:No
+	ao55	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	gao7	:No
+	gao8	:No
+	gao9	:No
+	gao10	:No
+	gao11	:No
+	gao12	:No
+	gao13	:No
+	gao14	:No
+	gao15	:No
+	gao16	:No
+	gao17	:No
+	gao18	:No
+	gao19	:No
+	gao24	:No
+	gao25	:No
+	gao26	:No
+	gao27	:No
+	gao28	:No
+	gao29	:No
+	gao30	:No
+	gao31	:No
+	gao32	:No
+	gao33	:No
+	gao34	:No
+	gao35	:No
+	gao36	:No
+	gao37	:No
+	gao38	:No
+	gao39	:No
+	gao40	:No
+	gao41	:No
+	gao42	:No
+	gao47	:No
+	gao48	:No
+	gao49	:No
+	gao50	:No
+	gao51	:No
+	gao52	:No
+	gao53	:No
+	gao54	:No
+	gao55	:No
+	chn1	:1
+	scl1	:100.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:100.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:100.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:100.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:100.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:100.0
+	inv6	:No
+	off6	:0.0
+	chn7	:1
+	scl7	:2.0
+	inv7	:No
+	off7	:0.0
+	chn8	:1
+	scl8	:2.0
+	inv8	:No
+	off8	:0.0
+	chn9	:1
+	scl9	:2.0
+	inv9	:No
+	off9	:0.0
+	chn10	:1
+	scl10	:2.0
+	inv10	:No
+	off10	:0.0
+	chn11	:1
+	scl11	:2.0
+	inv11	:No
+	off11	:0.0
+	chn12	:1
+	scl12	:2.0
+	inv12	:No
+	off12	:0.0
+	chn13	:1
+	scl13	:100.0
+	inv13	:No
+	off13	:0.0
+	chn14	:1
+	scl14	:100.0
+	inv14	:No
+	off14	:0.0
+	chn15	:1
+	scl15	:100.0
+	inv15	:No
+	off15	:0.0
+	chn16	:1
+	scl16	:100.0
+	inv16	:No
+	off16	:0.0
+	chn17	:1
+	scl17	:100.0
+	inv17	:No
+	off17	:0.0
+	chn18	:1
+	scl18	:100.0
+	inv18	:No
+	off18	:0.0
+	chn19	:1
+	scl19	:100.0
+	inv19	:No
+	off19	:0.0
+	chn24	:1
+	scl24	:100.0
+	inv24	:No
+	off24	:0.0
+	chn25	:1
+	scl25	:100.0
+	inv25	:No
+	off25	:0.0
+	chn26	:1
+	scl26	:100.0
+	inv26	:No
+	off26	:0.0
+	chn27	:1
+	scl27	:100.0
+	inv27	:No
+	off27	:0.0
+	chn28	:1
+	scl28	:100.0
+	inv28	:No
+	off28	:0.0
+	chn29	:1
+	scl29	:100.0
+	inv29	:No
+	off29	:0.0
+	chn30	:1
+	scl30	:2.0
+	inv30	:No
+	off30	:0.0
+	chn31	:1
+	scl31	:2.0
+	inv31	:No
+	off31	:0.0
+	chn32	:1
+	scl32	:2.0
+	inv32	:No
+	off32	:0.0
+	chn33	:1
+	scl33	:2.0
+	inv33	:No
+	off33	:0.0
+	chn34	:1
+	scl34	:2.0
+	inv34	:No
+	off34	:0.0
+	chn35	:1
+	scl35	:2.0
+	inv35	:No
+	off35	:0.0
+	chn36	:1
+	scl36	:100.0
+	inv36	:No
+	off36	:0.0
+	chn37	:1
+	scl37	:100.0
+	inv37	:No
+	off37	:0.0
+	chn38	:1
+	scl38	:100.0
+	inv38	:No
+	off38	:0.0
+	chn39	:1
+	scl39	:100.0
+	inv39	:No
+	off39	:0.0
+	chn40	:1
+	scl40	:100.0
+	inv40	:No
+	off40	:0.0
+	chn41	:1
+	scl41	:100.0
+	inv41	:No
+	off41	:0.0
+	chn42	:1
+	scl42	:100.0
+	inv42	:No
+	off42	:0.0
+	chn47	:1
+	scl47	:100.0
+	inv47	:No
+	off47	:0.0
+	chn48	:1
+	scl48	:100.0
+	inv48	:No
+	off48	:0.0
+	chn49	:1
+	scl49	:100.0
+	inv49	:No
+	off49	:0.0
+	chn50	:1
+	scl50	:2.0
+	inv50	:No
+	off50	:0.0
+	chn51	:1
+	scl51	:2.0
+	inv51	:No
+	off51	:0.0
+	chn52	:1
+	scl52	:2.0
+	inv52	:No
+	off52	:0.0
+	chn53	:1
+	scl53	:2.0
+	inv53	:No
+	off53	:0.0
+	chn54	:1
+	scl54	:2.0
+	inv54	:No
+	off54	:0.0
+	chn55	:1
+	scl55	:100.0
+	inv55	:No
+	off55	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:100.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:100.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:100.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:1
+	gscl5	:100.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:1
+	gscl6	:100.0
+	ginv6	:No
+	goff6	:0.0
+	gcrd7	:One
+	gchn7	:1
+	gscl7	:2.0
+	ginv7	:No
+	goff7	:0.0
+	gcrd8	:One
+	gchn8	:1
+	gscl8	:2.0
+	ginv8	:No
+	goff8	:0.0
+	gcrd9	:One
+	gchn9	:1
+	gscl9	:2.0
+	ginv9	:No
+	goff9	:0.0
+	gcrd10	:One
+	gchn10	:1
+	gscl10	:2.0
+	ginv10	:No
+	goff10	:0.0
+	gcrd11	:One
+	gchn11	:1
+	gscl11	:2.0
+	ginv11	:No
+	goff11	:0.0
+	gcrd12	:One
+	gchn12	:1
+	gscl12	:2.0
+	ginv12	:No
+	goff12	:0.0
+	gcrd13	:One
+	gchn13	:1
+	gscl13	:100.0
+	ginv13	:No
+	goff13	:0.0
+	gcrd14	:One
+	gchn14	:1
+	gscl14	:100.0
+	ginv14	:No
+	goff14	:0.0
+	gcrd15	:One
+	gchn15	:1
+	gscl15	:100.0
+	ginv15	:No
+	goff15	:0.0
+	gcrd16	:One
+	gchn16	:1
+	gscl16	:100.0
+	ginv16	:No
+	goff16	:0.0
+	gcrd17	:One
+	gchn17	:1
+	gscl17	:100.0
+	ginv17	:No
+	goff17	:0.0
+	gcrd18	:One
+	gchn18	:1
+	gscl18	:100.0
+	ginv18	:No
+	goff18	:0.0
+	gcrd19	:One
+	gchn19	:1
+	gscl19	:100.0
+	ginv19	:No
+	goff19	:0.0
+	gcrd24	:One
+	gchn24	:1
+	gscl24	:100.0
+	ginv24	:No
+	goff24	:0.0
+	gcrd25	:One
+	gchn25	:1
+	gscl25	:100.0
+	ginv25	:No
+	goff25	:0.0
+	gcrd26	:One
+	gchn26	:1
+	gscl26	:100.0
+	ginv26	:No
+	goff26	:0.0
+	gcrd27	:One
+	gchn27	:1
+	gscl27	:100.0
+	ginv27	:No
+	goff27	:0.0
+	gcrd28	:One
+	gchn28	:1
+	gscl28	:100.0
+	ginv28	:No
+	goff28	:0.0
+	gcrd29	:One
+	gchn29	:1
+	gscl29	:100.0
+	ginv29	:No
+	goff29	:0.0
+	gcrd30	:One
+	gchn30	:1
+	gscl30	:2.0
+	ginv30	:No
+	goff30	:0.0
+	gcrd31	:One
+	gchn31	:1
+	gscl31	:2.0
+	ginv31	:No
+	goff31	:0.0
+	gcrd32	:One
+	gchn32	:1
+	gscl32	:2.0
+	ginv32	:No
+	goff32	:0.0
+	gcrd33	:One
+	gchn33	:1
+	gscl33	:2.0
+	ginv33	:No
+	goff33	:0.0
+	gcrd34	:One
+	gchn34	:1
+	gscl34	:2.0
+	ginv34	:No
+	goff34	:0.0
+	gcrd35	:One
+	gchn35	:1
+	gscl35	:2.0
+	ginv35	:No
+	goff35	:0.0
+	gcrd36	:One
+	gchn36	:1
+	gscl36	:100.0
+	ginv36	:No
+	goff36	:0.0
+	gcrd37	:One
+	gchn37	:1
+	gscl37	:100.0
+	ginv37	:No
+	goff37	:0.0
+	gcrd38	:One
+	gchn38	:1
+	gscl38	:100.0
+	ginv38	:No
+	goff38	:0.0
+	gcrd39	:One
+	gchn39	:1
+	gscl39	:100.0
+	ginv39	:No
+	goff39	:0.0
+	gcrd40	:One
+	gchn40	:1
+	gscl40	:100.0
+	ginv40	:No
+	goff40	:0.0
+	gcrd41	:One
+	gchn41	:1
+	gscl41	:100.0
+	ginv41	:No
+	goff41	:0.0
+	gcrd42	:One
+	gchn42	:1
+	gscl42	:100.0
+	ginv42	:No
+	goff42	:0.0
+	gcrd47	:One
+	gchn47	:1
+	gscl47	:100.0
+	ginv47	:No
+	goff47	:0.0
+	gcrd48	:One
+	gchn48	:1
+	gscl48	:100.0
+	ginv48	:No
+	goff48	:0.0
+	gcrd49	:One
+	gchn49	:1
+	gscl49	:100.0
+	ginv49	:No
+	goff49	:0.0
+	gcrd50	:One
+	gchn50	:1
+	gscl50	:2.0
+	ginv50	:No
+	goff50	:0.0
+	gcrd51	:One
+	gchn51	:1
+	gscl51	:2.0
+	ginv51	:No
+	goff51	:0.0
+	gcrd52	:One
+	gchn52	:1
+	gscl52	:2.0
+	ginv52	:No
+	goff52	:0.0
+	gcrd53	:One
+	gchn53	:1
+	gscl53	:2.0
+	ginv53	:No
+	goff53	:0.0
+	gcrd54	:One
+	gchn54	:1
+	gscl54	:2.0
+	ginv54	:No
+	goff54	:0.0
+	gcrd55	:One
+	gchn55	:1
+	gscl55	:100.0
+	ginv55	:No
+	goff55	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	Ngcrd7	:One
+	Ngcrd8	:One
+	Ngcrd9	:One
+	Ngcrd10	:One
+	Ngcrd11	:One
+	Ngcrd12	:One
+	Ngcrd13	:One
+	Ngcrd14	:One
+	Ngcrd15	:One
+	Ngcrd16	:One
+	Ngcrd17	:One
+	Ngcrd18	:One
+	Ngcrd19	:One
+	Ngcrd24	:One
+	Ngcrd25	:One
+	Ngcrd26	:One
+	Ngcrd27	:One
+	Ngcrd28	:One
+	Ngcrd29	:One
+	Ngcrd30	:One
+	Ngcrd31	:One
+	Ngcrd32	:One
+	Ngcrd33	:One
+	Ngcrd34	:One
+	Ngcrd35	:One
+	Ngcrd36	:One
+	Ngcrd37	:One
+	Ngcrd38	:One
+	Ngcrd39	:One
+	Ngcrd40	:One
+	Ngcrd41	:One
+	Ngcrd42	:One
+	Ngcrd47	:One
+	Ngcrd48	:One
+	Ngcrd49	:One
+	Ngcrd50	:One
+	Ngcrd51	:One
+	Ngcrd52	:One
+	Ngcrd53	:One
+	Ngcrd54	:One
+	Ngcrd55	:One
+	nam1	:VLTV1
+	nam2	:VLTV2
+	nam3	:VLTV3
+	nam4	:VLTV4
+	nam5	:VLTV5
+	nam6	:VLTV6
+	nam7	:CRTV1
+	nam8	:CRTV2
+	nam9	:CRTV3
+	nam10	:CRTV4
+	nam11	:CRTV5
+	nam12	:CRTV6
+	nam13	:VAV
+	nam14	:VBV
+	nam15	:VCV
+	nam16	:CRTINDA
+	nam17	:CRTINDB
+	nam18	:CRTINDC
+	nam19	:ACPIN1
+	nam20	:FPOS1L1
+	nam21	:FPOS1L2
+	nam22	:FPOS1L3
+	nam23	:FPOS1T
+	nam24	:VLTV1
+	nam25	:VLTV2
+	nam26	:VLTV3
+	nam27	:VLTV4
+	nam28	:VLTV5
+	nam29	:VLTV6
+	nam30	:CRTV1
+	nam31	:CRTV2
+	nam32	:CRTV3
+	nam33	:CRTV4
+	nam34	:CRTV5
+	nam35	:CRTV6
+	nam36	:VAV
+	nam37	:VBV
+	nam38	:VCV
+	nam39	:CRTINDA
+	nam40	:CRTINDB
+	nam41	:CRTINDC
+	nam42	:ACPIN2
+	nam43	:FPOS2L1
+	nam44	:FPOS2L2
+	nam45	:FPOS2L3
+	nam46	:FPOS2T
+	nam47	:VP
+	nam48	:VN
+	nam49	:G1VCAP
+	nam50	:PNCAPI
+	nam51	:PGCAPI
+	nam52	:NGCAPI
+	nam53	:PCRT
+	nam54	:NCRT
+	nam55	:DCPIN1
+GROUP
+	2480 496 0 0 0
+	7
+WIRE
+	2512 528 1 1 2
+	-4 192 4 -160
+	COL	:RED
+	LW	:1.0
+GROUP
+	2480 432 0 0 0
+	2
+jumper
+	2480 336 3 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	2480 528 1 1 2
+	-4 160 4 -128
+	COL	:RED
+	LW	:1.0
+WIRE
+	2480 688 0 1 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2448 656 0 1 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2448 496 1 1 2
+	-4 128 4 -128
+	COL	:RED
+	LW	:1.0
+jumper2
+	2448 336 3 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	2448 624 0 1 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 656 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 688 0 1 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_BKRN3
+	1264 528 1 0 95
+	Name	:G1BKR2
+	prc12	:1
+	srcfp	:CC_WORD
+	fpnam	:G1CNTL
+	bitnm	:0
+	vswit	:0.56
+	iswit	:2.6
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:100.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:100.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:100.0
+	inv6	:No
+	off6	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:100.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:1
+	gscl5	:100.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:1
+	gscl6	:100.0
+	ginv6	:No
+	goff6	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	nam1	:IBKRA1
+	nam2	:IBKRB1
+	nam3	:IBKRC1
+	nam4	:VBKRA1
+	nam5	:VBKRB1
+	nam6	:VBKRC1
+WIRE
+	1296 624 1 1 2
+	-4 32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	1264 624 1 1 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1232 656 1 1 2
+	-4 -32 4 64
+	COL	:RED
+	LW	:1.0
+GROUP
+	1232 752 0 0 0
+	2
+annotation
+	1232 752 0 0 3
+	AL1	:TUNE 2000 HZ
+	AL2	:R/XL at tune = 1.0
+	FSize	:10
+annotation
+	1232 752 2 0 3
+	AL1	:0.22 MVAR
+	AL2	:
+	FSize	:10
+ground
+	1456 816 1 0 0
+rtds_vsc_BRC3
+	1456 720 1 0 155
+	Name	:BR4
+	prc12	:1
+	bty	:HIPASS
+	vsrc	:No
+	vtyp	:Real
+	vorgn	:CC
+	nmbr	:3
+	posi	:Parallel
+	sepr	:No
+	pmsr	:FROMend
+	pmst	:50.e-6
+	R	:0.065
+	L	:5.17e-6
+	CMF	:1225.75
+	RP	:1000.0
+	vnam1	:VSRC1
+	vnam2	:VSRC2
+	vnam3	:VSRC3
+	gtaiVer	:V1
+	gtaiV2filter	:Auto
+	gtaiV2custom	:200
+	srpt1	:One
+	srcd1	:One
+	srch1	:1
+	srpt2	:One
+	srcd2	:One
+	srch2	:2
+	srpt3	:One
+	srcd3	:One
+	srch3	:3
+	vscl1	:37.55884
+	voff1	:0.0
+	vscl2	:37.55884
+	voff2	:0.0
+	vscl3	:37.55884
+	voff3	:0.0
+	vnmi1	:VSRCi1
+	vnmi2	:VSRCi2
+	vnmi3	:VSRCi3
+	srci1	:DI_1-32
+	srci2	:DI_1-32
+	srci3	:DI_1-32
+	nbts1	:16
+	lsbp1	:0
+	smhd1	:No
+	pohd1	:0
+	iscl1	:3.051851e-5
+	nbts2	:16
+	lsbp2	:0
+	smhd2	:No
+	pohd2	:0
+	iscl2	:3.051851e-5
+	nbts3	:16
+	lsbp3	:0
+	smhd3	:No
+	pohd3	:0
+	iscl3	:3.051851e-5
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	ao7	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	gao7	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:100.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:100.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:100.0
+	inv6	:No
+	off6	:0.0
+	chn7	:1
+	scl7	:100.0
+	inv7	:No
+	off7	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:100.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:1
+	gscl5	:100.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:1
+	gscl6	:100.0
+	ginv6	:No
+	goff6	:0.0
+	gcrd7	:One
+	gchn7	:1
+	gscl7	:100.0
+	ginv7	:No
+	goff7	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	Ngcrd7	:One
+	nam1	:HPCRTA
+	nam2	:CRTB1
+	nam3	:CRTC1
+	nam4	:VLT1
+	nam5	:VLT2
+	nam6	:VLT3
+	nam7	:PWRF
+ground
+	1392 816 1 0 0
+ground
+	1328 816 1 0 0
+WIRE
+	1456 720 1 1 2
+	-4 32 4 0
+	COL	:RED
+	LW	:1.0
+jumper
+	1392 688 3 0 2
+	COL	:RED
+	LW	:1.0
+jumper2
+	1328 688 3 0 2
+	COL	:RED
+	LW	:1.0
+BUS
+	272 336 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_vsc_3LGFIR
+	1008 1392 0 0 23
+	Name	:G1FPGN2
+	prc12	:2
+	nmcmp	:3
+	twavnm	:G1TWAVE
+	dblknm	:G1DB1
+	fpout	:G1FP2
+	enabd	:No
+	mon1	:Yes
+	mod1nm	:G1VAM2
+	cmp1m	:1.0
+	cmp1a	:0.0
+	cmp1t	:1
+	cmp1b	:2
+	mod2nm	:G1VBM2
+	cmp2m	:1.0
+	cmp2a	:0.0
+	cmp2t	:4
+	cmp2b	:8
+	mod3nm	:G1VCM2
+	cmp3m	:1.0
+	cmp3a	:0.0
+	cmp3t	:16
+	cmp3b	:32
+rtds_vsc_3LGFIR
+	880 1392 0 0 23
+	Name	:G1FPGN1
+	prc12	:2
+	nmcmp	:3
+	twavnm	:G1TWAVE
+	dblknm	:G1DB1
+	fpout	:G1FP1
+	enabd	:No
+	mon1	:Yes
+	mod1nm	:G1VAM1
+	cmp1m	:1.0
+	cmp1a	:0.0
+	cmp1t	:1
+	cmp1b	:2
+	mod2nm	:G1VBM1
+	cmp2m	:1.0
+	cmp2a	:0.0
+	cmp2t	:4
+	cmp2b	:8
+	mod3nm	:G1VCM1
+	cmp3m	:1.0
+	cmp3a	:0.0
+	cmp3t	:16
+	cmp3b	:32
+rtds_vsc_TRIWAV3
+	752 1328 0 0 56
+	Name	:G1TWGN1
+	prc12	:2
+	tangle	:G1TWANG
+	tomega	:G1TWOMO
+	nmtwv	:1
+	aangd	:0.0
+	ap2pm	:2.0
+	ashft	:0.0
+	bangd	:120.0
+	bp2pm	:2.0
+	bshft	:0.0
+	cangd	:240.0
+	cp2pm	:2.0
+	cshft	:0.0
+	twvanm	:G1TWAVE
+	twvbnm	:TWAVEB1
+	twvcnm	:TWAVEC1
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:1.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:1.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:1.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:1.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:1.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:1.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+ground
+	1168 560 1 0 0
+BUS
+	272 368 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:YES
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	272 304 0 1 25
+	BName	:BUS808
+	NA	:Bus808A
+	NB	:Bus808B
+	NC	:Bus808C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0136
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050920
+	Ad	:-0.010920
+	Dis1	:No
+	A1PosX	:32
+	C1PosX	:-32
+	Num	:5
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+GROUP
+	528 400 0 0 0
+	30
+jumper
+	656 400 0 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	656 368 0 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	592 368 0 0 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 560 0 0 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 528 0 1 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 496 1 0 2
+	-4 -96 4 64
+	COL	:RED
+	LW	:1.0
+jumper
+	400 528 1 1 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 528 0 0 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 560 0 0 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+ground
+	400 592 3 1 0
+WIRE
+	400 240 0 0 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 208 0 0 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_IFCTRF1
+	528 528 0 0 69
+	Name	:T3
+	prc12	:2
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:7.62
+	vtsec	:22
+	TMVA	:0.83333
+	freqb	:60.0
+	trpos	:0.01
+	txpos	:0.1
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRTP1
+	nam2	:CRTS1
+	nam3	:CRTPS1
+WIRE
+	592 240 0 0 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 208 0 1 2
+	32 -4 -32 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_IFCTRF1
+	528 208 0 0 69
+	Name	:T1
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:7.62
+	vtsec	:22
+	TMVA	:0.83333
+	freqb	:60.0
+	trpos	:0.01
+	txpos	:0.1
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRTP1
+	nam2	:CRTS1
+	nam3	:CRTPS1
+rtds_vsc_IFCTRF1
+	528 368 0 0 69
+	Name	:T2
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:7.62
+	vtsec	:22
+	TMVA	:0.83333
+	freqb	:60.0
+	trpos	:0.01
+	txpos	:0.1
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRTP1
+	nam2	:CRTS1
+	nam3	:CRTPS1
+WIRE
+	368 464 1 0 2
+	-4 64 4 -64
+	COL	:RED
+	LW	:1.0
+WIRE
+	368 272 1 0 2
+	-4 64 4 -64
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 464 1 0 2
+	-4 -64 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 400 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	624 304 1 0 2
+	-4 -64 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 592 1 0 2
+	-4 -32 4 0
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 400 0 0 2
+	32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 464 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+jumper
+	400 368 1 1 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	400 304 1 0 2
+	-4 -64 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 304 1 0 2
+	-4 -96 4 96
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 336 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	720 368 0 0 0
+	3
+rtds_vsc_NOD1
+	720 400 2 1 16
+	Name	:G1VN3
+	prc12	:1
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	720 368 2 1 16
+	Name	:G1VN2
+	prc12	:1
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+rtds_vsc_NOD1
+	720 336 2 1 16
+	Name	:G1VN1
+	prc12	:1
+	Vbase	:187.79
+	mon1	:Yes
+	ao1	:No
+	gao1	:No
+	chn1	:1
+	scl1	:50.0
+	inv1	:No
+	off1	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	Ngcrd1	:One
+GROUP
+	176 80 0 0 0
+	1
+GROUP
+	176 80 0 0 0
+	2
+rtds_sharc_sld_BUSLABEL
+	176 48 0 1 25
+	BName	:BUS808
+	NA	:Bus808A
+	NB	:Bus808B
+	NC	:Bus808C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0136
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050920
+	Ad	:-0.010920
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:5
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	176 112 1 1 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:0
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-64
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	3728 1136 0 0 25
+	BName	:BUS806a
+	NA	:Bus806aA
+	NB	:Bus806aB
+	NC	:Bus806aC
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0457
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050130
+	Ad	:-0.001510
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:3
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	3728 1200 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-96
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+HIERARCHY
+	3920 1264 0 0 29
+	Name	:FCL
+	FCOL	:YELLOW
+	BCOL	:BLACK
+	LW	:1.0
+	DESC1	:
+	DESC2	:
+	IMAGE	:FCL1.jpg
+	IMAGE_RESIZE	:YES
+	EXCLUDE	:NO
+	Type	:MAIN_TIMESTEP
+	SubstepBoxType	:POWER_SYSTEM
+	SubstepDivisor	:15
+	SuperstepBoxType	:POWER_SYSTEM
+	SuperstepMultiplier	:2
+	SuperstepMultiplier_CTLS_ONLY	:2
+	ComponentCount	:7
+	x1	:-32
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:30
+	canvasY	:47
+	canvasWidth	:786
+	canvasHeight	:533
+	isOpen	:YES
+	scrtpass	:
+	smtsProcesses	:1
+	smallTSExecTime	:0
+	cross_chassis_comm_port	:1
+BUS
+	528 272 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-96
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-96
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-96
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	240 272 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-64
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-96
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+rtds_vsc_BRIDGE_BOX
+	368 272 0 0 102
+	Name	:WTG2
+	Desc	:FCL
+	dt_size	:2500
+	rqnmp	:One
+	supprs	:NO
+	AorM	:Automatic
+	CARD	:2
+	Rprc	:A
+	Am	:NO
+	CORE	:1
+	enabdi	:NO
+	enbdi2	:NO
+	gtdip	:One
+	gtdin	:One
+	namdi1	:No
+	namd11	:GTDI1W1
+	namd12	:GTDI1W2
+	gtdip3	:1
+	gtdip2	:One
+	gtdin2	:One
+	namdi2	:No
+	namd21	:GTDI2W1
+	namd22	:GTDI2W2
+	gtdip4	:1
+	enaop1	:NO
+	enaop3	:NO
+	enaop2	:NO
+	enaop4	:NO
+	gtaop5	:1
+	gtaon5	:One
+	gtaop6	:1
+	gtaon6	:One
+	gtaop7	:1
+	gtaon7	:One
+	gtaop8	:1
+	gtaon8	:One
+	gtaop1	:One
+	gtaon1	:One
+	gtaop3	:One
+	gtaon3	:Two
+	gtaop2	:One
+	gtaon2	:One
+	gtaop4	:One
+	gtaon4	:Two
+	pm1tog	:CLOCKS
+	pm1num	:1
+	nam1	:CLKSPR1
+	nam2	:CLKSPR2
+	pm2tog	:CLOCKS
+	pm2num	:1
+	nampm3	:PMC2PR1
+	nampm4	:PMC2PR2
+	pm3tog	:CLOCKS
+	pm3num	:1
+	nampm5	:PMC3PR1
+	nampm6	:PMC3PR2
+	pm4tog	:CLOCKS
+	pm4num	:1
+	nampm7	:PMC4PR1
+	nampm8	:PMC4PR2
+	pm5tog	:CLOCKS
+	pm5num	:1
+	nampm9	:PMC5PR1
+	namp10	:PMC5PR2
+	pm6tog	:CLOCKS
+	pm6num	:1
+	namp11	:PMC6PR1
+	namp12	:PMC6PR2
+	stpnm1	:NO
+	nam3	:STEPPR1
+	stpnm2	:NO
+	nam4	:STEPPR2
+	FCOL	:BLUE
+	BCOL	:WHITE
+	LW	:1.0
+	IMAGE	:
+	IMAGE_RESIZE	:NO
+	ComponentCount	:192
+	x1	:-64
+	y1	:-64
+	x2	:64
+	y2	:64
+	canvasX	:30
+	canvasY	:47
+	canvasWidth	:786
+	canvasHeight	:533
+	BRIDGE_NUM	:1
+	VSC_NODE_COUNT	:6
+	isOpen	:YES
+	vscmrg	:360
+	mindlt	:1400
+	clkmon	:NO
+	montyp	:SML_DT
+	pmonu1	:BY_TOGGLE
+	pmonu2	:OFF
+	pmonu3	:OFF
+	pmonu4	:OFF
+	pmonu5	:OFF
+	pmonu6	:OFF
+	AVERAGE_TS	:688
+	MAIN_INST_COUNT	:1304
+	TS_MARGIN	:150
+_rtds_1PHPQMET.def
+	624 496 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:70
+wirelabel
+	560 496 0 0 3
+	Name	:Bus806A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	560 496 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	688 496 0 0 3
+	Name	:P806A
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	688 528 0 0 3
+	Name	:Q806A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	688 528 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+_rtds_1PHPQMET.def
+	624 560 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:69
+_rtds_1PHPQMET.def
+	624 624 0 0 7
+	freq_sel	:60 Hz
+	pu	:No
+	MVA	:100
+	scale	:1.0
+	adv	:None
+	Proc	:1
+	Pri	:68
+WIRE
+	560 560 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	560 560 0 0 3
+	Name	:Bus806B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	592 592 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	592 624 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	560 624 0 0 3
+	Name	:Bus806C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	592 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	688 560 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	688 560 0 0 3
+	Name	:P806B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	688 592 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	688 592 0 0 3
+	Name	:Q806B
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	688 624 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	688 624 0 0 3
+	Name	:P806C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	688 656 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	688 656 0 0 3
+	Name	:Q806C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	592 528 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	560 592 0 0 3
+	Name	:I806B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	560 656 0 0 3
+	Name	:I806C
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	560 528 0 0 3
+	Name	:I806A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	656 496 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+_rtds_PN_ZCALC.def
+	912 592 0 0 110
+	Name	:ZCALC
+	freq	:60.0
+	eFT	:ON
+	phs_rot	:ABC
+	adv	:None
+	zeroseq	:YES
+	emutc	:OFF
+	sfx	:
+	plots	:NO
+	Proc	:1
+	Pri	:67
+	p14	:YES
+	nP14r	:ZARE
+	nP14i	:ZAIM
+	p15	:YES
+	nP15r	:ZBRE
+	nP15i	:ZBIM
+	p16	:YES
+	nP16r	:ZCRE
+	nP16i	:ZCIM
+	p17	:YES
+	nP17r	:ZABRE
+	nP17i	:ZABIM
+	p18	:YES
+	nP18r	:ZBCRE
+	nP18i	:ZBCIM
+	p19	:YES
+	nP19r	:ZCARE
+	nP19i	:ZCAIM
+	p20	:YES
+	nP20r	:Z1RE
+	nP20i	:Z1IM
+	p21	:YES
+	nP21r	:Z2RE
+	nP21i	:Z2IM
+	p22	:YES
+	nP22r	:Z0RE
+	nP22i	:Z0IM
+	p23	:NO
+	nP23r	:K0MAG
+	nP23i	:K0ANG
+	Z1M	:37.7
+	Z1A	:87.18
+	Z0M	:128.0
+	Z0A	:75.59
+	KZ0M	:0.3772
+	KZ0A	:-13.60
+	k0calc	:YES
+	k0Mag	:0.8079
+	k0Ang	:-16.344
+	IZ0MRE	:X_RE
+	IZ0MIM	:X_IM
+	p1	:NO
+	nP1r	:VARE
+	nP1i	:VAIM
+	p2	:NO
+	nP2r	:VBRE
+	nP2i	:VBIM
+	p3	:NO
+	nP3r	:VCRE
+	nP3i	:VCIM
+	p4	:NO
+	nP4r	:IARE
+	nP4i	:IAIM
+	p5	:NO
+	nP5r	:IBRE
+	nP5i	:IBIM
+	p6	:NO
+	nP6r	:ICRE
+	nP6i	:ICIM
+	p7	:NO
+	nP7r	:V1ARE
+	nP7i	:V1AIM
+	nP7br	:V1BRE
+	nP7bi	:V1BIM
+	nP7cr	:V1CRE
+	nP7ci	:V1CIM
+	p8	:NO
+	nP8r	:V2ARE
+	nP8i	:V2AIM
+	nP8br	:V2BRE
+	nP8bi	:V2BIM
+	nP8cr	:V2CRE
+	nP8ci	:V2CIM
+	p9	:NO
+	nP9r	:V0RE
+	nP9i	:V0IM
+	p10	:NO
+	nP10r	:I1ARE
+	nP10i	:I1AIM
+	nP10br	:I1BRE
+	nP10bi	:I1BIM
+	nP10cr	:I1CRE
+	nP10ci	:I1CIM
+	p11	:NO
+	nP11r	:I2ARE
+	nP11i	:I2AIM
+	nP11br	:I2BRE
+	nP11bi	:I2BIM
+	nP11cr	:I2CRE
+	nP11ci	:I2CIM
+	p12	:NO
+	nP12r	:I0RE
+	nP12i	:I0IM
+	p13	:NO
+	nP13	:FREQ
+	p13a	:NO
+	nP13a	:DFDT
+	p24	:No
+	nP24	:TRIG
+wirelabel
+	784 496 0 0 3
+	Name	:Bus806A
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 528 0 0 3
+	Name	:Bus806B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 560 0 0 3
+	Name	:Bus806C
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 592 0 0 3
+	Name	:I806A
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 624 0 0 3
+	Name	:I806B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 656 0 0 3
+	Name	:I806C
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	816 496 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 528 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 560 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 592 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 624 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	816 656 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+DASHED_LINE
+	688 1040 0 0 2
+	-128 -4 128 4
+	LW	:1
+	COL	:RED
+wirelabel
+	688 1072 2 0 3
+	Name	:ANG_mon
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	592 1104 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	592 1104 0 0 3
+	Name	:Bus806aA
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	752 1104 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_CONSTANT
+	752 1552 0 0 1
+	Val	:0.4
+WIRE
+	784 1520 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+DASHED_LINE
+	688 1200 0 0 2
+	-128 -4 128 4
+	LW	:1
+	COL	:RED
+DASHED_LINE
+	560 1136 1 0 2
+	-4 -96 4 64
+	LW	:1
+	COL	:RED
+DASHED_LINE
+	816 1136 1 0 2
+	-4 -96 4 64
+	LW	:1
+	COL	:RED
+rtds_sharc_ctl_ANGDIFF
+	688 1136 0 0 4
+	OSU	:Degrees
+	Ref	:Bus1 - Bus2
+	Proc	:1
+	Pri	:66
+WIRE
+	592 1168 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	592 1136 0 0 3
+	Name	:Bus806aB
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	592 1136 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	592 1168 0 0 3
+	Name	:Bus806aC
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	752 1136 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	752 1168 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	784 1136 0 0 0
+	3
+wirelabel
+	784 1168 0 0 3
+	Name	:I806C
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 1136 0 0 3
+	Name	:I806B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	784 1104 0 0 3
+	Name	:I806A
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	624 1360 2 0 3
+	Name	:ANG_mon
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	624 1360 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_ABS
+	688 1360 0 0 2
+	Proc	:1
+	Pri	:111
+WIRE
+	752 1360 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	624 1488 0 0 0
+	3
+wirelabel
+	624 1520 0 0 3
+	Name	:I806C
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	624 1488 0 0 3
+	Name	:I806B
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	624 1456 0 0 3
+	Name	:I806A
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	656 1456 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 1488 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	656 1520 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_RMS
+	720 1488 0 0 7
+	Mode	:Three Phase
+	pu	:No
+	Sc	:230.0
+	LL	:Line-Neutral
+	unit	:none
+	Proc	:1
+	Pri	:65
+WIRE
+	784 1488 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_COMPARE
+	848 1488 0 0 9
+	LOG	:A >= B
+	INPT	:REAL
+	OUTT	:INTEGER
+	Proc	:1
+	Pri	:110
+	IOAB	:0
+	IOBA	:1
+	FOAB	:0
+	FOBA	:1
+wirelabel
+	784 1488 2 0 3
+	Name	:I806rms
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	784 1520 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_COMPARE
+	816 1360 0 0 9
+	LOG	:A >= B
+	INPT	:REAL
+	OUTT	:INTEGER
+	Proc	:1
+	Pri	:125
+	IOAB	:0
+	IOBA	:1
+	FOAB	:0
+	FOBA	:1
+rtds_sharc_ctl_CONSTANT
+	688 1392 0 0 1
+	Val	:50
+WIRE
+	752 1392 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+wirelabel
+	912 1488 2 0 3
+	Name	:I_pulse
+	COL	:BLUE
+	Monitor	:Yes
+wirelabel
+	912 1360 2 0 3
+	Name	:Ang_pulse
+	COL	:BLUE
+	Monitor	:Yes
+WIRE
+	880 1360 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	944 1360 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	880 1488 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	944 1488 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_sharc_ctl_LOGIC
+	1008 1424 0 0 6
+	Type	:AND
+	Inv	:No
+	Op	:LSB
+	Ninp	:2
+	Proc	:1
+	Pri	:145
+WIRE
+	976 1392 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	976 1456 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+wirelabel
+	1040 1424 2 0 3
+	Name	:G_pulse
+	COL	:BLUE
+	Monitor	:Yes
+rtds_sharc_sld_BUSLABEL
+	1072 656 1 1 25
+	BName	:BUS806a
+	NA	:Bus806aA
+	NB	:Bus806aB
+	NC	:Bus806aC
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0457
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050130
+	Ad	:-0.001510
+	Dis1	:No
+	A1PosX	:32
+	C1PosX	:-32
+	Num	:5
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	1328 656 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-256
+	y1L1	:-32
+	x2L1	:224
+	y2L1	:-32
+	x1L2	:-256
+	y1L2	:0
+	x2L2	:224
+	y2L2	:0
+	x1L3	:-256
+	y1L3	:32
+	x2L3	:224
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+WIRE
+	2096 624 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2096 688 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+BUS
+	2128 656 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:32
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:32
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	2352 656 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-192
+	y1L1	:-32
+	x2L1	:192
+	y2L1	:-32
+	x1L2	:-192
+	y1L2	:0
+	x2L2	:192
+	y2L2	:0
+	x1L3	:-192
+	y1L3	:32
+	x2L3	:192
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	2704 656 0 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:224
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:224
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:224
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+WIRE
+	1840 656 0 1 2
+	-256 -4 224 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1872 624 0 1 2
+	-224 -4 256 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1872 688 0 1 2
+	-224 -4 256 4
+	COL	:RED
+	LW	:1.0
+lf_rtds_sharc_sld_SERIESIND
+	1584 656 0 0 14
+	L	:23.3e-3
+	Imon	:No
+	IAnam	:IA
+	IBnam	:IB
+	ICnam	:IC
+	A1PosY	:-32
+	C1PosY	:32
+	A2PosY	:32
+	C2PosY	:-32
+	P_L0	:0.0
+	Q_L0	:0.0
+	P_L1	:0.0
+	Q_L1	:0.0
+	HidePQ	:1
+BUS
+	1200 944 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-256
+	y1L1	:-32
+	x2L1	:320
+	y2L1	:-32
+	x1L2	:-256
+	y1L2	:0
+	x2L2	:288
+	y2L2	:0
+	x1L3	:-256
+	y1L3	:32
+	x2L3	:256
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	1264 1040 2 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:96
+	y2L1	:-32
+	x1L2	:-32
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-32
+	y1L3	:32
+	x2L3	:32
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:1
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:1
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+annotation
+	1456 720 0 0 3
+	AL1	:Transformer
+	AL2	:
+	FSize	:18
+GROUP
+	1488 848 0 0 0
+	1
+rtds_vsc_IFCTRF1
+	1488 848 0 0 69
+	Name	:T1p
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:53.6936
+	vtsec	:6.6395
+	TMVA	:33.33
+	freqb	:60
+	trpos	:0.000
+	txpos	:0.18
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRT1p
+	nam2	:CRTS1
+	nam3	:CRTPS1
+rtds_sharc_sld_BUSLABEL
+	2928 656 3 1 25
+	BName	:BUS808
+	NA	:Bus808A
+	NB	:Bus808B
+	NC	:Bus808C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0136
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050920
+	Ad	:-0.010920
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:5
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+BUS
+	2832 944 3 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-224
+	y1L1	:-32
+	x2L1	:224
+	y2L1	:-32
+	x1L2	:-224
+	y1L2	:0
+	x2L2	:224
+	y2L2	:0
+	x1L3	:-224
+	y1L3	:32
+	x2L3	:224
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+GROUP
+	2832 656 0 0 0
+	3
+WIRE
+	2800 688 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+jumper2
+	2864 656 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	2832 688 1 1 2
+	COL	:RED
+	LW	:1.0
+BUS
+	2192 1040 2 1 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-160
+	y1L1	:-32
+	x2L1	:128
+	y2L1	:-32
+	x1L2	:-160
+	y1L2	:0
+	x2L2	:128
+	y2L2	:0
+	x1L3	:-160
+	y1L3	:32
+	x2L3	:128
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+WIRE
+	2320 1008 0 1 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2320 1072 0 1 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	2192 1168 0 1 0
+	1
+GROUP
+	2192 1168 0 1 0
+	1
+GROUP
+	2192 1168 0 1 0
+	2
+GROUP
+	2192 1232 0 1 0
+	6
+ground
+	2128 1264 3 1 0
+ground
+	2192 1264 3 1 0
+ground
+	2256 1264 3 1 0
+WIRE
+	2128 1232 1 1 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2192 1232 1 1 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2256 1232 1 1 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+GROUP
+	2192 1104 0 1 0
+	5
+WIRE
+	2128 1104 1 1 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2160 1104 0 1 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2192 1104 1 1 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2256 1104 0 1 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2256 1104 1 1 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+GROUP
+	2192 1040 0 1 0
+	3
+WIRE
+	2224 1072 1 1 2
+	-4 0 4 -32
+	COL	:RED
+	LW	:1.0
+jumper2
+	2160 1040 3 1 2
+	COL	:RED
+	LW	:1.0
+jumper
+	2192 1072 3 0 2
+	COL	:RED
+	LW	:1.0
+GROUP
+	2256 1232 0 1 0
+	1
+GROUP
+	2256 1232 2 1 0
+	1
+rtds_vsc_BRC3
+	2256 1232 1 1 155
+	Name	:HarmFilt2
+	prc12	:1
+	bty	:HIPASS
+	vsrc	:No
+	vtyp	:Real
+	vorgn	:CC
+	nmbr	:3
+	posi	:Parallel
+	sepr	:No
+	pmsr	:None
+	pmst	:50.e-6
+	R	:0.6295
+	L	:7.9517e-5
+	CMF	:200
+	RP	:1000.0
+	vnam1	:VSRC1
+	vnam2	:VSRC2
+	vnam3	:VSRC3
+	gtaiVer	:V1
+	gtaiV2filter	:Auto
+	gtaiV2custom	:0
+	srpt1	:One
+	srcd1	:One
+	srch1	:1
+	srpt2	:One
+	srcd2	:One
+	srch2	:2
+	srpt3	:One
+	srcd3	:One
+	srch3	:3
+	vscl1	:37.55884
+	voff1	:0.0
+	vscl2	:37.55884
+	voff2	:0.0
+	vscl3	:37.55884
+	voff3	:0.0
+	vnmi1	:VSRCi1
+	vnmi2	:VSRCi2
+	vnmi3	:VSRCi3
+	srci1	:DI_1-32
+	srci2	:DI_1-32
+	srci3	:DI_1-32
+	nbts1	:16
+	lsbp1	:0
+	smhd1	:No
+	pohd1	:0
+	iscl1	:3.051851e-5
+	nbts2	:16
+	lsbp2	:0
+	smhd2	:No
+	pohd2	:0
+	iscl2	:3.051851e-5
+	nbts3	:16
+	lsbp3	:0
+	smhd3	:No
+	pohd3	:0
+	iscl3	:3.051851e-5
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	ao7	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	gao7	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:100.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:100.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:100.0
+	inv6	:No
+	off6	:0.0
+	chn7	:1
+	scl7	:100.0
+	inv7	:No
+	off7	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:100.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:1
+	gscl5	:100.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:1
+	gscl6	:100.0
+	ginv6	:No
+	goff6	:0.0
+	gcrd7	:One
+	gchn7	:1
+	gscl7	:100.0
+	ginv7	:No
+	goff7	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	Ngcrd7	:One
+	nam1	:CRT1
+	nam2	:CRT2
+	nam3	:CRT3
+	nam4	:VLT1
+	nam5	:VLT2
+	nam6	:VLT3
+	nam7	:PWR1
+annotation
+	2288 944 0 1 3
+	AL1	:BUS 3
+	AL2	:
+	FSize	:18
+ground
+	2640 1264 3 1 0
+ground
+	2416 1264 3 1 0
+WIRE
+	2384 1072 1 0 2
+	-4 -192 4 192
+	COL	:RED
+	LW	:1.0
+jumper
+	2384 1232 0 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	2384 1040 0 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	2384 848 0 0 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 1040 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 1232 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 1264 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 1072 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2416 880 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2672 1072 1 1 2
+	-4 192 4 -192
+	COL	:RED
+	LW	:1.0
+jumper
+	2672 1232 0 1 2
+	COL	:RED
+	LW	:1.0
+jumper
+	2672 1040 0 1 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	2640 848 0 1 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2640 1232 0 1 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2640 1264 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2640 1072 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	2352 1040 0 1 0
+	2
+WIRE
+	2352 1168 1 0 2
+	-4 -96 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	2352 944 1 0 2
+	-4 -96 4 64
+	COL	:RED
+	LW	:1.0
+GROUP
+	2704 1040 0 1 0
+	2
+WIRE
+	2704 1168 1 1 2
+	-4 96 4 -64
+	COL	:RED
+	LW	:1.0
+WIRE
+	2704 944 1 1 2
+	-4 96 4 -64
+	COL	:RED
+	LW	:1.0
+WIRE
+	2640 1040 0 1 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2640 880 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_IFCTRF1
+	2512 1040 0 1 69
+	Name	:T2s
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:53.6936
+	vtsec	:6.6395
+	TMVA	:33.33
+	freqb	:60
+	trpos	:0.000
+	txpos	:0.18
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRT2s
+	nam2	:CRTS2
+	nam3	:CRTPS1
+rtds_vsc_IFCTRF1
+	2512 1232 0 1 69
+	Name	:T3s
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:53.6936
+	vtsec	:6.6395
+	TMVA	:33.33
+	freqb	:60
+	trpos	:0.000
+	txpos	:0.18
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRT3s
+	nam2	:CRTS3
+	nam3	:CRTPS1
+WIRE
+	2352 1040 0 1 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2096 912 1 0 2
+	-4 -64 4 96
+	COL	:RED
+	LW	:1.0
+BUS
+	1808 1040 2 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-128
+	y1L1	:-32
+	x2L1	:128
+	y2L1	:-32
+	x1L2	:-128
+	y1L2	:0
+	x2L2	:128
+	y2L2	:0
+	x1L3	:-128
+	y1L3	:32
+	x2L3	:128
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+WIRE
+	1680 1008 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1680 1072 0 0 2
+	-32 -4 0 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	1808 1168 0 0 0
+	1
+GROUP
+	1808 1168 0 0 0
+	1
+GROUP
+	1808 1168 0 0 0
+	2
+GROUP
+	1808 1232 0 0 0
+	6
+ground
+	1872 1264 1 0 0
+ground
+	1808 1264 1 0 0
+ground
+	1744 1264 1 0 0
+WIRE
+	1872 1232 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1808 1232 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1744 1232 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+GROUP
+	1808 1104 0 0 0
+	5
+WIRE
+	1872 1104 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1840 1104 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1808 1104 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1744 1104 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1744 1104 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+GROUP
+	1808 1040 0 0 0
+	3
+WIRE
+	1776 1072 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+jumper2
+	1840 1040 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	1808 1072 1 1 2
+	COL	:RED
+	LW	:1.0
+GROUP
+	1744 1232 0 0 0
+	1
+GROUP
+	1744 1232 2 0 0
+	1
+rtds_vsc_BRC3
+	1744 1232 3 0 155
+	Name	:HarmFilt1
+	prc12	:1
+	bty	:HIPASS
+	vsrc	:No
+	vtyp	:Real
+	vorgn	:CC
+	nmbr	:3
+	posi	:Parallel
+	sepr	:No
+	pmsr	:None
+	pmst	:50.e-6
+	R	:0.6295
+	L	:7.9517e-5
+	CMF	:200
+	RP	:1000.0
+	vnam1	:VSRC1
+	vnam2	:VSRC2
+	vnam3	:VSRC3
+	gtaiVer	:V1
+	gtaiV2filter	:Auto
+	gtaiV2custom	:0
+	srpt1	:One
+	srcd1	:One
+	srch1	:1
+	srpt2	:One
+	srcd2	:One
+	srch2	:2
+	srpt3	:One
+	srcd3	:One
+	srch3	:3
+	vscl1	:37.55884
+	voff1	:0.0
+	vscl2	:37.55884
+	voff2	:0.0
+	vscl3	:37.55884
+	voff3	:0.0
+	vnmi1	:VSRCi1
+	vnmi2	:VSRCi2
+	vnmi3	:VSRCi3
+	srci1	:DI_1-32
+	srci2	:DI_1-32
+	srci3	:DI_1-32
+	nbts1	:16
+	lsbp1	:0
+	smhd1	:No
+	pohd1	:0
+	iscl1	:3.051851e-5
+	nbts2	:16
+	lsbp2	:0
+	smhd2	:No
+	pohd2	:0
+	iscl2	:3.051851e-5
+	nbts3	:16
+	lsbp3	:0
+	smhd3	:No
+	pohd3	:0
+	iscl3	:3.051851e-5
+	mon1	:No
+	mon2	:No
+	mon3	:No
+	mon4	:No
+	mon5	:No
+	mon6	:No
+	mon7	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	ao4	:No
+	ao5	:No
+	ao6	:No
+	ao7	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	gao4	:No
+	gao5	:No
+	gao6	:No
+	gao7	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	chn4	:1
+	scl4	:100.0
+	inv4	:No
+	off4	:0.0
+	chn5	:1
+	scl5	:100.0
+	inv5	:No
+	off5	:0.0
+	chn6	:1
+	scl6	:100.0
+	inv6	:No
+	off6	:0.0
+	chn7	:1
+	scl7	:100.0
+	inv7	:No
+	off7	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	gcrd4	:One
+	gchn4	:1
+	gscl4	:100.0
+	ginv4	:No
+	goff4	:0.0
+	gcrd5	:One
+	gchn5	:1
+	gscl5	:100.0
+	ginv5	:No
+	goff5	:0.0
+	gcrd6	:One
+	gchn6	:1
+	gscl6	:100.0
+	ginv6	:No
+	goff6	:0.0
+	gcrd7	:One
+	gchn7	:1
+	gscl7	:100.0
+	ginv7	:No
+	goff7	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	Ngcrd4	:One
+	Ngcrd5	:One
+	Ngcrd6	:One
+	Ngcrd7	:One
+	nam1	:CRT1
+	nam2	:CRT2
+	nam3	:CRT3
+	nam4	:VLT1
+	nam5	:VLT2
+	nam6	:VLT3
+	nam7	:PWR1
+annotation
+	1712 944 0 0 3
+	AL1	:BUS 3
+	AL2	:
+	FSize	:18
+ground
+	1360 1264 1 0 0
+ground
+	1584 1264 1 0 0
+WIRE
+	1616 1072 1 1 2
+	-4 192 4 -192
+	COL	:RED
+	LW	:1.0
+jumper
+	1616 1232 0 1 2
+	COL	:RED
+	LW	:1.0
+jumper
+	1616 1040 0 1 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	1616 848 0 1 2
+	-32 -4 64 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 1040 0 1 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 1232 0 1 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 1264 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 1072 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1584 880 0 1 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1328 1072 1 0 2
+	-4 -192 4 192
+	COL	:RED
+	LW	:1.0
+jumper
+	1328 1232 0 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	1328 1040 0 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	1360 848 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1360 1232 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1360 1264 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1360 1072 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+GROUP
+	1648 1040 0 0 0
+	2
+WIRE
+	1648 1168 1 1 2
+	-4 96 4 -64
+	COL	:RED
+	LW	:1.0
+WIRE
+	1648 944 1 1 2
+	-4 96 4 -64
+	COL	:RED
+	LW	:1.0
+GROUP
+	1296 1040 0 0 0
+	2
+WIRE
+	1296 1168 1 0 2
+	-4 -96 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	1296 944 1 0 2
+	-4 -96 4 64
+	COL	:RED
+	LW	:1.0
+WIRE
+	1360 1040 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1360 880 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+rtds_vsc_IFCTRF1
+	1488 1040 0 0 69
+	Name	:T2p
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:53.6936
+	vtsec	:6.6395
+	TMVA	:33.33
+	freqb	:60
+	trpos	:0.000
+	txpos	:0.18
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRT2p
+	nam2	:CRTS2
+	nam3	:CRTPS1
+rtds_vsc_IFCTRF1
+	1488 1232 0 0 69
+	Name	:T3p
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:53.6936
+	vtsec	:6.6395
+	TMVA	:33.33
+	freqb	:60
+	trpos	:0.000
+	txpos	:0.18
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRT3p
+	nam2	:CRTS3
+	nam3	:CRTPS1
+WIRE
+	1648 1040 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1936 944 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2032 944 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1904 848 0 0 2
+	-64 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2064 848 0 0 2
+	-32 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1840 912 1 0 2
+	-4 -64 4 96
+	COL	:RED
+	LW	:1.0
+jumper
+	2064 1008 1 0 2
+	COL	:RED
+	LW	:1.0
+jumper
+	1904 1008 1 0 2
+	COL	:RED
+	LW	:1.0
+WIRE
+	1904 976 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2032 976 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	2032 1136 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1904 1136 0 0 2
+	0 -4 32 4
+	COL	:RED
+	LW	:1.0
+WIRE
+	1904 1104 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	2064 1104 1 0 2
+	-4 -32 4 32
+	COL	:RED
+	LW	:1.0
+BUS
+	2768 1040 2 0 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-32
+	y1L1	:-32
+	x2L1	:64
+	y2L1	:-32
+	x1L2	:-64
+	y1L2	:0
+	x2L2	:64
+	y2L2	:0
+	x1L3	:-96
+	y1L3	:32
+	x2L3	:64
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:1
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:1
+	L3ArcAtEnd2	:0
+WIRE
+	2032 848 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1936 848 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_vsc_VALVE1
+	1968 976 0 0 40
+	Name	:VLV4
+	prc12	:1
+	vtype	:GTO
+	srcfp	:CC_WORD
+	fpnam	:G_pulse
+	bitnm	:0
+	vswit	:1.0
+	iswit	:1.0
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	ao1	:No
+	ao2	:No
+	chn1	:1
+	scl1	:100.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	gao1	:No
+	gao2	:No
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	nam1	:VLTV1
+	nam2	:CRTV1
+rtds_vsc_VALVE1
+	2000 944 2 0 40
+	Name	:VLV3
+	prc12	:1
+	vtype	:GTO
+	srcfp	:CC_WORD
+	fpnam	:G_pulse
+	bitnm	:0
+	vswit	:1.0
+	iswit	:1.0
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	ao1	:No
+	ao2	:No
+	chn1	:1
+	scl1	:100.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	gao1	:No
+	gao2	:No
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	nam1	:VLTV1
+	nam2	:CRTV1
+WIRE
+	2032 1104 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+WIRE
+	1936 1104 1 0 2
+	-4 0 4 32
+	COL	:RED
+	LW	:1.0
+rtds_vsc_VALVE1
+	1968 880 0 0 40
+	Name	:VLV2
+	prc12	:1
+	vtype	:GTO
+	srcfp	:CC_WORD
+	fpnam	:G_pulse
+	bitnm	:0
+	vswit	:1.0
+	iswit	:1.0
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	ao1	:No
+	ao2	:No
+	chn1	:1
+	scl1	:100.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	gao1	:No
+	gao2	:No
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	nam1	:VLTV1
+	nam2	:CRTV1
+rtds_vsc_VALVE1
+	2000 848 2 0 40
+	Name	:VLV1
+	prc12	:1
+	vtype	:GTO
+	srcfp	:CC_WORD
+	fpnam	:G_pulse
+	bitnm	:0
+	vswit	:1.0
+	iswit	:1.0
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	ao1	:No
+	ao2	:No
+	chn1	:1
+	scl1	:100.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	gao1	:No
+	gao2	:No
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	nam1	:VLTV1
+	nam2	:CRTV1
+rtds_vsc_VALVE1
+	1968 1136 0 0 40
+	Name	:VLV6
+	prc12	:1
+	vtype	:GTO
+	srcfp	:CC_WORD
+	fpnam	:G_pulse
+	bitnm	:0
+	vswit	:1.0
+	iswit	:1.0
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	ao1	:No
+	ao2	:No
+	chn1	:1
+	scl1	:100.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	gao1	:No
+	gao2	:No
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	nam1	:VLTV1
+	nam2	:CRTV1
+rtds_vsc_VALVE1
+	2000 1104 2 0 40
+	Name	:VLV5
+	prc12	:1
+	vtype	:GTO
+	srcfp	:CC_WORD
+	fpnam	:G_pulse
+	bitnm	:0
+	vswit	:1.0
+	iswit	:1.0
+	dswit	:0.9
+	bfreq	:60.0
+	prllr	:1.0
+	holdi	:0.0
+	mon1	:No
+	mon2	:No
+	ao1	:No
+	ao2	:No
+	chn1	:1
+	scl1	:100.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	gao1	:No
+	gao2	:No
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:100.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	nam1	:VLTV1
+	nam2	:CRTV1
+GROUP
+	2512 848 0 1 0
+	1
+rtds_vsc_IFCTRF1
+	2512 848 0 1 69
+	Name	:T1s
+	prc12	:1
+	tapch	:No
+	enscl	:No
+	suerr	:No
+	sdtdmp	:No
+	vtpri	:53.6936
+	vtsec	:6.6395
+	TMVA	:33.33
+	freqb	:60
+	trpos	:0.000
+	txpos	:0.18
+	namtp	:TAPNAM1
+	tcntp	:0.1
+	tpupr	:1.4
+	tplwr	:0.7
+	tpini	:1.0
+	namsc	:SCLNAM1
+	tcnsc	:0.1
+	scupr	:1.0
+	sclwr	:1.0
+	scini	:1.0
+	sdtufd	:1.0
+	sdtres	:100.0
+	opt1	:In
+	opt2	:Out
+	opt3	:Yes
+	mon1	:Yes
+	mon2	:No
+	mon3	:No
+	ao1	:No
+	ao2	:No
+	ao3	:No
+	gao1	:No
+	gao2	:No
+	gao3	:No
+	chn1	:1
+	scl1	:2.0
+	inv1	:No
+	off1	:0.0
+	chn2	:1
+	scl2	:2.0
+	inv2	:No
+	off2	:0.0
+	chn3	:1
+	scl3	:2.0
+	inv3	:No
+	off3	:0.0
+	gcrd1	:One
+	gchn1	:1
+	gscl1	:2.0
+	ginv1	:No
+	goff1	:0.0
+	gcrd2	:One
+	gchn2	:1
+	gscl2	:2.0
+	ginv2	:No
+	goff2	:0.0
+	gcrd3	:One
+	gchn3	:1
+	gscl3	:2.0
+	ginv3	:No
+	goff3	:0.0
+	Ngcrd1	:One
+	Ngcrd2	:One
+	Ngcrd3	:One
+	nam1	:CRT1s
+	nam2	:CRTS1
+	nam3	:CRTPS1
+BUS
+	592 208 1 1 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-160
+	y1L1	:-32
+	x2L1	:160
+	y2L1	:-32
+	x1L2	:-160
+	y1L2	:0
+	x2L2	:160
+	y2L2	:0
+	x1L3	:-160
+	y1L3	:32
+	x2L3	:160
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+BUS
+	144 208 1 1 26
+	LW3	:1.0
+	ACOL	:ORANGE
+	BCOL	:RED
+	CCOL	:RED
+	LW1	:3.0
+	SCOL	:RED
+	CONVERGE	:NO
+	DOCUMENT	:NO
+	x1L1	:-160
+	y1L1	:-32
+	x2L1	:160
+	y2L1	:-32
+	x1L2	:-160
+	y1L2	:0
+	x2L2	:160
+	y2L2	:0
+	x1L3	:-160
+	y1L3	:32
+	x2L3	:160
+	y2L3	:32
+	L1ArcAtEnd1	:0
+	L1ArcAtEnd2	:0
+	L2ArcAtEnd1	:0
+	L2ArcAtEnd2	:0
+	L3ArcAtEnd1	:0
+	L3ArcAtEnd2	:0
+rtds_sharc_sld_BUSLABEL
+	144 48 0 0 25
+	BName	:BUS806a
+	NA	:Bus806aA
+	NB	:Bus806aB
+	NC	:Bus806aC
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0457
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050130
+	Ad	:-0.001510
+	Dis1	:No
+	A1PosX	:32
+	C1PosX	:-32
+	Num	:3
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
+rtds_sharc_sld_BUSLABEL
+	592 48 0 1 25
+	BName	:BUS808
+	NA	:Bus808A
+	NB	:Bus808B
+	NC	:Bus808C
+	VRate	:24.9
+	COL	:RED
+	LW	:3
+	COLA	:ORANGE
+	COLB	:RED
+	COLC	:RED
+	linkNodes	:No
+	monVoltageA	:YES
+	monVoltageB	:YES
+	monVoltageC	:YES
+	Vi	:1.0136
+	Ai	:0.0
+	Type	:PQ BUS
+	Vd	:1.050920
+	Ad	:-0.010920
+	Dis1	:No
+	A1PosX	:-32
+	C1PosX	:32
+	Num	:5
+	HidePQ	:1
+	Loadflow_RST	:BUS: $Num, Vd, Ad
